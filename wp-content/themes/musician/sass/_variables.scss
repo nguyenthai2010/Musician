@@ -1,0 +1,21 @@
+/* color */
+$colormain:#57C5CF;
+$colorfocus:#2e8e97;
+
+$basefontsize:14px;
+
+@function pxToEm ($values, $elFontSize: $baseFontSize) {
+  $list: ();
+
+  @each $value in $values {
+    @if ($value == 0 or $value == auto) {
+      $list: append($list, $value);
+    } @else {
+      $emValue: ($value/$elFontSize)+em;
+      $list: append($list, $emValue);
+    }
+  }
+  @return $list;
+}
+
+

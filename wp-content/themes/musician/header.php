@@ -23,18 +23,7 @@
 	<![endif]-->
 
     <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
-
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <link href="css/royalslider.css" rel="stylesheet" />
-    <link href="css/rs-nivan.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/icomoon.ultimate.css" rel="stylesheet" />
-
-
-    <link href="css/owl.carousel.css" rel="stylesheet" />
-    <link href="css/owl.theme.css" rel="stylesheet" />
-    <link href="css/magnific.popup.css" rel="stylesheet" />
-    <link href="css/settings.css" rel="stylesheet" />
+    <link href="css/all.css" rel="stylesheet" />
 
     <script src="js/modernizr-2.6.2.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
