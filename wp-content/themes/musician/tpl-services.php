@@ -6,7 +6,7 @@
                     <div class="section-header-inner">
                         <div class="section-heading-left-line ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0" data-ss-effect-offset="2"></div>
                         <h1 class="section-heading ss-effect" data-ss-effect="fade-from-top" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
-                            <span>SERVICES</span>
+                            <span>Imagine your music</span>
                         </h1>
                         <div class="section-heading-right-line ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0" data-ss-effect-offset="2"></div>
                     </div>

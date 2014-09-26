@@ -44,28 +44,10 @@
                             </div>
                             <nav class="main-navigation-container">
                                 <ul class="main-navigation" id="main-navigation">
-                                    <li><a href="#home">HOME</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="javascript:void(0)">ONE PAGE</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="index.html" class="external">HOME - GALLERY</a></li>
-                                                    <li><a href="index-onepage-revslider.html" class="external">HOME - SLIDER</a></li>
-                                                    <li><a href="index-onepage-videobg.html" class="external">HOME - VIDEO</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="javascript:void(0)">MULTIPAGE</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="index-multipage.html" class="external">HOME - GALLERY</a></li>
-                                                    <li><a href="index-multipage-revslider.html" class="external">HOME - SLIDER</a></li>
-                                                    <li><a href="index-multipage-videobg.html" class="external">HOME - VIDEO</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#services">SERVICES</a></li>
-                                    <li><a href="#about">ABOUT</a></li>
-                                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                                    <li><a href="#blog">BLOG</a></li>
+                                    <li><a href="#home">HOME</a></li>
+                                    <li><a href="#services">BIO</a></li>
+                                    <li><a href="#about">CREDITS</a></li>
+                                    <li><a href="#portfolio">MUSIC</a></li>
                                     <li><a href="#map">CONTACT</a></li>
                                 </ul>
                             </nav>

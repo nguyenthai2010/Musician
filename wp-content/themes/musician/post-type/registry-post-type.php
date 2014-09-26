@@ -1,6 +1,6 @@
 <?php
 /*slider*/
-//add_action( 'init', 'register_custom_post_slider' );
+add_action( 'init', 'register_custom_post_slider' );
 function register_custom_post_slider() {	
 	$news_label = array(
     'name' => _x('Slider', 'Slider'),
