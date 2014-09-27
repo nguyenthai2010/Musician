@@ -3,7 +3,12 @@
 .main-header.ss-sticky.ss-on-scroll {
 	background:rgba(28,20,12,0.8);
 }
-
+.alignRight{
+ text-align: right; 
+}
+a{
+  color:#996633;
+}
 .header{
   .main-navigation-container{
     .main-navigation{
@@ -83,6 +88,83 @@
       width: 40px;
       height: 40px;
       border: none;
+    }
+  }
+}
+.contact{
+  position: relative;
+  .bgdot{
+    background: url(../images/contact/dot.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .form-submit .submit{
+    float:left;margin-left: 84px;
+    background: #987b43;
+  }
+  a{
+    text-decoration: underline;
+    &:hover{
+      color:#996633;
+       text-decoration: none;
+    }
+  }
+  .contact-1 .contact-info{
+    padding-right:85px;
+  }
+  .col-6-1{
+    
+  }
+  .col-6-2{
+    margin-left: -10px;
+  }
+  .contact-respond{
+    margin-top:0;
+    h3.contact-reply-title{
+       @include loveloblack(18px);
+    }
+  }
+  .row-input{
+    margin-bottom: 25px;
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 7px;
+  }
+  .col-title{
+    width: 84px;
+    float:left;
+    text-transform: uppercase;
+    @include roboto_condensedregular(14px);
+    &.paddingT9{
+      padding-top:9px;
+    }
+    &.paddingT15{
+      padding-top:15px;
+    }
+    &.paddingT10{
+      padding-top:10px;
+    }
+     &.paddingT5{
+      padding-top:5px;
+    }
+  }
+  .col-ip{
+    width: 82%;
+    float:left;
+    textarea{
+      margin-top:0;
+      margin-bottom:0;
+    }
+  }
+  .contact-info{
+    h3{
+       @include loveloblack(18px);
+    }
+    .box-icon-content.small{
+       @include roboto_condensedregular(14px);
+       line-height: 1.2;
     }
   }
 }
