@@ -4,7 +4,7 @@
         <?php get_template_part('tpl','home');?>
 
         <!-- Services Section-->
-        <?php get_template_part('tpl','services');?>
+        <?php get_template_part('tpl','bio');?>
 
         <!-- Parallax Section -->
         <?php get_template_part('tpl','parallax');?>

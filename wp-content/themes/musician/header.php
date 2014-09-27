@@ -45,7 +45,7 @@
                             <nav class="main-navigation-container">
                                 <ul class="main-navigation" id="main-navigation">
                                     <li><a href="#home">HOME</a></li>
-                                    <li><a href="#services">BIO</a></li>
+                                    <li><a href="#bio">BIO</a></li>
                                     <li><a href="#about">CREDITS</a></li>
                                     <li><a href="#portfolio">MUSIC</a></li>
                                     <li><a href="#map">CONTACT</a></li>

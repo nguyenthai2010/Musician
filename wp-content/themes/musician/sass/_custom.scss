@@ -1,4 +1,53 @@
+
 /*MENU*/
 .main-header.ss-sticky.ss-on-scroll {
 	background:rgba(28,20,12,0.8);
 }
+
+.header{
+  .main-navigation-container{
+    .main-navigation{
+      li{
+        a{
+          @include loveloblack(16px);
+        }
+      }
+    }
+  }
+}
+.section-heading{
+    @include loveloblack(36px);
+   font-size: 2.769em;
+    color: #987b43;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+.bio{
+  .section-heading-left-tick{
+   background: url(../images/home/tick-1.png) no-repeat;
+    width: 41px;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+  }
+  .section-heading-right-tick{
+    background: url(../images/home/tick-2.png) no-repeat;
+    width: 41px;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+  }
+  p{
+    @include roboto_condensedregular(16px);
+    color: #333333;
+    margin-bottom: 1.250em;
+  }
+  .blog-teaser{
+    margin-right: 22px;
+    width:48%;
+  }
+}
+

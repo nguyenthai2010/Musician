@@ -40,19 +40,19 @@
 
 @mixin loveloblack( $value ) {
   font-family: "loveloblack";
-  font-size:em($value);
+  font-size:$value;
   line-height:1.1;
   font-weight:normal;
 }
 @mixin roboto_condensedregular( $value ) {
   font-family: "roboto_condensedregular";
-  font-size:em($value);
+  font-size:$value;
   line-height:1.1;
   font-weight:normal;
 }
 @mixin roboto_condensedbold( $value ) {
   font-family: "roboto_condensedbold";
-  font-size:em($value);
+  font-size:$value;
   line-height:1.1;
   font-weight:normal;
 }
