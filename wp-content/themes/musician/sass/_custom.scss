@@ -23,8 +23,7 @@
     padding-right: 10px;
     display: inline-block;
 }
-.bio{
-  .section-heading-left-tick{
+.section-heading-left-tick{
    background: url(../images/home/tick-1.png) no-repeat;
     width: 41px;
     height: 10px;
@@ -40,6 +39,8 @@
     position: relative;
     top: -10px;
   }
+.bio{
+  
   p{
     @include roboto_condensedregular(16px);
     color: #333333;
@@ -51,3 +52,37 @@
   }
 }
 
+.credits{
+  .ss-testimonial-item{
+   padding:0; 
+  }
+  .portfolio-item:hover .portfolio-item-image img{
+   -webkit-transform: scale(1, 1) rotate(0deg);
+  -moz-transform: scale(1, 1) rotate(0deg);
+  -ms-transform: scale(1, 1) rotate(0deg);
+  -o-transform: scale(1, 1) rotate(0deg);
+  transform: scale(1, 1) rotate(0deg);
+  }
+  .ss-testimonial-arrows{
+    .ss-next-testimonial{
+      background: url(../images/rs-default.png) no-repeat 0 0;
+      background-position: -64px -64px;
+        width: 40px;
+      height: 40px;
+      border: none;
+      z-index: 100;
+      cursor: pointer;
+ 
+    }
+    .ss-prev-testimonial{
+      z-index: 100;
+      cursor: pointer;
+     
+      background: url(../images/rs-default.png) no-repeat 0 0;
+      background-position: -64px -32px;
+      width: 40px;
+      height: 40px;
+      border: none;
+    }
+  }
+}
