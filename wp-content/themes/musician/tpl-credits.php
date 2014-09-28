@@ -33,6 +33,9 @@
 										$director = get_post_meta($credit->ID, '_mt_credit_director', true);
 										$urlBanner = get_post_meta($credit->ID, '_mt_credit_banner', true);
 										$banner_img=wp_get_attachment_image_src( $urlBanner, 'full' );
+										$mp3FileName = get_post_meta($credit->ID, '_mt_credit_mp3_name', true);
+										$mp3File = get_attached_file( get_post_meta($credit->ID, '_mt_credit_mp3', true), $unfiltered );;
+										//print_r($mp3File);
 		                    	?>
 		                    	<div class="col-sm-5 col-6-1 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
 		                    		<div class="box-banner">
@@ -73,17 +76,21 @@
 		                    				</div>
 		                    				<div class="row_sound">
 		                    					<div class="col-1 col">
-			                    					1
-			                    				</div>
-			                    				<div class="col-2 col">
-			                    					<span class="song-n">Everything Goes Downhill</span>
-			                    				</div>
-			                    				<div class="col-3 col">
+				                    					1
+				                    			</div>
+				                    			<div class="col-2 col" >
+				                    				<video id="mp3File" controls="" autoplay="false" name="media" style="display: none;">
+				                    					<source src="<?php echo $mp3File;?>" type="audio/mp3">
+				                    				</video>
+													<span class="song-n"><?php echo $mp3FileName;?></span>
+												</div>
+		                    					<div class="col-3 col">
 			                    					0:47
 			                    				</div>
 			                    				<div class="col-3 col">
 			                    					TGS05
 			                    				</div>
+		                    					
 		                    				</div>
 		                    			</div>
 		                    			<div class="box-video">

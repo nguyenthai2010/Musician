@@ -5,6 +5,7 @@ var bAudios = (function() {
 	// INIT 
 	function init(){
 		createList1();
+		//playFileCredits();
 	}
 	
 	// FUNCTIONS
@@ -46,6 +47,17 @@ var bAudios = (function() {
 			smoothPlayBar: true,
 			keyEnabled: false
 		});
+	}
+	
+	function playFileCredits() {
+	    var openPicker = new Windows.Storage.Pickers.FileOpenPicker();
+	    openPicker.pickSingleFileAsync().then(function (fileItem) {
+	        if (fileItem) {
+	            var video = jQuery("#mp3File");
+	            video.src = URL.createObjectURL(fileItem);
+	            video.play();
+	        }
+	    });
 	}
 	// RETURN
 	return {

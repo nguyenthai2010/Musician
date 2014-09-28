@@ -27,11 +27,18 @@ $meta_boxes[] =array(
 			'max_file_uploads' => 1
 		),
 		array(
+			'name'             => 'Mp3 file Name',
+			'id'               => "{$prefix}credit_mp3_name",
+			'type'             => 'textarea',
+			'max_file_uploads' => 1
+		),
+		array(
 			'name'             => 'Mp3 file',
 			'id'               => "{$prefix}credit_mp3",
 			'type'             => 'file',
 			'max_file_uploads' => 1
 		)
+		
 	 )
 );
 
