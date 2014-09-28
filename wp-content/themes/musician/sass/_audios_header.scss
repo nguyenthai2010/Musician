@@ -1,0 +1,126 @@
+.main-header .header ul li:first-child{
+  margin: 0 12px 0 0;
+}
+.main-header .header ul li{
+  margin: 0 10px;
+}
+.main-navigation{
+  float: left;
+  
+}
+.sound_head{
+  float: left;
+  margin-left: 13px;
+  margin-top: -34px;
+  margin-right: -24px;
+  div.jp-audio{
+   width: 255px;
+    background: transparent;
+    position: relative;
+  }
+  div.jp-audio ul.jp-controls{
+    width: 120px;
+    padding:0;
+    float: left;
+  }
+  div.jp-interface{
+    background: transparent;
+  }
+  .pause-box{
+    
+  }
+  div.jp-interface ul.jp-controls a.jp-previous{
+    background: url(../images/header/prev.png) no-repeat;  
+    &:hover{
+      background: url(../images/header/prev-hover.png) no-repeat;  
+    }
+  }
+  div.jp-interface ul.jp-controls a.jp-play{
+    background: url(../images/header/play.png) no-repeat;  
+    
+  }
+  div.jp-interface ul.jp-controls a.jp-next{
+    background: url(../images/header/next.png) no-repeat;  
+    &:hover{
+      background: url(../images/header/next-hover.png) no-repeat;  
+    }
+  }
+  div.jp-interface ul.jp-controls a.jp-pause{
+    background: url(../images/header/pause.png) no-repeat;
+  }
+  div.jp-interface ul.jp-controls li.mute_sound {
+    position: absolute;
+    right: 0;
+  }
+  div.jp-interface ul.jp-controls li.mute_sound a.jp-mute{
+    background: url(../images/header/sound.png) no-repeat;  
+  }
+  div.jp-interface ul.jp-controls li.mute_sound a.jp-unmute{
+     background: url(../images/header/mute.png) no-repeat;  
+  }
+  .jp-progress{
+    .jp-seek-bar{
+      
+    } 
+    .jp-play-bar{
+        
+    }
+  }
+  div.jp-audio ul.jp-controls{
+    li{
+      padding: 0;
+      margin: 0;
+    }
+  }
+  div.jp-interface ul.jp-controls a{
+   width: 38px;
+  height: 38px;
+  padding: 0;
+  margin: 0;
+  }
+  div.jp-audio div.jp-type-playlist div.jp-interface{
+    height: 38px;
+  }
+  div.jp-audio div.jp-type-playlist div.jp-progress{
+    width: 76px;
+    left: 0;
+    position: relative;
+    float: left;
+    top: 12px;
+  }
+  .jp-control-box{
+    float:left;
+    width: 97%;
+position: relative;
+  }
+  .song_playing{
+    float: left;
+    margin-bottom: 7px;
+    span{
+       @include roboto_condensedregular(16px);
+       color:#999999;
+       margin-left: 5px;
+       float:left;
+    }
+    .jp-title{
+      display: block!important;
+      @include roboto_condensedregular(16px);
+      color:#fff;
+      float:left;
+      margin-left: 3px;
+    }
+    .jp-current-time{
+      @include roboto_condensedregular(16px);
+      color:#fff;
+      float:left;
+       margin-left: 3px;
+       font-style: normal;
+    }
+  }
+  .jp-playlist{
+    display: none;
+  }
+  div.jp-play-bar{
+    background: #987b43;
+  }
+}

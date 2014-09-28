@@ -92,6 +92,8 @@
     <script src="js/jquery.videoBG.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/contact.js"></script>
-
+	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="js/jplayer.playlist.js"></script>
+	<script type="text/javascript" src="js/class.audios.js"></script>
 </body>
 </html>

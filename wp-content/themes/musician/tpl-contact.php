@@ -1,4 +1,4 @@
-<section id="contact" class="contact" style="background: url(images/contact/contact_bg.jpg) no-repeat center center; background-size: cover; color: #fff; padding-top: 0px; padding-bottom: 0px;">
+<section id="contact" class="contact" style="background: url(images/contact/contact_bg.jpg) no-repeat center center; background-size: cover; color: #fff; padding-top: 0px; padding-bottom: 120px;">
     <div class="bgdot">
     	
     </div>
@@ -88,8 +88,8 @@
 		                                        <p class="form-submit">
 		                                            <img class="ajax-loader" src="images/contact/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;" />
 		                                            <input class="submit" name="submit" type="submit" id="submit" value="SEND" />
+		                                            <span class="contactform-response-output contactform-display-none"></span>
 		                                        </p>
-		                                        <div class="contactform-response-output contactform-display-none"></div>
 		                                    </form>
 		                                </div>
 		                            </div>

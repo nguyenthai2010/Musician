@@ -30,7 +30,9 @@
 							}
                     ?>
                     <li data-transition="fade" data-slotamount="8">
-
+						<div class="bgdot">
+							
+						</div>
                         <img src="<?php echo $url;?>" alt="" />
                         <div class="caption fade start" data-x="0" data-y="0" data-start="0" data-speed="500" style="background-color: rgba(0, 0, 0, 0); background-image: url(images/banner-shadow1.png); background-size: cover; width: 100%; height: 100%; position: absolute; background-position: 50% 50%; background-repeat: no-repeat no-repeat;"></div>
                        
