@@ -1,3 +1,11 @@
+<?php
+	$args_credits = array(
+		'post_type' 	 => 'post',
+		'posts_per_page' =>  1 ,
+		'order'			 => 'asc'
+	);
+	$query_credits = get_posts($args_credits);
+?>
 <section id="credits" class="credits" style="background-color:#1c140c; color: #fff; background-size: cover; padding-top: 60px; padding-bottom: 75px">
     <div class="container">
         <div class="row">
@@ -17,22 +25,31 @@
 		            	<div class="col-sm-12">
 		                <div class="section-content ss-typography">
 		                    <div class="row">
+		                    	<?php
+		                    		foreach ( $query_credits as $credit ) {
+		                    			//print_r($credit);
+		                    			//$urlThumb = wp_get_attachment_url( get_post_thumbnail_id($slider->ID) );
+		                    			$composer = get_post_meta($credit->ID, '_mt_credit_composer', true);
+										$director = get_post_meta($credit->ID, '_mt_credit_director', true);
+										$urlBanner = get_post_meta($credit->ID, '_mt_credit_banner', true);
+										$banner_img=wp_get_attachment_image_src( $urlBanner, 'full' );
+		                    	?>
 		                    	<div class="col-sm-5 col-6-1 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
 		                    		<div class="box-banner">
-		                    			<img src="images/credits/credits_banner.jpg"/>
+		                    			<img src="<?php echo $banner_img[0];?>"/>
 		                    		</div>
 		                    	</div>
 		                    	<div class="col-sm-7 col-6-2 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
 		                    		<div class="credits_details">
-		                    			<h3>The Boy Scout</h3>
+		                    			<h3><?php echo $credit->post_title;?></h3>
 		                    			<span class="composer">
-		                    				Credit: composer
+		                    				Credit: <?php echo $composer;?>
 		                    			</span>
 		                    			<span class="director">
-		                    				Director: Patrick Brooks
+		                    				Director: <?php echo $director;?>
 		                    			</span>
 		                    			<div class="credits_desc">
-		                    				Patrick Brooks’ short film captures the audience straight away as a couple gets stuck in an early season snowstorm, during an impromptu trip to the mountains. After six days of captivity, they must answer the question: should they stay, or should they go? A very fun and exciting collaboration for which we got to record a small string ensemble at the Sony Pictures scoring stage.
+		                    				<?php echo $credit->post_content;?>
 		                    			</div>
 		                    			<div class="credits_controls">
 		                    				<a href="#" class="previous"></a>
@@ -76,6 +93,7 @@
 		                    			</div>
 		                    		</div>
 		                    	</div>
+		                    	<?php }?>
 		                    </div>
 		               </div>
 		           </div>
