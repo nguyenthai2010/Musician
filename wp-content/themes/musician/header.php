@@ -44,6 +44,44 @@
                                 <a href="index.html" title="NIVAN another OnePage MultiPage theme">
                                     <img src="images/logo.png" alt="NIVAN Logo" /></a>
                             </div>
+                            <div class="sound_head">
+                                <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                                <div id="jp_container_1" class="jp-audio">
+                                    <div class="jp-type-playlist">
+                                        <div class="jp-gui jp-interface">
+                                            <div class="song_playing">
+                                                <span>now playing: </span>
+                                                <div class="jp-title">The second song </div>
+                                                <div class="jp-current-time">00:00</div>
+                                            </div>
+                                            <div class="jp-control-box">
+                                                <ul class="jp-controls">
+                                                    <li><a href="javascript:;" class="jp-previous" tabindex="1">previous</a></li>
+                                                    <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+                                                    <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+                                                    <li><a href="javascript:;" class="jp-next" tabindex="1">next</a></li>
+                                                    <li class="mute_sound">
+                                                        <a href="javascript:;" class="jp-mute" tabindex="1" title="mute" >mute</a>
+                                                        <a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="jp-progress">
+                                                    <div class="jp-seek-bar">
+                                                        <div class="jp-play-bar"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="jp-playlist">
+                                            <ul>
+                                                <li></li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>  
+                            </div>
+
                             <nav class="main-navigation-container">
                                 <ul class="main-navigation" id="main-navigation">
                                     <li><a href="#home">HOME</a></li>
@@ -52,43 +90,7 @@
                                     <li><a href="#music">MUSIC</a></li>
                                     <li><a href="#contact">CONTACT</a></li>
                                 </ul>
-                                <div class="sound_head">
-                                	<div id="jquery_jplayer_1" class="jp-jplayer"></div>
-                                	<div id="jp_container_1" class="jp-audio">
-						                <div class="jp-type-playlist">
-						                    <div class="jp-gui jp-interface">
-						                    	<div class="song_playing">
-			                                		<span>now playing: </span>
-			                                		<div class="jp-title">The second song </div>
-			                                		<div class="jp-current-time">00:00</div>
-			                                	</div>
-						                        <div class="jp-control-box">
-						                        	<ul class="jp-controls">
-							                            <li><a href="javascript:;" class="jp-previous" tabindex="1">previous</a></li>
-							                            <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
-							                            <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
-							                            <li><a href="javascript:;" class="jp-next" tabindex="1">next</a></li>
-							                            <li class="mute_sound">
-							                            	<a href="javascript:;" class="jp-mute" tabindex="1" title="mute" >mute</a>
-							                            	<a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a>
-							                            </li>
-							                        </ul>
-							                        <div class="jp-progress">
-							                            <div class="jp-seek-bar">
-							                                <div class="jp-play-bar"></div>
-							                            </div>
-							                        </div>
-						                        </div>
-						                    </div>
-						                    <div class="jp-playlist">
-						                        <ul>
-						                            <li></li>
-						                        </ul>
-						                    </div>
-						                    
-						                </div>
-						            </div>  
-                                </div>
+                                
                             </nav>
                             <a href="#" class="ss-mobile-menu-button">
                                 <span class="icon-menu2" aria-hidden="true"></span>
