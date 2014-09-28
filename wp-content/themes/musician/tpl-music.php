@@ -39,7 +39,7 @@
                             <div class="id">ID</div>
                         </div>
                         
-                        <div class="row-audio">
+                        <div class="row-audio active">
                         	<div class="no">1</div>
                             <div class="title">The first song</div>
                             <div class="time">0:47</div>
