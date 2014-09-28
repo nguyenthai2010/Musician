@@ -173,6 +173,7 @@ a:hover{
   .contact-info{
     h3{
        @include loveloblack(18px);
+     
     }
     .box-icon-content.small{
        @include roboto_condensedregular(14px);
@@ -184,5 +185,103 @@ a:hover{
     float: right;
     margin-top: 11px !important;
     margin-right: 5px!important;
+  }
+}
+
+.credits{
+  .col-6-1 {
+    width: 39.666667%;
+  }
+  .col-6-2{
+    width: 60.333333%
+  }
+  .credits_controls{
+    position: absolute;
+    right: 0;
+    top: 0;
+    a{
+      background: url(../images/credits/credits_control.png);
+      width: 29px;
+      height: 29px;
+      float: left;
+      margin-left: 8px;
+    }
+    a.previous{
+      
+    }
+    a.next{
+       background-position: right 0;
+    }
+    a.close{
+      background-position: -38px 0;
+    }
+  }
+  .box-sound{
+    clear: both;
+    width: 100%;
+    border-top: 1px solid #49433d;
+    padding-top:20px;
+    padding-bottom:25px;
+    float: left;
+    .row_sound.title{
+      padding-bottom: 8px;
+      .col{
+        color:#987b43;
+        @include roboto_condensedregular(18px);
+        line-height: 1.2;
+        
+      }
+    }
+    .row_sound{
+      float:left;
+      width: 100%;
+      .col{
+       float:left;
+        &.col-1{
+          width: 36px;
+        }
+        &.col-2{
+          width: 358px;
+        }
+        &.col-3{
+          width: 72px;
+        }
+      }
+    }
+  }
+  .credits_details{
+    position: relative;
+    h3{
+      @include loveloblack(20px);
+      text-transform: uppercase;
+      padding-bottom: 15px;
+        width: 80%;
+    }
+    span{
+      @include roboto_condensedregular(14px);
+      display :block;
+    }
+    span.composer{
+      margin-bottom: 3px;
+    }
+    span.director{
+      
+    }
+    .credits_desc{
+       @include roboto_condensedregular(14px);
+       border-top: 1px solid #49433d;
+       line-height: 1.3;
+       margin-top:20px;
+       padding-top:20px;
+       padding-bottom:20px;
+       padding-right: 22px;
+    }
+  }
+  .box-video{
+    border-top: 1px solid #49433d;
+    margin-top: 22px;
+    padding-top: 42px;
+    padding-bottom: 38px;
+    clear: both;
   }
 }

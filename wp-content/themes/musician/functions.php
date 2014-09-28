@@ -30,6 +30,9 @@
 	//register taxonomy
 	include 'taxonomy-custom/taxonomy-custom.php';
 	
+	//contact
+	include 'inc/ajax.php'; 
+	include 'email/xtemplate.contact.php';
 	
 	function get_page_id_by_slug($slug){
 	    global $wpdb;

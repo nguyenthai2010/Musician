@@ -55,7 +55,7 @@
 		                            <div class="col-sm-6  col-6-2 ss-effect" data-ss-effect="fade-from-left" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
 		                                <div id="contact-respond" class="contact-respond">
 		                                    <h3 id="reply-title" class="contact-reply-title">SEND ME A MESSAGE</h3>
-		                                    <form action="php/contact.php" method="post" id="contactform" class="contact-form" novalidate="novalidate">
+		                                    <form action="<?php echo get_bloginfo('template_url');?>/inc/ajax.php" method="post" id="contactform" class="contact-form" novalidate="novalidate">
 		                                        <div id="respond-inputs" class="respond-inputs">
 		                                            <div class="row-input">
 		                                            	<div class="col-title paddingT5">
@@ -86,6 +86,9 @@
 		                                        </div>
 		                                        
 		                                        <p class="form-submit">
+		                                        	<input type="hidden" name="ajaxurl" class="ajaxurl" value="<?php bloginfo('url');?>/wp-admin/admin-ajax.php">
+												   <input type="hidden" name="urlsite" class="urlsite" value="<?php bloginfo('url');?>/contact">
+												   <input type="hidden" name="name-contact-to" class="name-contact-to" value="0">      
 		                                            <img class="ajax-loader" src="images/contact/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;" />
 		                                            <input class="submit" name="submit" type="submit" id="submit" value="SEND" />
 		                                            <span class="contactform-response-output contactform-display-none"></span>

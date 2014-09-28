@@ -1,6 +1,5 @@
-<section id="credits" class="credits last-works dark-color" style="background: url(images/credits/credits_bg.jpg) no-repeat center center; color: #fff; background-size: cover; padding-top: 60px; padding-bottom: 120px">
+<section id="credits" class="credits" style="background-color:#1c140c; color: #fff; background-size: cover; padding-top: 60px; padding-bottom: 75px">
     <div class="container">
-
         <div class="row">
             <div class="col-sm-12">
                 <div class="section-header">
@@ -12,138 +11,80 @@
                         <div class="section-heading-right-tick ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0" data-ss-effect-offset="2"></div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-content ss-typography">
 
-
-        <div class="ss-testimonial-slider ss-effect" data-ss-effect="scale-down" data-ss-effect-speed="1" data-ss-effect-delay="0.4" data-ss-effect-offset="1">
-            <div class="ss-testimonial-frame">
-                <div class="ss-testimonial-slidee">
-                    <div class="ss-testimonial-item">
-                        <div class="portfolio-items-container portfolio-5col-nogutter filtering-on ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.4" data-ss-effect-offset="2">
-            
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-1.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-2.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-3.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-4.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-5.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    
-						</div>
-                    </div>
-                    <div class="ss-testimonial-item">
-                        <div class="portfolio-items-container portfolio-5col-nogutter filtering-on ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.4" data-ss-effect-offset="2">
-            
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-1.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-2.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-3.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-4.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-5.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    
-						</div>
-                    </div>
-                    <div class="ss-testimonial-item">
-                        <p>Vestibulum id ligula porta felis euismod semper. Aenean laciniaVestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur.</p>
-                        <span>- John Smith, <span class="ss-testimonial-skills">Web Enginier</span></span>
-                    </div>
-                    <div class="ss-testimonial-item">
-                        <p>22 Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur.</p>
-                        <span>- Jane Smith, <span class="ss-testimonial-skills">Web Designer</span></span>
-                    </div>
+                <div class="section-content ss-typography">
+					<div class="row">
+		            	<div class="col-sm-12">
+		                <div class="section-content ss-typography">
+		                    <div class="row">
+		                    	<div class="col-sm-5 col-6-1 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
+		                    		<div class="box-banner">
+		                    			<img src="images/credits/credits_banner.jpg"/>
+		                    		</div>
+		                    	</div>
+		                    	<div class="col-sm-7 col-6-2 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
+		                    		<div class="credits_details">
+		                    			<h3>The Boy Scout</h3>
+		                    			<span class="composer">
+		                    				Credit: composer
+		                    			</span>
+		                    			<span class="director">
+		                    				Director: Patrick Brooks
+		                    			</span>
+		                    			<div class="credits_desc">
+		                    				Patrick Brooks’ short film captures the audience straight away as a couple gets stuck in an early season snowstorm, during an impromptu trip to the mountains. After six days of captivity, they must answer the question: should they stay, or should they go? A very fun and exciting collaboration for which we got to record a small string ensemble at the Sony Pictures scoring stage.
+		                    			</div>
+		                    			<div class="credits_controls">
+		                    				<a href="#" class="previous"></a>
+		                    				<a href="#" class="close"></a>
+		                    				<a href="#" class="next"></a>
+		                    			</div>
+		                    			<div class="box-sound">
+		                    				<div class="row_sound title">
+		                    					<div class="col-1 col">
+			                    					#
+			                    				</div>
+			                    				<div class="col-2 col">
+			                    					TITLE
+			                    				</div>
+			                    				<div class="col-3 col">
+			                    					TIME
+			                    				</div>
+			                    				<div class="col-3 col">
+			                    					ID
+			                    				</div>
+		                    				</div>
+		                    				<div class="row_sound">
+		                    					<div class="col-1 col">
+			                    					1
+			                    				</div>
+			                    				<div class="col-2 col">
+			                    					Everything Goes Downhill
+			                    				</div>
+			                    				<div class="col-3 col">
+			                    					0:47
+			                    				</div>
+			                    				<div class="col-3 col">
+			                    					TGS05
+			                    				</div>
+		                    				</div>
+		                    			</div>
+		                    			<div class="box-video">
+		                    				<div class="videoframe">
+		                    					<img src="images/credits/video.jpg"/>
+		                    				</div>
+		                    			</div>
+		                    		</div>
+		                    	</div>
+		                    </div>
+		               </div>
+		           </div>
                 </div>
+
+
+
             </div>
-            <div class="ss-testimonial-arrows ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.6" data-ss-effect-offset="2">
-                <a href="#" class="ss-next-testimonial valign">
-                    
-                </a>
-                <a href="#" class="ss-prev-testimonial valign">
-                    
-                </a>
-            </div>
+
         </div>
-
     </div>
-    
 </section>
-
