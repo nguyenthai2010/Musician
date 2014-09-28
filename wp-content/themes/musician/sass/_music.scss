@@ -34,13 +34,27 @@
 			margin-top: 20px;
 			clear: both;
 			display: table;
+			@include roboto_condensedregular(18px);
+			
 			
 			div {
 				float: left;
+				min-height: 23px;
+				padding-top: 2px;
 			}
 			
 			&.top {
 				color: $colorMain;
+				
+				.title {
+					background:none !important;
+				}
+			}
+			
+			&.active {				
+				.title {
+					background:url(../images/player/btn-play-h.jpg) no-repeat;
+				}
 			}
 			
 			.no{
@@ -49,6 +63,8 @@
 			
 			.title {
 				width:60%;
+				padding-left: 26px;
+				background:url(../images/player/btn-play.jpg) no-repeat;
 			}
 			
 			.time {
