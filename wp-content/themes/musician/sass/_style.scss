@@ -4134,8 +4134,8 @@ textarea:-ms-input-placeholder {
 	.ss-charts > li {
 		width: 33.3%;
 	}
-	.blog-teaser {
-		width: 100%;
+	.bio .blog-teaser, .blog-teaser {
+		width: 100%!important;
 		padding-right: 0 !important;  /* To override nth-child selector */
 		padding-left: 0 !important;  /* To override nth-child selector */
 		margin-bottom: 30px;
