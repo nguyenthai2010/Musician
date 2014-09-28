@@ -1,0 +1,63 @@
+#music {
+	background-color: #fff; 
+	color: #133939; 
+	padding: 60px 0; 
+	
+	.section-header {
+		padding-bottom: 40px;
+	}
+	
+	.portfolio-button-group {
+		label {
+			border: solid 1px #c5c1b9;
+			color: #c5c1b9;
+			&:hover{
+				color:#FFF;
+			}
+		}
+		
+		.radio-input-checked {
+			border: solid 1px $colorMain;
+			background-color: $colorMain;			
+			color:#FFF;
+		}
+	} 
+	
+	.music-list {
+		width:545px;
+		margin: 0 auto;
+		
+		.row-audio {
+			text-align: left;
+			width: 100%;
+			color: $colorTextBGWhite;
+			margin-top: 20px;
+			clear: both;
+			display: table;
+			
+			div {
+				float: left;
+			}
+			
+			&.top {
+				color: $colorMain;
+			}
+			
+			.no{
+				width:8%;
+			}
+			
+			.title {
+				width:60%;
+			}
+			
+			.time {
+				width:16%;
+			}
+			
+			.id {
+				width:16%;
+			}
+		}
+	}
+}
