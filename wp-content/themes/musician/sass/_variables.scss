@@ -1,4 +1,5 @@
 /* font Loveloblack*/
+
 @font-face {
     font-family: 'loveloblack';
     src: url('../fonts/lovelo_black-webfont.eot');
@@ -66,9 +67,8 @@
 $colormain:#57C5CF;
 $colorfocus:#2e8e97;
 $colorTitle:#987b43;
-
+$colorMain:#987b43;
 $colorTextBGWhite:#35362f;
-
 $basefontsize:14px;
 
 @function pxToEm ($values, $elFontSize: $baseFontSize) {
