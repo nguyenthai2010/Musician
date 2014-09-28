@@ -35,6 +35,7 @@
 										$banner_img = wp_get_attachment_image_src( $urlBanner, 'full' );
 										$mp3FileName = get_post_meta($credit->ID, '_mt_credit_mp3_name', true);
 										$mp3File = get_post_meta($credit->ID, '_mt_credit_mp3', true);
+										$videoID = get_post_meta($credit->ID, 'video_url', true);
 										
 		                    	?>
 		                    	<div class="col-sm-5 col-6-1 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
@@ -106,7 +107,9 @@
 		                    			</div>
 		                    			<div class="box-video">
 		                    				<div class="videoframe">
-		                    					<img src="images/credits/video.jpg"/>
+		                    					<?php
+													echo wp_oembed_get( 'http://www.player.vimeo.com/video/' . $videoID ); 
+		                    					?>
 		                    				</div>
 		                    			</div>
 		                    		</div>

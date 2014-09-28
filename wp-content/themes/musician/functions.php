@@ -29,6 +29,8 @@
 	//register taxonomy
 	include 'taxonomy-custom/taxonomy-custom.php';
 	
+	
+	
 	//contact
 	include 'inc/ajax.php'; 
 	include 'email/xtemplate.contact.php';
