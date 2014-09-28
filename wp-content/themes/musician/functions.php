@@ -15,10 +15,13 @@
 
 	//register meta box
 	// Initialize the metabox class
-	define( 'RWMB_URL', trailingslashit( get_stylesheet_directory_uri() . '/meta-box' ) );
-	define( 'RWMB_DIR', trailingslashit( STYLESHEETPATH . '/meta-box' ) );
-	require_once RWMB_DIR . 'meta-box.php';
-	include RWMB_DIR.'/custom/add-meta-box.php';
+	add_action( 'init', 'be_initialize_cmb_meta_boxes', 9999 );
+	function be_initialize_cmb_meta_boxes() {
+		if ( !class_exists( 'cmb_Meta_Box' ) ) {
+			require_once( 'meta-box/init.php' );
+		}
+	}	
+	require_once( 'meta-box/custom.php' );
 	
 	//register post type
 	include TEMPLATEPATH.'/post-type/registry-post-type.php';
