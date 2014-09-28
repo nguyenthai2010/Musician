@@ -1,4 +1,5 @@
-<section id="credits" class="credits last-works dark-color" style="background: url(images/credits/credits_bg.jpg) no-repeat center center; color: #fff; background-size: cover; padding-top: 60px; padding-bottom: 120px">
+<section id="credits" class="credits last-works dark-color" style="background: url(images/credits/credits_bg.jpg) no-repeat center center; color: #fff; background-size: cover; padding-top: 0px; padding-bottom: 120px">
+    <div class="bgdot"></div>
     <div class="container">
 
         <div class="row">

@@ -32,14 +32,14 @@
 		                    			$composer = get_post_meta($credit->ID, '_mt_credit_composer', true);
 										$director = get_post_meta($credit->ID, '_mt_credit_director', true);
 										$urlBanner = get_post_meta($credit->ID, '_mt_credit_banner', true);
-										$banner_img=wp_get_attachment_image_src( $urlBanner, 'full' );
+										$banner_img = wp_get_attachment_image_src( $urlBanner, 'full' );
 										$mp3FileName = get_post_meta($credit->ID, '_mt_credit_mp3_name', true);
-										$mp3File = get_attached_file( get_post_meta($credit->ID, '_mt_credit_mp3', true), $unfiltered );;
-										//print_r($mp3File);
+										$mp3File = get_post_meta($credit->ID, '_mt_credit_mp3', true);
+										
 		                    	?>
 		                    	<div class="col-sm-5 col-6-1 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
 		                    		<div class="box-banner">
-		                    			<img src="<?php echo $banner_img[0];?>"/>
+		                    			<img src="<?php echo $urlBanner;?>"/>
 		                    		</div>
 		                    	</div>
 		                    	<div class="col-sm-7 col-6-2 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
@@ -74,19 +74,30 @@
 			                    					ID
 			                    				</div>
 		                    				</div>
-		                    				<div class="row_sound">
+		                    				<div class="row_sound song_row">
 		                    					<div class="col-1 col">
 				                    					1
 				                    			</div>
-				                    			<div class="col-2 col" >
-				                    				<video id="mp3File" controls="" autoplay="false" name="media" style="display: none;">
-				                    					<source src="<?php echo $mp3File;?>" type="audio/mp3">
-				                    				</video>
-													<span class="song-n"><?php echo $mp3FileName;?></span>
+				                    			<div class="col-2 col">
+				                    				<div id="mp3File" class="col2mp3" data-song="<?php echo $mp3File;?>" data-title="<?php echo $mp3FileName;?>">
+				                    					<div id="jquery_jplayer_2" class="jp-jplayer"></div>
+														<div id="jp_container_2" class="jp-audio">
+														    <div class="jp-type-single">
+														        <div class="jp-gui jp-interface">
+														            <div class="jp-controls">
+															        	<a href="javascript:;" class="jp-play" tabindex="1"><span class="song-n jp-title"></span></a>
+															        	<a href="javascript:;" class="jp-pause" tabindex="1"><span class="song-n jp-title"></span></a>
+															        </div>	
+															        <div class="col-3 col" id="credits_duration">
+															        	<div class="jp-duration"></div>
+			                    									</div>
+															            
+														        </div>
+														    </div>
+														</div>
+				                    				</div>
 												</div>
-		                    					<div class="col-3 col">
-			                    					0:47
-			                    				</div>
+		                    					
 			                    				<div class="col-3 col">
 			                    					TGS05
 			                    				</div>
