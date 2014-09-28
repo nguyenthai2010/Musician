@@ -207,13 +207,21 @@ a:hover{
       margin-left: 8px;
     }
     a.previous{
-      
+      &:hover{
+        background-position: left bottom;
+      }
     }
     a.next{
        background-position: right 0;
+      &:hover{
+        background-position: right bottom;
+      } 
     }
     a.close{
       background-position: -38px 0;
+      &:hover{
+        background-position: -38px bottom;
+      }
     }
   }
   .box-sound{
@@ -221,10 +229,10 @@ a:hover{
     width: 100%;
     border-top: 1px solid #49433d;
     padding-top:20px;
-    padding-bottom:25px;
+    padding-bottom:22px;
     float: left;
     .row_sound.title{
-      padding-bottom: 8px;
+      padding-bottom: 0px;
       .col{
         color:#987b43;
         @include roboto_condensedregular(18px);
@@ -239,12 +247,24 @@ a:hover{
        float:left;
         &.col-1{
           width: 36px;
+          padding-top: 4px;
+            padding-bottom: 4px;
         }
         &.col-2{
           width: 358px;
+          .song-n{
+            background: url(../images/credits/play.png) no-repeat left center;
+            padding-left: 30px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            margin-left: 4px;
+            cursor: pointer;
+          }
         }
         &.col-3{
           width: 72px;
+          padding-top: 4px;
+            padding-bottom: 4px;
         }
       }
     }
@@ -280,8 +300,18 @@ a:hover{
   .box-video{
     border-top: 1px solid #49433d;
     margin-top: 22px;
-    padding-top: 42px;
+    padding-top: 38px;
     padding-bottom: 38px;
     clear: both;
   }
+}
+.contact{
+  input[type="text"],input[type="email"]{
+    &.error{
+      border: 1px solid red;
+    }
+  }
+}
+.ajax-loader{
+  height: 39px;
 }

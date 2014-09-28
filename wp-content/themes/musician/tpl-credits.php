@@ -59,7 +59,7 @@
 			                    					1
 			                    				</div>
 			                    				<div class="col-2 col">
-			                    					Everything Goes Downhill
+			                    					<span class="song-n">Everything Goes Downhill</span>
 			                    				</div>
 			                    				<div class="col-3 col">
 			                    					0:47
