@@ -4013,7 +4013,12 @@ textarea:-ms-input-placeholder {
     }
 
 }
-
+@media only screen and (min-width: 768px) and (max-width: 970px) {
+ 
+    .contact .form-submit .submit{
+      margin-left:0!important;
+    }
+}
 
 @media screen and (max-width: 1200px) {
 	
@@ -4338,6 +4343,17 @@ textarea:-ms-input-placeholder {
     .contact-1 .contact-info {
         padding-left: 0;
         margin-top: 60px;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    .contact .contact-respond{
+      padding-left: 10px;
+    }
+    .contact .form-submit .submit{
+      margin-left:0;
+    }
+    .contact .contact-info .box-icon-content.small{
+      margin-left:0;
     }
     .contact-2 .contact-respond {
         padding-left: 0;

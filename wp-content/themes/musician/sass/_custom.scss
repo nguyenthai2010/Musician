@@ -147,6 +147,7 @@ a:hover{
   .col-title{
     width: 84px;
     float:left;
+    padding-bottom: 5px;
     text-transform: uppercase;
     @include roboto_condensedregular(14px);
     &.paddingT9{
@@ -314,4 +315,24 @@ a:hover{
 }
 .ajax-loader{
   height: 39px;
+}
+
+
+.main-footer{
+ padding:0;
+ height: 80px;
+ min-height: 80px;
+ line-height: 80px; 
+ background: #000;
+ p{
+    @include roboto_condensedregular(14px);
+    text-align: right;
+    line-height: 80px;
+ }
+ .copyright{
+    margin-bottom: 0; 
+ }
+}
+.ss-mobile-menu>ul>li a:hover, .portfolio-button-group label:hover{
+  background:#987b43;
 }

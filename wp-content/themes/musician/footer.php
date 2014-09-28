@@ -4,31 +4,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="copyright">
-                                <p>NIVAN - a HTML template with serious impact. Created by SPNOY</p>
-                            </div>
-                            <div class="social-icon">
-                                <ul>
-                                    <li>
-                                        <a href="javascript:void(0)" title="Dribble">
-                                            <span class="icon-dribbble" aria-hidden="true"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" title="Vimeo">
-                                            <span class="icon-vimeo" aria-hidden="true"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" title="facebook">
-                                            <span class="icon-facebook" aria-hidden="true"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" title="twitter">
-                                            <span class="icon-twitter" aria-hidden="true"></span>
-                                        </a>
-                                    </li>
-                                </ul>
+                                <p>© Sven Faulconer - 2014</p>
                             </div>
                         </div>
                     </div>
@@ -40,29 +16,11 @@
 
     <nav class="ss-mobile-menu">
         <ul id="main-navigation-mobile">
-            <li><a href="#home">HOME</a>
-                <ul class="sub-menu">
-                    <li><a href="javascript:void(0)">ONE PAGE</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.html" class="external">HOME - GALLERY</a></li>
-                            <li><a href="index-onepage-revslider.html" class="external">HOME - SLIDER</a></li>
-                            <li><a href="index-onepage-videobg.html" class="external">HOME - VIDEO</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="javascript:void(0)">MULTIPAGE</a>
-                        <ul class="sub-menu">
-                            <li><a href="index-multipage.html" class="external">HOME - GALLERY</a></li>
-                            <li><a href="index-multipage-revslider.html" class="external">HOME - SLIDER</a></li>
-                            <li><a href="index-multipage-videobg.html" class="external">HOME - VIDEO</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="#services">SERVICES</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
-            <li><a href="#blog">BLOG</a></li>
-            <li><a href="#map">CONTACT</a></li>
+            <li><a href="#home">HOME</a></li>
+	        <li><a href="#bio">BIO</a></li>
+	        <li><a href="#credits">CREDITS</a></li>
+	        <li><a href="#music">MUSIC</a></li>
+	        <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
 
