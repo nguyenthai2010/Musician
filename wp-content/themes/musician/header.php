@@ -48,9 +48,9 @@
                                 <ul class="main-navigation" id="main-navigation">
                                     <li><a href="#home">HOME</a></li>
                                     <li><a href="#bio">BIO</a></li>
-                                    <li><a href="#about">CREDITS</a></li>
-                                    <li><a href="#portfolio">MUSIC</a></li>
-                                    <li><a href="#map">CONTACT</a></li>
+                                    <li><a href="#credits">CREDITS</a></li>
+                                    <li><a href="#music">MUSIC</a></li>
+                                    <li><a href="#contact">CONTACT</a></li>
                                 </ul>
                                 <div class="sound_head">
                                 	<div id="jquery_jplayer_1" class="jp-jplayer"></div>
