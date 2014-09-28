@@ -15,20 +15,23 @@
 
 	//register meta box
 	// Initialize the metabox class
-	add_action( 'init', 'be_initialize_cmb_meta_boxes', 9999 );
-	function be_initialize_cmb_meta_boxes() {
-		if ( !class_exists( 'cmb_Meta_Box' ) ) {
-			require_once( 'meta-box/init.php' );
-		}
-	}	
-	
-	require_once( 'meta-box/custom.php' );
+	define( 'RWMB_URL', trailingslashit( get_stylesheet_directory_uri() . '/meta-box' ) );
+	define( 'RWMB_DIR', trailingslashit( STYLESHEETPATH . '/meta-box' ) );
+	require_once RWMB_DIR . 'meta-box.php';
+	include RWMB_DIR.'/custom/add-meta-box.php';
 	
 	//register post type
 	include TEMPLATEPATH.'/post-type/registry-post-type.php';
 
 	//register taxonomy
 	include 'taxonomy-custom/taxonomy-custom.php';
+	
+	//contact
+	include 'inc/ajax.php'; 
+	include 'email/xtemplate.contact.php';
+	
+	//change label post
+	include 'inc/change_label_post.php'; 
 	
 	
 	function get_page_id_by_slug($slug){

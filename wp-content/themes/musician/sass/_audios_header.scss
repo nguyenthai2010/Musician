@@ -9,9 +9,9 @@
   
 }
 .sound_head{
-  float: right;
+  float: left;
   margin-left: 13px;
-  margin-top: -21px;
+  margin-top: -34px;
   margin-right: -24px;
   div.jp-audio{
    width: 255px;
@@ -86,7 +86,7 @@
     left: 0;
     position: relative;
     float: left;
-    top: 16px;
+    top: 12px;
   }
   .jp-control-box{
     float:left;
@@ -120,15 +120,7 @@ position: relative;
   .jp-playlist{
     display: none;
   }
-  
-  div.jp-audio div.jp-progress{
-	  height: 9px;
-	 }
-  div.jp-seek-bar{
-	  background:#999999;
-  }
-	
   div.jp-play-bar{
-    background: #FFF;
+    background: #987b43;
   }
 }

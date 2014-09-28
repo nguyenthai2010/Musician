@@ -76,5 +76,9 @@ define('WP_DEBUG', false);
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
+
+define('WP_HOME','http://musician.taichinh-24h.com');
+define('WP_SITEURL','http://musician.taichinh-24h.com');
+
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');

@@ -1,6 +1,13 @@
-<section id="credits" class="credits last-works dark-color" style="background: url(images/credits/credits_bg.jpg) no-repeat center center; color: #fff; background-size: cover; padding-top: 60px; padding-bottom: 120px">
+<?php
+	$args_credits = array(
+		'post_type' 	 => 'post',
+		'posts_per_page' =>  1 ,
+		'order'			 => 'asc'
+	);
+	$query_credits = get_posts($args_credits);
+?>
+<section id="credits" class="credits" style="background-color:#1c140c; color: #fff; background-size: cover; padding-top: 60px; padding-bottom: 75px">
     <div class="container">
-
         <div class="row">
             <div class="col-sm-12">
                 <div class="section-header">
@@ -12,138 +19,90 @@
                         <div class="section-heading-right-tick ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0" data-ss-effect-offset="2"></div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-content ss-typography">
 
-
-        <div class="ss-testimonial-slider ss-effect" data-ss-effect="scale-down" data-ss-effect-speed="1" data-ss-effect-delay="0.4" data-ss-effect-offset="1">
-            <div class="ss-testimonial-frame">
-                <div class="ss-testimonial-slidee">
-                    <div class="ss-testimonial-item">
-                        <div class="portfolio-items-container portfolio-5col-nogutter filtering-on ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.4" data-ss-effect-offset="2">
-            
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-1.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-2.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-3.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-4.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-5.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    
-						</div>
-                    </div>
-                    <div class="ss-testimonial-item">
-                        <div class="portfolio-items-container portfolio-5col-nogutter filtering-on ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.4" data-ss-effect-offset="2">
-            
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-1.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-2.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-3.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-4.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    <article class="portfolio-item video">
-						        <div class="inner-container">
-						            <figure class="portfolio-item-image">
-						                <a>
-						                    <img src="images/credits/c-5.jpg" alt="SEO IMAGE NAME" />
-						                </a>
-						            </figure>
-						        </div>
-						    </article>
-						    
-						</div>
-                    </div>
-                    <div class="ss-testimonial-item">
-                        <p>Vestibulum id ligula porta felis euismod semper. Aenean laciniaVestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur.</p>
-                        <span>- John Smith, <span class="ss-testimonial-skills">Web Enginier</span></span>
-                    </div>
-                    <div class="ss-testimonial-item">
-                        <p>22 Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur.</p>
-                        <span>- Jane Smith, <span class="ss-testimonial-skills">Web Designer</span></span>
-                    </div>
+                <div class="section-content ss-typography">
+					<div class="row">
+		            	<div class="col-sm-12">
+		                <div class="section-content ss-typography">
+		                    <div class="row">
+		                    	<?php
+		                    		foreach ( $query_credits as $credit ) {
+		                    			//print_r($credit);
+		                    			//$urlThumb = wp_get_attachment_url( get_post_thumbnail_id($slider->ID) );
+		                    			$composer = get_post_meta($credit->ID, '_mt_credit_composer', true);
+										$director = get_post_meta($credit->ID, '_mt_credit_director', true);
+										$urlBanner = get_post_meta($credit->ID, '_mt_credit_banner', true);
+										$banner_img=wp_get_attachment_image_src( $urlBanner, 'full' );
+		                    	?>
+		                    	<div class="col-sm-5 col-6-1 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
+		                    		<div class="box-banner">
+		                    			<img src="<?php echo $banner_img[0];?>"/>
+		                    		</div>
+		                    	</div>
+		                    	<div class="col-sm-7 col-6-2 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
+		                    		<div class="credits_details">
+		                    			<h3><?php echo $credit->post_title;?></h3>
+		                    			<span class="composer">
+		                    				Credit: <?php echo $composer;?>
+		                    			</span>
+		                    			<span class="director">
+		                    				Director: <?php echo $director;?>
+		                    			</span>
+		                    			<div class="credits_desc">
+		                    				<?php echo $credit->post_content;?>
+		                    			</div>
+		                    			<div class="credits_controls">
+		                    				<a href="#" class="previous"></a>
+		                    				<a href="#" class="close"></a>
+		                    				<a href="#" class="next"></a>
+		                    			</div>
+		                    			<div class="box-sound">
+		                    				<div class="row_sound title">
+		                    					<div class="col-1 col">
+			                    					#
+			                    				</div>
+			                    				<div class="col-2 col">
+			                    					TITLE
+			                    				</div>
+			                    				<div class="col-3 col">
+			                    					TIME
+			                    				</div>
+			                    				<div class="col-3 col">
+			                    					ID
+			                    				</div>
+		                    				</div>
+		                    				<div class="row_sound">
+		                    					<div class="col-1 col">
+			                    					1
+			                    				</div>
+			                    				<div class="col-2 col">
+			                    					<span class="song-n">Everything Goes Downhill</span>
+			                    				</div>
+			                    				<div class="col-3 col">
+			                    					0:47
+			                    				</div>
+			                    				<div class="col-3 col">
+			                    					TGS05
+			                    				</div>
+		                    				</div>
+		                    			</div>
+		                    			<div class="box-video">
+		                    				<div class="videoframe">
+		                    					<img src="images/credits/video.jpg"/>
+		                    				</div>
+		                    			</div>
+		                    		</div>
+		                    	</div>
+		                    	<?php }?>
+		                    </div>
+		               </div>
+		           </div>
                 </div>
+
+
+
             </div>
-            <div class="ss-testimonial-arrows ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.6" data-ss-effect-offset="2">
-                <a href="#" class="ss-next-testimonial valign">
-                    
-                </a>
-                <a href="#" class="ss-prev-testimonial valign">
-                    
-                </a>
-            </div>
+
         </div>
-
     </div>
-    
 </section>
-

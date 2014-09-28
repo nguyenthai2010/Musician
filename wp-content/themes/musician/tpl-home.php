@@ -22,12 +22,6 @@
                             $i++;
 							$url = wp_get_attachment_url( get_post_thumbnail_id($slider->ID) );
 							$selling = get_post_meta($slider->ID, '_cmb_selling_slider', true);
-							$divsell = '';
-							if($selling == 'on'){
-								$divsell = '<div class="selling"></div>';
-							}else{
-								$divsell = '';	
-							}
                     ?>
                     <li data-transition="fade" data-slotamount="8">
 						<div class="bgdot">
