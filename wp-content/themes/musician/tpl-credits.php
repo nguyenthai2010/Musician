@@ -2,7 +2,7 @@
 	$args_credits = array(
 		'post_type' 	 => 'post',
 		'posts_per_page' =>  1 ,
-		'order'			 => 'asc'
+		'order'			 => 'desc'
 	);
 	$query_credits = get_posts($args_credits);
 ?>
@@ -26,6 +26,7 @@
 		                <div class="section-content ss-typography">
 		                    <div class="row">
 		                    	<?php
+		                    		$i = 0;
 		                    		foreach ( $query_credits as $credit ) {
 		                    			//print_r($credit);
 		                    			//$urlThumb = wp_get_attachment_url( get_post_thumbnail_id($slider->ID) );
@@ -36,7 +37,8 @@
 										$mp3FileName = get_post_meta($credit->ID, '_mt_credit_mp3_name', true);
 										$mp3File = get_post_meta($credit->ID, '_mt_credit_mp3', true);
 										$videoID = get_post_meta($credit->ID, 'video_url', true);
-										
+										$mp3ID = get_post_meta($credit->ID, '_mt_credit_mp3_id', true);
+										$i++;
 		                    	?>
 		                    	<div class="col-sm-5 col-6-1 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
 		                    		<div class="box-banner">
@@ -77,7 +79,7 @@
 		                    				</div>
 		                    				<div class="row_sound song_row">
 		                    					<div class="col-1 col">
-				                    					1
+				                    					<?php echo $i;?>
 				                    			</div>
 				                    			<div class="col-2 col">
 				                    				<div id="mp3File" class="col2mp3" data-song="<?php echo $mp3File;?>" data-title="<?php echo $mp3FileName;?>">
@@ -100,7 +102,7 @@
 												</div>
 		                    					
 			                    				<div class="col-3 col">
-			                    					TGS05
+			                    					<?php echo $mp3ID;?>
 			                    				</div>
 		                    					
 		                    				</div>

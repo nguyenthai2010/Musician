@@ -55,6 +55,11 @@ function add_metaboxes_credits( $meta_boxes ) {
 				'max_file_uploads' => 1
 			),
 			array(
+				'name'             => 'Mp3 ID',
+				'id'               => "{$prefix}credit_mp3_id",
+				'type'             => 'text',
+			),
+			array(
 				'name'             => 'Mp3 file Name',
 				'id'               => "{$prefix}credit_mp3_name",
 				'type'             => 'textarea',
