@@ -38,7 +38,8 @@
 	//change label post
 	include 'inc/change_label_post.php'; 
 	
-	
+	//select music
+	//include 'inc/select-music.php';
 	function get_page_id_by_slug($slug){
 	    global $wpdb;
 	    $id = $wpdb->get_var("SELECT ID FROM $wpdb->posts WHERE post_name = '".$slug."'AND post_type = 'page'");
