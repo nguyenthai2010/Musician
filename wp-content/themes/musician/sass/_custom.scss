@@ -326,6 +326,9 @@ a:hover{
     span{
       @include roboto_condensedregular(14px);
       display :block;
+      span{
+        display: inline-block;
+      }
     }
     span.composer{
       margin-bottom: 3px;
@@ -388,4 +391,16 @@ a:hover{
 }
 .videoframe{
   height: 279px;
+}
+
+#credits{
+  height: 0;
+overflow: hidden;
+padding:0!important;
+}
+.credit_select.hide{
+  display: none;
+}
+#credit_choose .credit_select.hide{
+  display: block;
 }

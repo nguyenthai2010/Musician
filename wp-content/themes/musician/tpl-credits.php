@@ -1,11 +1,4 @@
-<?php
-	$args_credits = array(
-		'post_type' 	 => 'post',
-		'posts_per_page' =>  1 ,
-		'order'			 => 'desc'
-	);
-	$query_credits = get_posts($args_credits);
-?>
+
 <section id="credits" class="credits" style="background-color:#1c140c; color: #fff; background-size: cover; padding-top: 60px; padding-bottom: 75px">
     <div class="container">
         <div class="row">
@@ -25,37 +18,22 @@
 		            	<div class="col-sm-12">
 		                <div class="section-content ss-typography">
 		                    <div class="row">
-		                    	<?php
-		                    		$i = 0;
-		                    		foreach ( $query_credits as $credit ) {
-		                    			//print_r($credit);
-		                    			//$urlThumb = wp_get_attachment_url( get_post_thumbnail_id($slider->ID) );
-		                    			$composer = get_post_meta($credit->ID, '_mt_credit_composer', true);
-										$director = get_post_meta($credit->ID, '_mt_credit_director', true);
-										$urlBanner = get_post_meta($credit->ID, '_mt_credit_banner', true);
-										$banner_img = wp_get_attachment_image_src( $urlBanner, 'full' );
-										$mp3FileName = get_post_meta($credit->ID, '_mt_credit_mp3_name', true);
-										$mp3File = get_post_meta($credit->ID, '_mt_credit_mp3', true);
-										$videoID = get_post_meta($credit->ID, 'video_url', true);
-										$mp3ID = get_post_meta($credit->ID, '_mt_credit_mp3_id', true);
-										$i++;
-		                    	?>
 		                    	<div class="col-sm-5 col-6-1 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
-		                    		<div class="box-banner">
-		                    			<img src="<?php echo $urlBanner;?>"/>
+		                    		<div class="box-banner" id="box-banner">
+		                    			<img src=""/>
 		                    		</div>
 		                    	</div>
 		                    	<div class="col-sm-7 col-6-2 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
 		                    		<div class="credits_details">
-		                    			<h3><?php echo $credit->post_title;?></h3>
+		                    			<h3 id="postTitle"></h3>
 		                    			<span class="composer">
-		                    				Credit: <?php echo $composer;?>
+		                    				Credit: <span id="composerID"></span>
 		                    			</span>
 		                    			<span class="director">
-		                    				Director: <?php echo $director;?>
+		                    				Director: <span id="directorID"></span>
 		                    			</span>
-		                    			<div class="credits_desc">
-		                    				<?php echo $credit->post_content;?>
+		                    			<div class="credits_desc" id="descriptionID">
+		                    				
 		                    			</div>
 		                    			<div class="credits_controls">
 		                    				<a href="#" class="previous"></a>
@@ -79,10 +57,10 @@
 		                    				</div>
 		                    				<div class="row_sound song_row">
 		                    					<div class="col-1 col">
-				                    					<?php echo $i;?>
+				                    					1
 				                    			</div>
 				                    			<div class="col-2 col">
-				                    				<div id="mp3File" class="col2mp3" data-song="<?php echo $mp3File;?>" data-title="<?php echo $mp3FileName;?>">
+				                    				<div id="mp3File" class="col2mp3" data-song="audio/The_first_song.mp3" data-title="The_first_song">
 				                    					<div id="jquery_jplayer_2" class="jp-jplayer"></div>
 														<div id="jp_container_2" class="jp-audio">
 														    <div class="jp-type-single">
@@ -101,22 +79,19 @@
 				                    				</div>
 												</div>
 		                    					
-			                    				<div class="col-3 col">
-			                    					<?php echo $mp3ID;?>
+			                    				<div class="col-3 col" id="mp3ID">
+			                    					
 			                    				</div>
 		                    					
 		                    				</div>
 		                    			</div>
 		                    			<div class="box-video">
 		                    				<div class="videoframe">
-		                    					<?php
-													echo wp_oembed_get( 'http://www.player.vimeo.com/video/' . $videoID ); 
-		                    					?>
+		                    					
 		                    				</div>
 		                    			</div>
 		                    		</div>
 		                    	</div>
-		                    	<?php }?>
 		                    </div>
 		               </div>
 		           </div>

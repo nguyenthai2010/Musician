@@ -6,6 +6,7 @@ var bAudios = (function() {
 	function init(){
 		createList1();
 		playFileCredits();
+		chooseCredits();
 	}
 	
 	// FUNCTIONS
@@ -51,6 +52,7 @@ var bAudios = (function() {
 	
 	function playFileCredits() {
 		var song = jQuery('#mp3File').attr('data-song');
+		//console.log(song);
 		var title = jQuery('#mp3File').attr('data-title');
 		jQuery("#jquery_jplayer_2").jPlayer({
 	        ready: function(event) {
@@ -61,10 +63,38 @@ var bAudios = (function() {
 	        },
 	        swfPath: "http://jplayer.org/latest/js",
 	        supplied: "mp3",
-	        cssSelectorAncestor: '#jp_container_2',
+	        cssSelectorAncestor: '#jp_container_2'
 	    });
-	    var duration = jQuery("#jp_container_2 .jp-duration");
-	    jQuery('#credits_duration').html(duration);
+	}
+	function chooseCredits(){
+		jQuery('.chooseLink').click(function(){
+			jQuery('#credit_choose').empty();
+			oldIndex = jQuery(this).index(); 
+			//jQuery(this).parent().find('.credit_select').prependTo();
+			//jQuery('#credit_choose')
+			var parent = jQuery(this).parent().find('.credit_select');
+			jQuery('#box-banner img').attr('src',jQuery(parent).find('.banner').html());
+			jQuery('#postTitle').html(jQuery(parent).find('.title').html());
+			jQuery('#descriptionID').html(jQuery(parent).find('.description').html());
+			jQuery('#composerID').html(jQuery(parent).find('.composer').html());
+			jQuery('#directorID').html(jQuery(parent).find('.director').html());
+			jQuery('#mp3File').attr('data-song',jQuery(parent).find('.m3file').html());
+			jQuery('#mp3File').attr('data-title',jQuery(parent).find('.m3fileName').html());
+			jQuery('#mp3ID').html(jQuery(parent).find('.mp3ID').html());
+			jQuery('.videoframe').html(jQuery(parent).find('.videoID').html());
+			
+			jQuery('#jquery_jplayer_2 audio').attr('src',jQuery(parent).find('.m3file').html());
+			jQuery('#jp_container_2 .song-n').html(jQuery(parent).find('.m3fileName').html());
+			
+			
+			jQuery('#credits').css({'height':'auto','overflow':'inherit','padding':"0 !important"});
+			var offset = jQuery('#credits').offset().top;
+			jQuery('html, body').animate({
+				scrollTop: offset
+			}, 500, function(){
+				playFileCredits();
+			});
+		});
 	}
 	// RETURN
 	return {
