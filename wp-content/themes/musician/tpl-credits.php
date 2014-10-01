@@ -40,7 +40,7 @@
 		                    				<a href="#" class="close"></a>
 		                    				<a href="#" class="next"></a>
 		                    			</div>
-		                    			<div class="box-sound">
+		                    			<div class="box-sound" id="box-sound">
 		                    				<div class="row_sound title">
 		                    					<div class="col-1 col">
 			                    					#
