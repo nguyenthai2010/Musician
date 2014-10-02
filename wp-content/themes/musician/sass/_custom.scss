@@ -404,3 +404,33 @@ padding:0!important;
 #credit_choose .credit_select.hide{
   display: block;
 }
+
+.ss-total-item{
+  position: absolute;
+  top: 130px;
+  z-index: 100;
+  left: 50%;
+  width: 100%;
+  margin-left: -50%;
+ 
+ .ss-box-total{
+  float:right;
+ }
+  span{font-family: "Georgia";font-size: 16px;color:#fff;}
+  span#item-slider{
+    position: relative;
+    top: 13px;
+    z-index: 4;
+  }
+  span.flash{
+   background: url(../images/flash.png) no-repeat;
+    width: 41px;
+    height: 41px;
+    display: table; 
+  }
+  #total-slider{
+    position: relative;
+    left: 34px;
+    top: -14px;
+  }
+}

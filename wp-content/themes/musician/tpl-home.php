@@ -14,7 +14,15 @@
     <div class="section-content ss-typography">
 
         <div class="ss-home-slider-container">
-
+			<div class="ss-total-item">
+				<div class="container">
+					<div class="ss-box-total">
+						<span id="item-slider">1</span>
+						<span class="flash"></span>
+						<span id="total-slider">3</span>
+					</div>
+				</div>
+			</div>
             <div class="ss-home-slider">
                 <ul>
                 	<?php

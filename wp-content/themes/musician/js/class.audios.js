@@ -10,7 +10,6 @@ var bAudios = (function() {
 	
 	function initEvent(){
 		chooseCredits();
-
 		$(audio).bind($.jPlayer.event.play, function(event)
 		{
 			$('.processaudio').removeClass('active');	
@@ -24,9 +23,19 @@ var bAudios = (function() {
 			$('.processaudio').removeClass('active');
 			$(this).addClass('active');
         });
+
 	}
 	
 	// FUNCTIONS
+	
+	function numberSlider(){
+		jQuery('#total-slider').html(jQuery('.tp-bullets.simplebullets.round .bullet').length);
+		
+		jQuery('.ss-home-slider').bind("revolution.slide.onchange",function (e,data) {
+		  	console.log(data.slideIndex);
+		});
+		
+	}
 	//list 2
 	var playerAudioPlaylist = null;
 	function createList(strCat)
@@ -113,3 +122,7 @@ var bAudios = (function() {
 	}
 	
 })();		
+
+jQuery(window).load(function(){
+	//bAudios.numberSlider();
+});
