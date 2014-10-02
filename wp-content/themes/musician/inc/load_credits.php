@@ -41,9 +41,11 @@ function get_credits() {
     			<span class="director">
     				Director: <?php echo $director;?>
     			</span>
+    			<?php if(!empty($query_credits->post_content)){?>
     			<div class="credits_desc noborder" >
     				<?php echo $query_credits->post_content;?>
     			</div>
+    			<?php }?>
     			<div class="credits_controls">
     				<div class="loading-credit"><div class="shadow"></div><img src="images/ajax-loader.gif"/></div>
     				<?php if($id_prev != 0){?>

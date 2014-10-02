@@ -58,10 +58,11 @@
 				var email = $('.contact-form .email').val();
 				var namecontactto = $('.contact-form .name-contact-to').val();
 				var content = $('.contact-form .content-message').val();
-				var data={'contact-name': fullname, 'contact-email': email, 'contact-message':content, 'action':'my_special_ajax_expert'};
+				var data={'contact-name': fullname, 'contact-email': email, 'contact-message':content, 'action':'send_email_expert'};
 				$.post(url_ajax,data,function(response){					
 						//alert('Send Email Success');
 						$('.ajax-loader').css('visibility','hidden');
+						$('.contactform-response-output').html('Thanks, your message has been sent')
 						//window.location.href = url_site;					
 				}); 				
 				 return false;

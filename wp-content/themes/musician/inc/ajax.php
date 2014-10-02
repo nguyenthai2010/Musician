@@ -7,5 +7,5 @@ function send_email_expert(){
     //gui_loi_cam_on_da_lien_he($ten, $email, $subject, $content);    
 	die();
 }
-//add_action('wp_ajax_my_special_ajax_expert', 'send_email_expert');
-//add_action('wp_ajax_nopriv_my_special_ajax_expert', 'send_email_expert');//for users that are not logged in.
+add_action('wp_ajax_send_email_expert', 'send_email_expert');
+add_action('wp_ajax_nopriv_send_email_expert', 'send_email_expert');//for users that are not logged in.
