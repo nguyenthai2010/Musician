@@ -63,7 +63,7 @@ foreach ( $terms as $term ) {
                                 $number ++;
                                 $id = get_post_meta($music->ID, '_cmb__musis_id_text', true);
 								$file = get_post_meta($music->ID, '_cmb__musis_path_file', true);
-                                
+                                $time = get_post_meta($music->ID, '_cmb__musis_time_text', true);
 								$term_cats = wp_get_post_terms($music->ID, 'music-tax', array("fields" => "all"));	
 								$strCat = '';
 								
@@ -75,7 +75,7 @@ foreach ( $terms as $term ) {
                         <div class="row-audio processaudio" audio="<?php echo $file?>" cat="<?php echo $strCat?>">
                         	<div class="no"><?php echo $number?></div>
                             <div class="title"><?php echo $music->post_title;?></div>
-                            <div class="time"><?php echo $metadata['length']?></div>
+                            <div class="time"><?php echo $time?></div>
                             <div class="id"><?php echo $id?></div>
                         </div>
                         <?php }?>

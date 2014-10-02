@@ -15,6 +15,11 @@ function add_metaboxes_music( $meta_boxes ) {
                 'type' => 'text'
             ),
 			array(
+				'name' => 'Time',
+                'id'   => $prefix . '_musis_time_text',
+                'type' => 'text'
+            ),
+			array(
 				'name' => 'Music File',
                 'id'   => $prefix . '_musis_path_file',
                 'type' => 'file'

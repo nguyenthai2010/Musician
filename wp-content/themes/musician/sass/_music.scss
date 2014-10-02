@@ -29,6 +29,7 @@
 	#music-list {
 		height: 430px;
 	}
+	
 	.music-list {
 		width:545px;
 		margin: 0 auto;
@@ -55,6 +56,7 @@
 			
 			&.top {
 				color: $colorMain;
+				display: table;
 					
 				.title {
 					background:none !important;
