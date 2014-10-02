@@ -42,7 +42,7 @@ function add_metaboxes_credits( $meta_boxes ) {
 	   'priority' => 'high',
 	   'fields' => array(
 			array(
-				'name'             => 'Composer',
+				'name'             => 'Credit',
 				'id'               => "{$prefix}credit_composer",
 				'type'             => 'text',
 			),
@@ -50,31 +50,7 @@ function add_metaboxes_credits( $meta_boxes ) {
 				'name'             => 'Director',
 				'id'               => "{$prefix}credit_director",
 				'type'             => 'text',
-			)/*,
-			array(
-				'name'             => 'Banner',
-				'id'               => "{$prefix}credit_banner",
-				'type'             => 'file',
-				'max_file_uploads' => 1
-			),
-			array(
-				'name'             => 'Mp3 ID',
-				'id'               => "{$prefix}credit_mp3_id",
-				'type'             => 'text',
-			),
-			array(
-				'name'             => 'Mp3 file Name',
-				'id'               => "{$prefix}credit_mp3_name",
-				'type'             => 'textarea',
-				'max_file_uploads' => 1
-			),
-			array(
-				'name'             => 'Mp3 file',
-				'id'               => "{$prefix}credit_mp3",
-				'type'             => 'file',
-				'max_file_uploads' => 1
-			)*/
-			
+			)
 		 )
 	);
 		
