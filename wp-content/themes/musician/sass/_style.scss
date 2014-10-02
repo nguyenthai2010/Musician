@@ -4014,7 +4014,13 @@ textarea:-ms-input-placeholder {
 
 }
 @media only screen and (min-width: 768px) and (max-width: 970px) {
- 
+    .credits .col-6-1{
+      display: table;
+      margin: 0 auto 30px;
+    }
+    .credits .col-6-2{
+      width: 100%;
+    }
     .contact .form-submit .submit{
       margin-left:0!important;
     }
@@ -4463,6 +4469,17 @@ textarea:-ms-input-placeholder {
         margin-right: 0;
     }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .credits .col-6-1{
+    display: table;
+    margin: 0 auto 30px;
+  }
+  .credits .col-6-2{
+    width: 100%!important;
+  }
+  
+}
+
 
 @-webkit-viewport   { width: device-width; }
 @-moz-viewport      { width: device-width; }
