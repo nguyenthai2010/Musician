@@ -26,6 +26,9 @@
 		}
 	} 
 	
+	#music-list {
+		height: 430px;
+	}
 	.music-list {
 		width:545px;
 		margin: 0 auto;
@@ -38,7 +41,7 @@
 			clear: both;
 			display: table;
 			@include roboto_condensedregular(18px);
-			
+			cursor: pointer;
 			
 			div {
 				float: left;
@@ -48,7 +51,7 @@
 			
 			&.top {
 				color: $colorMain;
-				
+					
 				.title {
 					background:none !important;
 				}

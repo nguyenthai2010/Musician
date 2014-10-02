@@ -4,7 +4,7 @@
 	/*---------------------------------------------------------------------------------*/
 	/*	Audio header
 	/*---------------------------------------------------------------------------------*/
-	bAudios.init();
+
 	
 	
 	/*---------------------------------------------------------------------------------*/
@@ -1105,14 +1105,17 @@
     /*---------------------------------------------------------------------------------*/
 	/*  Go To Top
 	/*---------------------------------------------------------------------------------*/
-
-    //show or hide the  footer go to top button
-	$(window).scroll(function () {
+	function process_menu(){
 	    if ($(this).scrollTop() > 200) {
 	        $('.go-top').fadeIn(300);
 	    } else {
 	        $('.go-top').fadeOut(300);
 	    }
+	}
+    //show or hide the  footer go to top button
+	process_menu();
+	$(window).scroll(function () {
+		process_menu();
 	});
     //Animate scroll to top
 	$('.go-top').click(function (event) {
@@ -1122,35 +1125,7 @@
 	})
 
 
-    /*---------------------------------------------------------------------------------*/
-    /*	Google Map
-	/*---------------------------------------------------------------------------------*/
-
-	if ($('#map').length > 0) {
-	    google.maps.event.addDomListener(window, 'load', map_init);
-	}
-
-
-	function map_init() {
-
-	    if ($('#map').length > 0) {
-	        "use strict";
-	        var $map = $('#map');
-	        var mapOptions = {
-	            zoom: 15,
-	            minZoom: 0,
-	            center: new google.maps.LatLng($map.data('latitude'), $map.data('longitude')),
-	            backgroundColor: '#c4cdcd',
-	            scrollwheel: false,
-	        };
-	        var mapElement = document.getElementById('map');
-	        var map = new google.maps.Map(mapElement, mapOptions);
-
-	        var marker = new google.maps.Marker({
-	            position: mapOptions['center'],
-	            map: map,
-	        });
-	    }
-	}
+	bAudios.init();
+	bMusic.init();	
 
 });
