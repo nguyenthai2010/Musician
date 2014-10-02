@@ -50,13 +50,13 @@ function add_metaboxes_credits( $meta_boxes ) {
 				'name'             => 'Director',
 				'id'               => "{$prefix}credit_director",
 				'type'             => 'text',
-			),
+			)/*,
 			array(
 				'name'             => 'Banner',
 				'id'               => "{$prefix}credit_banner",
 				'type'             => 'file',
 				'max_file_uploads' => 1
-			)/*,
+			),
 			array(
 				'name'             => 'Mp3 ID',
 				'id'               => "{$prefix}credit_mp3_id",

@@ -9,7 +9,8 @@ function get_credits() {
   	$query_credits = get_post($id);
     $composer = get_post_meta($id, '_mt_credit_composer', true);
 	$director = get_post_meta($id, '_mt_credit_director', true);
-	$urlBanner = get_post_meta($id, '_mt_credit_banner', true);
+	$urlBanner = wp_get_attachment_url( get_post_thumbnail_id($id) );
+	//$urlBanner = get_post_meta($id, '_mt_credit_banner', true);
 	$banner_img = wp_get_attachment_image_src( $urlBanner, 'full' );
 	
 	$mp3value = get_post_meta($id, 'custom_credits_class_meta_box', true);
