@@ -344,6 +344,12 @@ a:hover{
        padding-top:20px;
        padding-bottom:20px;
        padding-right: 22px;
+       &.noborder{
+         .credits_desc{
+           padding:0;
+           border: none;
+         }
+       }
     }
   }
   .box-video{
@@ -391,6 +397,9 @@ a:hover{
 }
 .videoframe{
   height: 279px;
+  iframe{
+    width: 100%!important;
+  }
 }
 
 #credits{

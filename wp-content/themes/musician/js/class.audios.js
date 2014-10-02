@@ -9,7 +9,7 @@ var bAudios = (function() {
 	}
 	
 	function initEvent(){
-		chooseCredits();
+		//chooseCredits();
 		$(audio).bind($.jPlayer.event.play, function(event)
 		{
 			$('.processaudio').removeClass('active');	
@@ -118,7 +118,8 @@ var bAudios = (function() {
 	// RETURN
 	return {
 		init:init,
-		createList:createList
+		createList:createList,
+		playFileCredits:playFileCredits
 	}
 	
 })();		
