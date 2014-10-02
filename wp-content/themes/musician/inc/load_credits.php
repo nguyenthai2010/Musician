@@ -21,6 +21,10 @@ function get_credits() {
 		$mp3FileName = get_the_title($idmp3);
 	}
 	$videoID = get_post_meta($id, 'video_url', true);
+	$previous_post = get_previous_post();
+	$id_prev = $next_post->id;
+	$next_post = get_next_post();
+	$id_next = $next_post->id;
 	?>
     <div class="row">
     	<div class="col-sm-5 col-6-1 ">
@@ -41,9 +45,9 @@ function get_credits() {
     				<?php echo $query_credits->post_content;?>
     			</div>
     			<div class="credits_controls">
-    				<a href="#" class="previous"></a>
-    				<a href="#" class="close"></a>
-    				<a href="#" class="next"></a>
+    				<a href="javascript:void(0);" class="previous prev_credits" id="<?php echo $id_prev;?>"></a>
+    				<a href="javascript:void(0);" class="close" onclick="credits.closeCredits();"></a>
+    				<a href="javascript:void(0);" class="next next_credits" id="<?php echo $id_next;?>" ></a>
     			</div>
     			<?php if(!empty($mp3File)){?>
     			<div class="box-sound" id="box-sound">

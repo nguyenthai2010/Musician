@@ -37,5 +37,10 @@
 			});
 			
 		});
- 
+ 		
+ 		
+ 		//hide credits
+ 		$('#close_credits').click(function(){
+ 			
+ 		});
 });
