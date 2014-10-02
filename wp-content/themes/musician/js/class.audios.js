@@ -7,9 +7,19 @@ var bAudios = (function() {
 		createList1();
 		playFileCredits();
 		chooseCredits();
+		
 	}
 	
 	// FUNCTIONS
+	
+	function numberSlider(){
+		jQuery('#total-slider').html(jQuery('.tp-bullets.simplebullets.round .bullet').length);
+		
+		jQuery('.ss-home-slider').bind("revolution.slide.onchange",function (e,data) {
+		  	console.log(data.slideIndex);
+		});
+		
+	}
 	//list 2
 	function createList1()
 	{
@@ -104,7 +114,12 @@ var bAudios = (function() {
 	}
 	// RETURN
 	return {
-		init:init
+		init:init,
+		numberSlider:numberSlider
 	}
 	
 })();		
+
+jQuery(window).load(function(){
+	//bAudios.numberSlider();
+});

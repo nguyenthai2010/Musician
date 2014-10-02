@@ -1,5 +1,5 @@
 
-<section id="credits" class="credits" style="background-color:#1c140c; color: #fff; background-size: cover; padding-top: 60px; padding-bottom: 75px">
+<section id="credits" class="credits" style="background-color:#1c140c; color: #fff; background-size: cover; padding-top: 100px; padding-bottom: 105px">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">

@@ -48,10 +48,11 @@
     <script src="js/jquery.themepunch.revolution.min.js"></script>
     <script src="js/jquery.fitvids.js"></script>
     <script src="js/jquery.videoBG.js"></script>
+    <script type="text/javascript" src="js/class.audios.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/contact-form-validate.js"></script>
 	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
 	<script type="text/javascript" src="js/jplayer.playlist.js"></script>
-	<script type="text/javascript" src="js/class.audios.js"></script>
+	
 </body>
 </html>
