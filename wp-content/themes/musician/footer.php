@@ -28,7 +28,6 @@
     <script src="js/jquery/jquery-migrate.min.js"></script>
     <script src="js/jquery.tools.min.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.royalslider.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/TweenMax.min.js"></script>
     <script src="js/jquery.hoverdir.js"></script>

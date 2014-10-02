@@ -283,7 +283,6 @@
 
 
 	/*------------------------------------------------------------------
-		Testimonials
 	------------------------------------------------------------------*/
 
 	var testimonial_sliders = [],
@@ -345,84 +344,8 @@
 
 
     /*------------------------------------------------------------------*/
-	/*	Portfolio Initialization
 	/*------------------------------------------------------------------*/
-
-	$('.portfolio-items-container').each(function () {
-
-	    var portfolio_items_containers = $(this);
-	    var portfolio_button_group;
-	    if ($(this).prev().hasClass("portfolio-button-group")) {
-	        portfolio_button_group = $(this).prev();
-	    }
-	    $(portfolio_items_containers).imagesLoaded().always(function (instance) {
-
-	        // hover height for centering its content
-	        $(portfolio_items_containers).find('.portfolio-item-overlay').css('height', function () {
-	            return $(portfolio_items_containers).find('.inner-container').height();
-	        });
-	        var _portfolio_item_update = _.throttle(function () {
-	            $(portfolio_items_containers).find('.portfolio-item-overlay').css('height', function () {
-	                return $(portfolio_items_containers).find('.inner-container').height();
-	            });
-	        }, 100);
-	        $window.resize(_portfolio_item_update);
-
-            //Initialize Isotope + filtering
-	        if ($(portfolio_items_containers).hasClass("filtering-on")) {
-	            // Init Isotope + filtering
-	            var $portfolio_items = $(portfolio_items_containers);
-	            $portfolio_items.isotope({
-	                // options
-	                itemSelector: '.portfolio-item',
-	                layoutMode: 'fitRows',
-	                columnWidth: '.grid-sizer',
-	            });
-
-	            // filter items on button click
-	            $(portfolio_button_group).on('click', 'input', function (event) {
-
-	                $(portfolio_button_group).find('.radio-input-checked').removeClass('radio-input-checked');
-	                $(this).parent().addClass('radio-input-checked');
-
-	                var filterValue = $(this).attr('value');
-	                $portfolio_items.isotope({ filter: filterValue });
-	                
-	                _skrollr.refresh();
-
-	            });
-	        } else {
-	            // Init Isotope
-	            var $portfolio_items = $(portfolio_items_containers);
-	            $portfolio_items.isotope({
-	                // options
-	                itemSelector: '.portfolio-item',
-	                layoutMode: 'fitRows',
-	                columnWidth: '.grid-sizer',
-	            });
-	        }
-
-	        // Init magnificPopup on Recent works
-	        $(portfolio_items_containers).magnificPopup({
-	            type: 'inline',
-	            delegate: 'a.item-format',
-	            gallery: {
-	                enabled: Boolean(parseInt(lightbox_gallery_mode, 10))
-	            },
-	            removalDelay: 600,
-	            showCloseBtn: Boolean(parseInt(lightbox_close_button, 10)),
-	            closeBtnInside: (lightbox_close_button_position == 'true'),
-	            alignTop: (lightbox_align == 'true'),
-	            mainClass: 'mfp-fade'
-	        });
-
-	    });
-	});
-
-
-
 	
-
 	$window.load( function() {
 
 		/*------------------------------------------------------------------*/
@@ -458,29 +381,6 @@
 		$.waypoints('refresh');
 
 	});
-
-
-    /*-----------------------------------------------------------------*/
-    /* Royal Slider Initializing
-    /*-----------------------------------------------------------------*/
-
-	$(".royalSlider").royalSlider({
-	    loop: true,
-	    autoHeight: true,
-	    autoScaleSlider: false,
-	    imageScaleMode: 'fill',
-	    imageAlignCenter: false,
-	    slidesSpacing: 0,
-	    arrowsNav: true,
-	    controlNavigation: false,
-	    keyboardNavEnabled: true,
-	    arrowsNavAutoHide: false,
-	    sliderDrag: true,
-	    updateSliderSize: true,
-	    usePreloader: true,
-	});
-	
-
 
 
     /*---------------------------------------------------------------------------------*/
