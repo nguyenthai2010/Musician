@@ -53,7 +53,6 @@
 	<script src="js/class.audios.js"></script>
     <script src="plugin/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/class.music.js"></script>
-    <script src="js/load_credits.js"></script>
     <script src="js/class.credits.js"></script>
     <script src="js/custom.js"></script>
 </body>

@@ -21,10 +21,8 @@ function get_credits() {
 		$mp3FileName = get_the_title($idmp3);
 	}
 	$videoID = get_post_meta($id, 'video_url', true);
-	$previous_post = get_previous_post();
-	$id_prev = $next_post->id;
-	$next_post = get_next_post();
-	$id_next = $next_post->id;
+	$id_prev = get_previous_post_id($id);
+	$id_next = get_next_post_id($id);
 	?>
     <div class="row">
     	<div class="col-sm-5 col-6-1 ">
@@ -45,9 +43,14 @@ function get_credits() {
     				<?php echo $query_credits->post_content;?>
     			</div>
     			<div class="credits_controls">
-    				<a href="javascript:void(0);" class="previous prev_credits" id="<?php echo $id_prev;?>"></a>
+    				<div class="loading-credit"><div class="shadow"></div><img src="images/ajax-loader.gif"/></div>
+    				<?php if($id_prev != 0){?>
+    				<a href="javascript:void(0);" class="previous prev_credits" id="<?php echo $id_prev;?>" onClick="credits.prev($(this));"></a>
+    				<?php }?>
     				<a href="javascript:void(0);" class="close" onclick="credits.closeCredits();"></a>
-    				<a href="javascript:void(0);" class="next next_credits" id="<?php echo $id_next;?>" onClick="credits.next();"></a>
+    				<?php if($id_next != 0){?>
+    				<a href="javascript:void(0);" class="next next_credits" id="<?php echo $id_next;?>" onClick="credits.next($(this));"></a>
+    				<?php }?>
     			</div>
     			<?php if(!empty($mp3File)){?>
     			<div class="box-sound" id="box-sound">
