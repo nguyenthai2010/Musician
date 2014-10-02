@@ -36,15 +36,9 @@
 				                foreach ( $query_credits_2 as $credit_2 ) {
 				                	$url = wp_get_attachment_url( get_post_thumbnail_id($credit_2->ID) );
 									
-									
 									$j++;
-				                	$i++; 
-									if($i%6 == 0){
-									 echo '</div> </div>
-									 	<div class="ss-testimonial-item">
-                        <div class="portfolio-items-container portfolio-5col-nogutter filtering-on ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.4" data-ss-effect-offset="2">
-									 ';	
-									}
+									
+									
 		                    ?>
             
 						    <article class="portfolio-item video">
@@ -57,7 +51,19 @@
 						            </figure>
 						        </div>
 						    </article>
-                    		<?php } ?>
+                    		<?php  
+                    			$i++ ;
+                    			if($i%5 == 0){
+									 echo '</div> </div>
+									 	<div class="ss-testimonial-item">
+                        				<div class="portfolio-items-container portfolio-5col-nogutter filtering-on ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.4" data-ss-effect-offset="2">
+									 ';	
+									 
+									}
+                    		
+                    			  
+							} 
+							?>
                     	</div>
                     </div>
                 </div>
