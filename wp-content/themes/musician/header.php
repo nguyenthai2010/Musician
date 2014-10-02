@@ -29,7 +29,6 @@
     <link href="plugin/custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" />
 
     <script src="js/modernizr-2.6.2.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 </head>
 
 <body id="skrollr-body"  class="ss-home">

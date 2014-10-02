@@ -34,7 +34,6 @@
     <script src="js/jquery.hoverdir.js"></script>
     <script src="js/underscore-min.js"></script>
     <script src="js/bring.js"></script>
-    <script src="js/jquery.easypiechart.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.magnific.popup.min.js"></script>
@@ -47,7 +46,6 @@
     <script src="js/jquery.themepunch.plugins.min.js"></script>
     <script src="js/jquery.themepunch.revolution.min.js"></script>
     <script src="js/jquery.fitvids.js"></script>
-    <script src="js/jquery.videoBG.js"></script>
     
     <script src="js/contact-form-validate.js"></script>
 	<script src="js/jquery.jplayer.min.js"></script>
