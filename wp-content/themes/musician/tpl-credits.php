@@ -1,5 +1,6 @@
 
 <section id="credits" class="credits" style="background-color:#1c140c; color: #fff; background-size: cover; padding-top: 100px; padding-bottom: 105px">
+    <div class="loading-credit"><div class="shadow"></div><img src="images/ajax-loader.gif"/></div>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -16,6 +17,7 @@
                 <div class="section-content ss-typography">
 					<div class="row">
 		            	<div class="col-sm-12">
+		            	
 		                <div class="section-content ss-typography" id="credits_ajax">
 		                    <!--AJAX HERE-->
 		               </div>

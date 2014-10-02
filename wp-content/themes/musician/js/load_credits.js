@@ -2,7 +2,9 @@
 	jQuery(function($){
  
 		jQuery('.portfolio-item .portfolio-item-image a.chooseLink').on( 'click', function( e ) { 
- 
+ 			jQuery('#credits').css({'height':'auto','overflow':'inherit','padding':"0 !important"});
+ 			jQuery('.loading-credit').show();
+ 			jQuery(this).find('.loading-credit').show();
 			/** Prevent Default Behaviour */
 			e.preventDefault();
  			var url_ajax = $('.contact-form .ajaxurl').val();
@@ -22,8 +24,9 @@
 			})
 			.done(function( html ) {
 			    //var $ajax_response = $( data );
+				
+				jQuery('.loading-credit').hide();
 				jQuery( '#credits_ajax' ).html( html );														
-				jQuery('#credits').css({'height':'auto','overflow':'inherit','padding':"0 !important"});
 				var offset = jQuery('#credits').offset().top;
 				jQuery('html, body').animate({
 					scrollTop: offset

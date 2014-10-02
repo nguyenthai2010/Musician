@@ -50,6 +50,7 @@
 						    <article class="portfolio-item video">
 						        <div class="inner-container">
 						            <figure class="portfolio-item-image">
+						            	<div class="loading-credit"><div class="shadow"></div><img src="images/ajax-loader.gif"/></div>
 						                <a class="chooseLink" id="<?php echo $credit_2->ID;?>" href="javascript:void(0);">
 						                    <img src="<?php echo $url;?>" alt="" />
 						                </a>
