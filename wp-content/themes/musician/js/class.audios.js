@@ -75,10 +75,16 @@ var bAudios = (function() {
 			var parent = jQuery(this).parent().find('.credit_select');
 			jQuery('#box-banner img').attr('src',jQuery(parent).find('.banner').html());
 			jQuery('#postTitle').html(jQuery(parent).find('.title').html());
-			jQuery('#descriptionID').html(jQuery(parent).find('.description').html());
+			jQuery('#descriptionID').html(jQuery(parent).find('.description .credits_desc').html());
 			jQuery('#composerID').html(jQuery(parent).find('.composer').html());
 			jQuery('#directorID').html(jQuery(parent).find('.director').html());
 			jQuery('#mp3File').attr('data-song',jQuery(parent).find('.m3file').html());
+			
+			if(jQuery(parent).find('.m3file').html() == ''){
+				jQuery('#box-sound').hide();
+			}else{
+				jQuery('#box-sound').show();
+			}
 			jQuery('#mp3File').attr('data-title',jQuery(parent).find('.m3fileName').html());
 			jQuery('#mp3ID').html(jQuery(parent).find('.mp3ID').html());
 			jQuery('.videoframe').html(jQuery(parent).find('.videoID').html());

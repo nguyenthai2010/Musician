@@ -47,10 +47,16 @@
 									$director = get_post_meta($credit_2->ID, '_mt_credit_director', true);
 									$urlBanner = get_post_meta($credit_2->ID, '_mt_credit_banner', true);
 									$banner_img = wp_get_attachment_image_src( $urlBanner, 'full' );
-									$mp3FileName = get_post_meta($credit_2->ID, '_mt_credit_mp3_name', true);
-									$mp3File = get_post_meta($credit_2->ID, '_mt_credit_mp3', true);
+									
+									$mp3value = get_post_meta($credit_2->ID, 'custom_credits_class_meta_box', true);
+									$idmp3 = get_post_id($mp3value , 'music');
+									$mp3FileName = '';
+									$mp3File = get_post_meta($idmp3, '_cmb__musis_path_file', true);
+									if(!empty($mp3File)){
+										$mp3FileName = get_the_title($idmp3);
+									}
 									$videoID = get_post_meta($credit_2->ID, 'video_url', true);
-									$mp3ID = get_post_meta($credit_2->ID, '_mt_credit_mp3_id', true);
+									
 									$j++;
 				                	$i++; 
 									if($i%6 == 0){
@@ -76,7 +82,7 @@
 							               <div class="description"><?php echo $credit_2->post_content;?></div>	    
 							               <div class="m3file"><?php echo $mp3File;?></div>	
 							               <div class="m3fileName"><?php echo $mp3FileName;?></div>
-							               <div class="mp3ID"><?php echo $mp3ID;?></div>
+							               <div class="mp3ID"><?php echo $idmp3;?></div>
 							               <div class="videoID">
 							               		<?php
 													echo wp_oembed_get( 'http://www.player.vimeo.com/video/' . $videoID ); 
