@@ -11,7 +11,7 @@
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
 
     <!-- Title -->
-    <title>Nivan - One Page/Multi Page HTML Template</title>
+    <title><?php echo get_bloginfo('name');?></title>
 	<base href="<?php echo get_bloginfo('template_url');?>/"></base>
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
