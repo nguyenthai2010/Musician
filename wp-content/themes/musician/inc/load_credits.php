@@ -21,6 +21,7 @@ function get_credits() {
 	if(!empty($mp3File)){
 		$mp3FileName = get_the_title($idmp3);
 	}
+	$videoType = get_post_meta($id,'video_type',true);
 	$videoID = get_post_meta($id, 'video_url', true);
 	$id_prev = get_previous_post_id($id);
 	$id_next = get_next_post_id($id);
@@ -104,7 +105,11 @@ function get_credits() {
     			<div class="box-video">
     				<div class="videoframe">
     					<?php
-							echo wp_oembed_get( 'http://www.player.vimeo.com/video/' . $videoID ); 
+    						if($videoType == 'vimeo'){
+								echo wp_oembed_get( 'http://www.player.vimeo.com/video/' . $videoID );
+							}else{
+								echo wp_oembed_get( $videoID );
+							}
     					?>
     				</div>
     			</div>
