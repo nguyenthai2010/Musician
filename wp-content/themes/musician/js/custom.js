@@ -510,6 +510,7 @@
 	        });
 	         revapi.bind("revolution.slide.onchange",function (e,data) {
 				jQuery('#item-slider').html(data.slideIndex);
+				jQuery('#total-slider').html(revapi.revmaxslide());
 			});
 	    });
 	   
