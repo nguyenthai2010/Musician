@@ -48,11 +48,22 @@
     <script src="js/jquery.themepunch.revolution.min.js"></script>
     <script src="js/jquery.fitvids.js"></script>
     <script src="js/jquery.videoBG.js"></script>
+<<<<<<< HEAD
     <script type="text/javascript" src="js/class.audios.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/contact-form-validate.js"></script>
 	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
 	<script type="text/javascript" src="js/jplayer.playlist.js"></script>
 	
+=======
+    
+    <script src="js/contact-form-validate.js"></script>
+	<script src="js/jquery.jplayer.min.js"></script>
+	<script src="js/jplayer.playlist.js"></script>
+	<script src="js/class.audios.js"></script>
+    <script src="plugin/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/class.music.js"></script>
+    <script src="js/custom.js"></script>
+>>>>>>> b425b4513d7307cd4ce37f6647d73ed53ec2af01
 </body>
 </html>

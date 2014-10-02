@@ -1,13 +1,29 @@
 // JavaScript Document
 var bAudios = (function() {
 	// PARAMATER
-	
+	$ = jQuery;
+	var audio = "#jquery_jplayer_1";
 	// INIT 
 	function init(){
-		createList1();
-		playFileCredits();
+		initEvent();
+	}
+	
+	function initEvent(){
 		chooseCredits();
+		$(audio).bind($.jPlayer.event.play, function(event)
+		{
+			$('.processaudio').removeClass('active');	
+			$('.processaudio.display:eq(' +playerAudioPlaylist.current+ ')').addClass('active');
+		});
 		
+		$('.processaudio').click(function(e) {
+            var number = parseInt( $(this).children('.no').html() );
+			playerAudioPlaylist.play(number-1);	
+			
+			$('.processaudio').removeClass('active');
+			$(this).addClass('active');
+        });
+
 	}
 	
 	// FUNCTIONS
@@ -21,37 +37,24 @@ var bAudios = (function() {
 		
 	}
 	//list 2
-	function createList1()
-	{
-		jQuery("#jquery_jplayer_1").jPlayer({
-			ready: function () {
-				jQuery(this).jPlayer("setMedia", {
-					title: "The second song",
-					mp3: "audio/The_second_song.mp3"
-				});
-			},
-			swfPath: "js",
-			supplied: "mp3",
-			wmode: "window",
-			smoothPlayBar: true,
-			keyEnabled: false,
-			remainingDuration: true,
-			toggleDuration: true
-		});
+	var playerAudioPlaylist = null;
+	function createList(strCat)
+	{		
+		// destroy
+		try{
+			$(audio).jPlayer("destroy");
+		}
+		catch(err){}
 		
-		new jPlayerPlaylist({
-		jPlayer: "#jquery_jplayer_1",
+		// create
+		var settingMusic = bMusic.getSetting();
+		var arr = settingMusic.arr_audio;	
+		playerAudioPlaylist = new jPlayerPlaylist({
+		jPlayer: audio,
 		cssSelectorAncestor: "#jp_container_1"
-		}, [
-			{
-				title:"The second song",
-				mp3:"audio/The_second_song.mp3"
-			},
-			{
-				title:"The first song",
-				mp3:"audio/The_first_song.mp3"
-			}
-		], {
+		}, 
+			arr
+		, {
 			swfPath: "js",
 			supplied: "mp3",
 			wmode: "window",
@@ -115,7 +118,7 @@ var bAudios = (function() {
 	// RETURN
 	return {
 		init:init,
-		numberSlider:numberSlider
+		createList:createList
 	}
 	
 })();		
