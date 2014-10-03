@@ -317,6 +317,7 @@
 			cycleInterval: 0,
 			pauseOnHover:  1, 
 			startPaused:   0,
+			startAt: 0,
 			activateMiddle: 1,
 			next: $('.ss-next-testimonial'),
 			prev: $('.ss-prev-testimonial'),
