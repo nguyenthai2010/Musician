@@ -47,7 +47,7 @@ function get_credits() {
     			</div>
     			<?php }?>
     			<div class="credits_controls">
-    				<div class="loading-credit"><div class="shadow"></div><img src="images/ajax-loader.gif"/></div>
+    				
     				<?php if($id_prev != 0){?>
     				<a href="javascript:void(0);" class="previous prev_credits" id="<?php echo $id_prev;?>" onClick="credits.prev($(this));"></a>
     				<?php }?>

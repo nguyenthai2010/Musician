@@ -282,6 +282,15 @@
 	});
 
 
+	$('.ss-bxslider-frame').bxSlider({
+		  pager: false,
+		  easing: 'linear',
+          nextSelector: '#slider-next',
+          prevSelector: '#slider-prev',
+          nextText: '',
+          prevText: ''
+	});
+
 	/*------------------------------------------------------------------
 	------------------------------------------------------------------*/
 
@@ -294,7 +303,7 @@
 			horizontal: 1,
 			itemNav: 'forceCentered',
 			smart: 1,
-			scrollBy: 1,
+			scrollBy:0,
 			dragHandle: 1,
 			dynamicHandle: 1,
 			clickBar: 1,

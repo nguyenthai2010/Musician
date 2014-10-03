@@ -39,6 +39,7 @@ var credits = (function() {
 		/** Get Post ID */
 		var post_id = $this.attr( 'id' );
 		
+		jQuery('.credits .section-content').css('opacity',0);
 		 $.ajaxSetup({
             cache: false
         });
@@ -54,7 +55,8 @@ var credits = (function() {
 		    //var $ajax_response = $( data );
 			jQuery('.loading-credit').hide();
 			jQuery('#credits').css({'height':'auto','overflow':'inherit','padding-bottom':"110px!important"});
-			jQuery( '#credits_ajax' ).html( html );														
+			jQuery( '#credits_ajax' ).html( html );
+			jQuery('.credits .section-content').animate({'opacity':1},500);														
 			var offset = jQuery('#credits').offset().top;
 			jQuery('html, body').animate({
 				scrollTop: offset
