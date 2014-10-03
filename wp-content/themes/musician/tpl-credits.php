@@ -1,8 +1,8 @@
 
-<section id="credits" class="credits" style="background-color:#1c140c; color: #fff; background-size: cover; padding-top: 100px; padding-bottom: 105px">
+<section id="credits" class="credits credits-1" style="background-color:#1c140c; color: #fff; background-size: cover; padding-top: 100px; padding-bottom: 105px">
     <div class="loading-credit"><div class="shadow"></div><img src="images/ajax-loader.gif"/></div>
     <div class="container">
-        <div class="row">
+        <div class="row row-1">
             <div class="col-sm-12">
                 <div class="section-header">
                     <div class="section-header-inner">

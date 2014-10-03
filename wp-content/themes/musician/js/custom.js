@@ -294,7 +294,7 @@
 			horizontal: 1,
 			itemNav: 'forceCentered',
 			smart: 1,
-			scrollBy: 0,
+			scrollBy: 1,
 			dragHandle: 1,
 			dynamicHandle: 1,
 			clickBar: 1,

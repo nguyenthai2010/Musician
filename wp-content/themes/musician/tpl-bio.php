@@ -1,4 +1,4 @@
-<section id="bio" class="bio" style="background-color: #fff; color: #133939; padding-top: 80px; padding-bottom: 120px;">
+<section id="bio" class="bio" style="background-color: #fff; color: #133939; padding-top: 85px; padding-bottom: 70px;">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
