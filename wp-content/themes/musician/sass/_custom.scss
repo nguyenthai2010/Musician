@@ -119,6 +119,10 @@ height: 26px;
   .ss-bxslider-frame ul li{
     
   }
+  .portfolio-item{
+    width: 20%;
+    padding:0;
+  }
   .portfolio-item:hover .portfolio-item-image img{
    -webkit-transform: scale(1, 1) rotate(0deg);
   -moz-transform: scale(1, 1) rotate(0deg);

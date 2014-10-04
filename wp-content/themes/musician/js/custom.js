@@ -282,13 +282,9 @@
 	});
 
 
-	$('.ss-bxslider-frame').bxSlider({
-		  pager: false,
-		  easing: 'linear',
-          nextSelector: '#slider-next',
-          prevSelector: '#slider-prev',
-          nextText: '',
-          prevText: ''
+	$('.uneven').slick({
+	  slidesToShow: 5,
+	  slidesToScroll: 5
 	});
 
 	/*------------------------------------------------------------------
