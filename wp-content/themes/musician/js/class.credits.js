@@ -39,7 +39,7 @@ var credits = (function() {
 		/** Get Post ID */
 		var post_id = $this.attr( 'id' );
 		
-		jQuery('.credits .section-content').css('opacity',0);
+		jQuery('#credits .section-content').css('opacity',0);
 		 $.ajaxSetup({
             cache: false
         });
