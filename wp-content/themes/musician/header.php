@@ -29,6 +29,21 @@
     <link href="plugin/custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" />
 
     <script src="js/modernizr-2.6.2.min.js"></script>
+    
+    <script type="text/javascript">
+		var LANG = "<?php echo $lang ?>";
+		var ROOT = "<?php echo ROOT_WS_NAME ?>";
+		var iMobile = <?php echo $iMobile == TRUE ? 'true':'false' ?>;
+		var iPad = <?php echo $iPad == TRUE ? 'true':'false' ?>;
+		var iTablet = <?php echo $iTablet == TRUE ? 'true':'false' ?>;
+		var isDesktop = <?php echo $isDesktop == TRUE ? 'true':'false' ?>;
+		//alert(iMobile);
+	</script>
+	<?php
+		if($iMobile){
+	?>
+	<meta name="viewport" content="width=550">
+	<?php }?>
 </head>
 
 <body id="skrollr-body"  class="ss-home">
