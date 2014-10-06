@@ -1,4 +1,4 @@
-<section id="home" class="home home-slider" style="padding-top: 0; padding-bottom: 0;">
+<section id="home" class="home home-slider" style="padding-top: 0; padding-bottom: 0;" >
 <?php
 	$i = 0;
 	$args_slider = array(
@@ -23,6 +23,7 @@
 					</div>
 				</div>
 			</div>
+			<!--data-center="margin-top:0px;" data-top-bottom="margin-top: -100px;" data-bottom-top="margin-top: 100px;"-->
             <div class="ss-home-slider">
                 <ul>
                 	<?php
