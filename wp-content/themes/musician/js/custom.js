@@ -236,6 +236,7 @@
 	            onHoverStop: "off",
 	            hideTimerBar:"on" ,
 	            navigationType: "none",
+	            parallax:"scroll",
 	            fullWidth: "off",
 	            fullScreen: "on",
 	            fullScreenAlignForce: "on",
