@@ -456,7 +456,7 @@ body.ss-home .main-header .header {
 	margin: 0 20px 0 0;
 }
 .main-header .header ul li:last-child{
-	margin: 0 0 0 20px ;
+	
 }
 .main-header .header ul li .sub-menu {
 	position: absolute;
@@ -565,7 +565,7 @@ body.ss-no-sticky-main-nav .section-content-container {
 	margin-top: 0;
 }
 .main-header.ss-sticky.ss-on-scroll .header {
-	padding: 25px 0;
+	padding: 35px 0 15px 0;
 }
 /* Set the differance Header size on default and on oscroll */
 /* Allows you to easily change the Header size on scroll without using hard-coded JS */
@@ -573,7 +573,7 @@ body.ss-no-sticky-main-nav .section-content-container {
 	height: 12px;
 }
 .main-header.ss-sticky.ss-on-scroll .logo {
-	margin-top: -100px;
+	
 } 
 .main-header.ss-sticky.ss-on-scroll {
 	background-color: rgba(19, 57, 57, 0.8);
