@@ -307,8 +307,30 @@ height: 26px;
         
       }
     }
+	
+	.row_sound.title{
+		&.audio{
+			cursor:pointer;
+			.col{
+				color:#fff;
+				height:23px;
+			}
+			
+			.col-2{
+				background: url(../images/credits/play.png) no-repeat left center;
+				padding-left: 35px;
+			}
+		}
+		
+		&.audio.active{
+			.col-2{
+				background: url(../images/credits/pause.png) no-repeat left center;
+				padding-left: 35px;
+			}			
+		}
+	}
+	
     .row_sound{
-      
       float:left;
       width: 100%;
       .col{
@@ -316,8 +338,7 @@ height: 26px;
        @include roboto_condensedregular(18px);
         &.col-1{
           width: 36px;
-          padding-top: 4px;
-            padding-bottom: 4px;
+          padding-bottom: 4px;
         }
         &.col-2{
           width: 358px;

@@ -18,13 +18,21 @@ function get_credits() {
 	$idmp3 = get_post_id($mp3value , 'music');
 	$mp3FileName = '';
 	$mp3File = get_post_meta($idmp3, '_cmb__musis_path_file', true);
+	$mp3Time = get_post_meta($idmp3, '_cmb__musis_time_text', true);
+	$mp3No = get_post_meta($idmp3, '_cmb__musis_id_text', true);
+	
 	if(!empty($mp3File)){
 		$mp3FileName = get_the_title($idmp3);
 	}
+	
 	$videoType = get_post_meta($id,'video_type',true);
 	$videoID = get_post_meta($id, 'video_url', true);
 	$id_prev = get_previous_post_id($id);
 	$id_next = get_next_post_id($id);
+
+	$term_cats = wp_get_post_terms($idmp3, 'music-tax', array("fields" => "all"));	
+	$strCat = $term_cats[0]->slug;
+	
 	?>
     <div class="row">
     	<div class="col-sm-5 col-6-1 ">
@@ -72,33 +80,19 @@ function get_credits() {
         					ID
         				</div>
     				</div>
-    				<div class="row_sound song_row">
+    				<div class="row_sound title audio processaudio" audio="<?php echo $mp3File?>" cat="<?php echo $strCat?>">
     					<div class="col-1 col">
-            					1
-            			</div>
-            			<div class="col-2 col">
-            				<div id="mp3File" class="col2mp3" data-song="<?php echo $mp3File;?>" data-title="<?php echo $mp3FileName;?>">
-            					<div id="jquery_jplayer_2" class="jp-jplayer"></div>
-								<div id="jp_container_2" class="jp-audio">
-								    <div class="jp-type-single">
-								        <div class="jp-gui jp-interface">
-								            <div class="jp-controls">
-									        	<a href="javascript:;" class="jp-play" tabindex="1"><span class="song-n jp-title"></span></a>
-									        	<a href="javascript:;" class="jp-pause" tabindex="1"><span class="song-n jp-title"></span></a>
-									        </div>	
-									        <div class="col-3 col" id="credits_duration">
-									        	<div class="jp-duration"></div>
-        									</div>
-									            
-								        </div>
-								    </div>
-								</div>
-            				</div>
-						</div>
-    					
-        				<div class="col-3 col" id="mp3ID">
-        					<?php echo $idmp3;?>
+        					1
         				</div>
+        				<div class="col-2 col">
+        					<?php echo $mp3FileName;?>
+        				</div>
+        				<div class="col-3 col">
+        					<?php echo $mp3Time;?>
+        				</div>
+        				<div class="col-3 col">
+        					<?php echo $mp3No;?>
+        				</div>    					
     					
     				</div>
     			</div>

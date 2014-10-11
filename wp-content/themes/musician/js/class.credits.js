@@ -61,7 +61,7 @@ var credits = (function() {
 			jQuery('html, body').animate({
 				scrollTop: offset
 			}, 500, function(){
-				bAudios.playFileCredits();
+				//bAudios.playFileCredits();
 			});
 		});			
 	}
