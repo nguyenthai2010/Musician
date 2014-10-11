@@ -18,7 +18,10 @@ var bAudios = (function() {
 		$(setting.audio).bind($.jPlayer.event.play, function(event)
 		{
 			$('.processaudio').removeClass('active');	
-			$('.processaudio.display:eq(' +playerAudioPlaylist.current+ ')').addClass('active');
+			
+			$this = $('.processaudio.display:eq(' +playerAudioPlaylist.current+ ')');
+			$this.addClass('active');
+			$('#audiocredit_' + $this.attr('soundid')).addClass('active')
 		});
 
 		$(setting.audio).bind($.jPlayer.event.pause, function(event) {
@@ -41,6 +44,7 @@ var bAudios = (function() {
 			
 			$('.processaudio').removeClass('active');
 			$(this).addClass('active');
+			$('#audiocredit_' + $(this).attr('soundid')).addClass('active')
         });
 	}
 	
@@ -58,6 +62,7 @@ var bAudios = (function() {
 	function createList(strCat)
 	{		
 		bMusic.setCreateAudio(false);
+		
 		// destroy
 		try{
 			playerAudioPlaylist.remove();
@@ -97,10 +102,21 @@ var bAudios = (function() {
 		playerAudioPlaylist.play(setting.number);		
 	}
 	
+	//CREDITS
+	function playCredit(divID){
+		$cat = $('#'+divID).attr('cat');
+		
+		var soundid = '#music_' + $('#'+divID).attr('soundid');
+
+		bMusic.displaymusic( '#mc_' + $cat ); // select cat
+		$(soundid).click();
+	}
+	
 	// RETURN
 	return {
 		init:init,
-		createList:createList
+		createList:createList,
+		playCredit:playCredit
 	}
 	
 })();		

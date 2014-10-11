@@ -72,7 +72,7 @@ foreach ( $terms as $term ) {
 								}
 								
                         ?>
-                        <div class="row-audio processaudio" audio="<?php echo $file?>" cat="<?php echo $strCat?>">
+                        <div class="row-audio processaudio" audio="<?php echo $file?>" cat="<?php echo $strCat?>" id='music_<?php echo $music->ID;?>' soundid='<?php echo $music->ID;?>'>
                         	<div class="no"><?php echo $number?></div>
                             <div class="title"><?php echo $music->post_title;?></div>
                             <div class="time"><?php echo $time?></div>

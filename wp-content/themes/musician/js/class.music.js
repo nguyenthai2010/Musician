@@ -113,6 +113,7 @@ var bMusic = (function() {
 	return {
 		init:init,
 		getSetting:getSetting,
+		displaymusic:displaymusic,
 		get_firsttime:get_firsttime,
 		set_firsttime:set_firsttime,
 		getCreateAudio:getCreateAudio,

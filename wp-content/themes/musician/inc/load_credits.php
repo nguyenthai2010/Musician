@@ -80,7 +80,7 @@ function get_credits() {
         					ID
         				</div>
     				</div>
-    				<div class="row_sound title audio processaudio" audio="<?php echo $mp3File?>" cat="<?php echo $strCat?>">
+    				<div class="row_sound title audio processaudio" audio="<?php echo $mp3File?>" cat="<?php echo $strCat?>" id="audiocredit_<?php echo $idmp3;?>" onClick="bAudios.playCredit('audiocredit_<?php echo $idmp3;?>')" soundid='<?php echo $idmp3;?>'>
     					<div class="col-1 col">
         					1
         				</div>
