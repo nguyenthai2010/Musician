@@ -2,23 +2,42 @@
 var bAudios = (function() {
 	// PARAMATER
 	$ = jQuery;
-	var audio = "#jquery_jplayer_1";
+	
+	var setting = {
+		audio 	: "#jquery_jplayer_1",
+		number	:	0
+	}
+	
+	
 	// INIT 
 	function init(){
 		initEvent();
 	}
 	
 	function initEvent(){
-		//chooseCredits();
-		$(audio).bind($.jPlayer.event.play, function(event)
+		$(setting.audio).bind($.jPlayer.event.play, function(event)
 		{
 			$('.processaudio').removeClass('active');	
 			$('.processaudio.display:eq(' +playerAudioPlaylist.current+ ')').addClass('active');
 		});
+
+		$(setting.audio).bind($.jPlayer.event.pause, function(event) {
+			$('.processaudio').removeClass('active');
+		});
 		
+		$(setting.audio).bind($.jPlayer.event.pause, function(event) {
+			$('.processaudio').removeClass('active');
+		});
+				
 		$('.processaudio').click(function(e) {
             var number = parseInt( $(this).children('.no').html() );
-			playerAudioPlaylist.play(number-1);	
+			setting.number = number-1;
+			//console.log(bMusic.getCreateAudio());
+			if(bMusic.getCreateAudio()){ // create list & play audio
+				createList();
+			} else{ // play only audio
+				play();
+			}
 			
 			$('.processaudio').removeClass('active');
 			$(this).addClass('active');
@@ -40,29 +59,45 @@ var bAudios = (function() {
 	var playerAudioPlaylist = null;
 	function createList(strCat)
 	{		
+		bMusic.setCreateAudio(false);
 		// destroy
 		try{
-			$(audio).jPlayer("destroy");
+			playerAudioPlaylist.remove();
+			$(setting.audio).jPlayer("destroy");
 		}
 		catch(err){}
 		
+		var bautoplay = false;
+		if(!bMusic.get_firsttime()){
+			bautoplay = true;
+		}
 		// create
 		var settingMusic = bMusic.getSetting();
-		var arr = settingMusic.arr_audio;	
 		playerAudioPlaylist = new jPlayerPlaylist({
-		jPlayer: audio,
+		jPlayer: setting.audio,
 		cssSelectorAncestor: "#jp_container_1"
 		}, 
-			arr
-		, {
+			settingMusic.arr_audio
+		, 
+		{
 			swfPath: "js",
+			loop: false,
 			supplied: "mp3",
+			currentIndex:setting.number,
 			wmode: "window",
-			smoothPlayBar: true,
+			smoothPlayBar: false,
 			keyEnabled: false
 		});
+		playerAudioPlaylist.option("autoPlay", bautoplay);
+		playerAudioPlaylist.select(setting.number);
+		
+		bMusic.set_firsttime(false);
 	}
 	
+	function play(){
+		//console.log(setting.number);
+		playerAudioPlaylist.play(setting.number);		
+	}
 	function playFileCredits() {
 		var song = jQuery('#mp3File').attr('data-song');
 		//console.log(song);

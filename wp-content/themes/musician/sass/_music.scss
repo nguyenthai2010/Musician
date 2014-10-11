@@ -65,6 +65,12 @@
 			
 			&.active {				
 				.title {
+					background:url(../images/player/btn-play-active.jpg) no-repeat !important;
+				}
+			}
+			
+			&:hover {				
+				.title {
 					background:url(../images/player/btn-play-h.jpg) no-repeat;
 				}
 			}
@@ -77,6 +83,7 @@
 				width:60%;
 				padding-left: 26px;
 				background:url(../images/player/btn-play.jpg) no-repeat;
+
 			}
 			
 			.time {

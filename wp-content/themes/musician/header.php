@@ -72,9 +72,11 @@
 						                <div class="jp-type-playlist">
 						                    <div class="jp-gui jp-interface">
 						                    	<div class="song_playing">
-			                                		<span>now playing: </span>
-			                                		<div class="jp-title">The second song </div>
-			                                		<div class="jp-current-time">00:00</div>
+			                                		<div class="jp-current-time"></div>
+                                                    <div class="jp-title"></div>
+                                                    <span>now playing: </span>
+			                                		
+			                                		
 			                                	</div>
 						                        <div class="jp-control-box">
 						                        	<ul class="jp-controls">
