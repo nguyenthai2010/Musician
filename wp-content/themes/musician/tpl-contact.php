@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="section-header" style="padding-top: 100px;">
+                <div class="section-header" style="padding-top: 85px;">
                     <div class="section-header-inner">
                         <div class="section-heading-left-tick ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0" data-ss-effect-offset="2"></div>
                         <h1 class="section-heading ss-effect" data-ss-effect="fade-from-top" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
@@ -55,7 +55,7 @@
 		                            <div class="col-sm-6  col-6-2 ss-effect" data-ss-effect="fade-from-left" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
 		                                <div id="contact-respond" class="contact-respond">
 		                                    <h3 id="reply-title" class="contact-reply-title">SEND ME A MESSAGE</h3>
-		                                    <form action="" method="post" id="contactform" class="contact-form" novalidate="novalidate">
+		                                    <form action="" method="post" id="contactform" class="contact-form" novalidate>
 		                                        <div id="respond-inputs" class="respond-inputs">
 		                                            <div class="row-input">
 		                                            	<div class="col-title paddingT5">
