@@ -14,6 +14,7 @@
         $date = date('d-m-Y');   
         $parseTemplate	=	new XTemplate('xtemplate.contact.html');
         $parseTemplate->assign('date',$date);
+		$parseTemplate->assign('email',$contact_email);
         $parseTemplate->assign('fullname',$fullname);	
         $parseTemplate->assign('content',$yourmind);
         $parseTemplate->parse('main');	

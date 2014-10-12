@@ -285,7 +285,24 @@
 
 	$('.uneven').slick({
 	  slidesToShow: 5,
-	  slidesToScroll: 5
+	  slidesToScroll: 5,
+	  responsive: [
+	    
+	    {
+	      breakpoint: 767,
+	      settings: {
+	        slidesToShow: 3,
+	        slidesToScroll:3
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1
+	      }
+	    }
+	  ]
 	});
 
 	/*------------------------------------------------------------------
@@ -300,7 +317,7 @@
 			horizontal: 1,
 			itemNav: 'forceCentered',
 			smart: 1,
-			scrollBy:0,
+			scrollBy: 0,
 			dragHandle: 1,
 			dynamicHandle: 1,
 			clickBar: 1,
@@ -314,7 +331,6 @@
 			cycleInterval: 0,
 			pauseOnHover:  1, 
 			startPaused:   0,
-			startAt: 0,
 			activateMiddle: 1,
 			next: $('.ss-next-testimonial'),
 			prev: $('.ss-prev-testimonial'),

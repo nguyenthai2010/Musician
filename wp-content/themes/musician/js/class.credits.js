@@ -59,7 +59,7 @@ var credits = (function() {
 			jQuery('.credits .section-content').animate({'opacity':1},500);														
 			var offset = jQuery('#credits').offset().top;
 			jQuery('html, body').animate({
-				scrollTop: offset
+				scrollTop: offset - 86
 			}, 500, function(){
 				//bAudios.playFileCredits();
 			});
