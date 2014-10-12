@@ -25,34 +25,9 @@
 		                    <div class="row">
 		                        <div class="contact-container contact-1">
 		                            
-		                            <div class="col-sm-6 col-6-1 ss-effect" data-ss-effect="fade-from-right" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
-		                                <div class="contact-info alignRight">
-		                                    <h3>CONTACT INFO</h3>
-		                                    <div class="box-icon-container">
-		                                       
-		                                        <div class="box-icon-content small">
-		                                            SVEN FAULCONER
-		                                        </div>
-		                                    </div>
-		                                    <div class="gap" data-height-size="25px"></div>
-		                                    <div class="box-icon-container">
-		                                        <div class="box-icon-content small">
-		                                            4216 MCCONNELL BLVD,<br/>
-													CULVER CITY, CA 90066,<br/>
-													UNITED STATES
-		                                        </div>
-		                                    </div>
-		                                    <div class="gap" data-height-size="25px"></div>
-		                                    <div class="box-icon-container">
-		                                        <div class="box-icon-content small">
-		                                          T. 310-463-3744<br/>
-		                                          <a href="mailto:sven@falconscore.com">sven@falconscore.com</a>
-		                                        </div>
-		                                    </div>
-		                                </div>
-		                            </div>
 		                            
-		                            <div class="col-sm-6  col-6-2 ss-effect" data-ss-effect="fade-from-left" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
+		                            
+		                            <div class="col-sm-12 ss-effect" data-ss-effect="fade-from-left" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
 		                                <div id="contact-respond" class="contact-respond">
 		                                    <h3 id="reply-title" class="contact-reply-title">SEND ME A MESSAGE</h3>
 		                                    <form action="" method="post" id="contactform" class="contact-form" novalidate>

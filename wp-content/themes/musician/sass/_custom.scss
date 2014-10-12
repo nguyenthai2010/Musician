@@ -199,6 +199,8 @@ height: 26px;
   }
   .contact-respond{
     margin-top:0;
+    width: 70%;
+    margin: 0 auto;
     h3.contact-reply-title{
        @include loveloblack(18px);
     }
@@ -251,7 +253,9 @@ height: 26px;
     padding: 0!important;
     float: right;
     margin-top: 11px !important;
-    margin-right: 5px!important;
+    margin-right: 48px!important;
+  }
+  .row-input{
   }
 }
 

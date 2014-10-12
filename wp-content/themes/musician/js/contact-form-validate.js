@@ -62,7 +62,7 @@
 				$.post(url_ajax,data,function(response){					
 						//alert('Send Email Success');
 						$('.ajax-loader').css('visibility','hidden');
-						$('.contactform-response-output').html('Thanks, your message has been sent')
+						$('.contactform-response-output').html('Thank you for your message')
 						//window.location.href = url_site;					
 				}); 				
 				 return false;
