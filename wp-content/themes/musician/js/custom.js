@@ -255,9 +255,9 @@
 					$(this).attr('data-top-bottom', 'background-position: 50% -50px;');    
 					$(this).attr('data-bottom-top', 'background-position: 50% 50px;');    
 					$(this).css({'background-attachment':'fixed'});
-					_skrollr.refresh();
+					
                 });
-				
+				_skrollr.refresh();
 			});
 	    });
 	   
