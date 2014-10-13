@@ -225,8 +225,9 @@
 	if ($(".ss-home-slider").length > 0) {
 	    $(".ss-home-slider").height(viewport_height);
 	    $.waypoints('refresh');
-	    _skrollr.refresh();
+	    
 	    var $home_rev_slider = $(".ss-home-slider");
+		
 	    // When Images are loaded
 	    var imageLoader = imagesLoaded($home_rev_slider);
 	    var revapi;
@@ -236,14 +237,27 @@
 	            onHoverStop: "off",
 	            hideTimerBar:"on" ,
 	            navigationType: "none",
-	            parallax:"scroll",
+	            
 	            fullWidth: "off",
 	            fullScreen: "on",
 	            fullScreenAlignForce: "on",
 	        });
-	         revapi.bind("revolution.slide.onchange",function (e,data) {
+			
+	        revapi.bind("revolution.slide.onchange",function (e,data) {
 				jQuery('#item-slider').html(data.slideIndex);
 				jQuery('#total-slider').html(revapi.revmaxslide());
+			});
+			
+			revapi.bind("revolution.slide.onloaded",function (e,data) {
+				//console.log( $('.slotholder').length );
+				$('.slotholder .tp-bgimg').each(function(index, element) {
+                	$(this).attr('data-center', 'background-position: 50% 0px;');    
+					$(this).attr('data-top-bottom', 'background-position: 50% -50px;');    
+					$(this).attr('data-bottom-top', 'background-position: 50% 50px;');    
+					$(this).css({'background-attachment':'fixed'});
+					_skrollr.refresh();
+                });
+				
 			});
 	    });
 	   

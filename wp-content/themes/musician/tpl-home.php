@@ -34,7 +34,7 @@
                     ?>
                     <li data-transition="fade" data-slotamount="8" >
                     	<div class="bgdotHome"></div>
-                        <img src="<?php echo $url;?>" alt=""/>
+                        <img src="<?php echo $url;?>" alt="" />
                         
                     </li>
                     <?php } ?>    
