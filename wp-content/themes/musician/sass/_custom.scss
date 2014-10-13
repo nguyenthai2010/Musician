@@ -70,7 +70,7 @@ a:hover{
       padding-top: 85px;
     }
     .section-header{
-      padding-bottom: 65px;
+      padding-bottom: 35px;
     }
     .row-1{
       padding-bottom: 75px;
@@ -197,6 +197,13 @@ height: 26px;
   .col-6-2{
     margin-left: -10px;
   }
+  .respond-inputs{
+    input , textarea{
+      color:#9e884f;
+      font-family: "roboto_condensedregular";
+      font-size: 14px;
+    }
+  } 
   .contact-respond{
     margin-top:0;
     width: 70%;
@@ -251,8 +258,8 @@ height: 26px;
   }
   .contactform-response-output{
     padding: 0!important;
-    float: right;
-    margin-top: 11px !important;
+    float: left;
+    margin-top: 0px !important;
     margin-right: 48px!important;
   }
   .row-input{

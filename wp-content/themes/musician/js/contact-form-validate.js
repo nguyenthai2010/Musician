@@ -61,11 +61,14 @@
 				var data={'contact-name': fullname, 'contact-email': email, 'contact-message':content, 'action':'send_email_expert'};
 				$.post(url_ajax,data,function(response){					
 						//alert('Send Email Success');
+						$('form.contact-form').css('display','none');
 						$('.ajax-loader').css('visibility','hidden');
-						$('.contactform-response-output').html('Thank you for your message')
+						$('.contactform-response-output').html('Thank you for your message');
 						//window.location.href = url_site;					
 				}); 				
 				 return false;
+			}else{
+				$('.contactform-response-output').html('Can not send!');
 			}
 			return false;
 

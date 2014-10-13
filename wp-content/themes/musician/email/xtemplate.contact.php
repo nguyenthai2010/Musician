@@ -1,5 +1,5 @@
 <?php
-    function send_contact_info($fullname,$email,$yourmind){
+    function send_contact_info($name, $email, $content){
     	     
         include_once 'xtemplate.class.php';
         $header = 'Content-type: text/html; charset=utf-8\r\n';				
@@ -14,9 +14,9 @@
         $date = date('d-m-Y');   
         $parseTemplate	=	new XTemplate('xtemplate.contact.html');
         $parseTemplate->assign('date',$date);
-		$parseTemplate->assign('email',$contact_email);
-        $parseTemplate->assign('fullname',$fullname);	
-        $parseTemplate->assign('content',$yourmind);
+		$parseTemplate->assign('email',$email);
+        $parseTemplate->assign('fullname',$name);	
+        $parseTemplate->assign('content',$content);
         $parseTemplate->parse('main');	
         return wp_mail($contact_email, $title_custom, $parseTemplate->text('main'), $title_custom);
     }

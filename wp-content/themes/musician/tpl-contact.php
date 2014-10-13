@@ -66,9 +66,10 @@
 												   <input type="hidden" name="name-contact-to" class="name-contact-to" value="0">      
 		                                            <img class="ajax-loader" src="images/contact/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;" />
 		                                            <input class="submit" name="submit" type="submit" id="submit" value="SEND" />
-		                                            <span class="contactform-response-output contactform-display-none"></span>
+		                                            
 		                                        </p>
 		                                    </form>
+		                                    <span class="contactform-response-output contactform-display-none"></span>
 		                                </div>
 		                            </div>
 		                        </div>
