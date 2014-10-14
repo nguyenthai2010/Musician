@@ -206,8 +206,8 @@
 	var _handle_sticky_header = _.throttle(handle_sticky_header, 100);
 	if (sticky_header_switch) {
 	    $(window).scroll(_handle_sticky_header);
+		handle_sticky_header();
 	}
-
 
 	/*---------------------------------------------------------------------------------*/
     /*	Paralalx Init
@@ -270,18 +270,6 @@
     /*------------------------------------------------------------------*/
 
 	$("body").fitVids();
-
-    /*------------------------------------------------------------------*/
-    /* Set up portfolio meta separator
-    /*------------------------------------------------------------------*/
-
-	$('.portfolio-single-1 .meta-separator-left-line, .portfolio-single-1 .meta-separator-right-line').css({
-	    width: function () {
-	        var parent_width = $(this).parent().width(),
-			heading_width = $(this).siblings('.icon').outerWidth();
-	        return (parent_width - heading_width) / 2;
-	    }
-	});
 
 
     /*------------------------------------------------------------------*/
@@ -369,6 +357,7 @@
 			testimonial_sliders[index].reload();
 		});
 	}, 100);
+	
 	$window.resize(testimonial_sliders_reload);
 
 	$('.ss-testimonial-frame').mousedown( function() {
@@ -435,30 +424,8 @@
 	}, { offset: "90%" });
 
 
-    /*---------------------------------------------------------------------------------*/
-	/*  Go To Top
-	/*---------------------------------------------------------------------------------*/
-	function process_menu(){
-	    if ($(this).scrollTop() > 200) {
-	        $('.go-top').fadeIn(300);
-	    } else {
-	        $('.go-top').fadeOut(300);
-	    }
-	}
-    //show or hide the  footer go to top button
-	process_menu();
-	$(window).scroll(function () {
-		process_menu();
-	});
-    //Animate scroll to top
-	$('.go-top').click(function (event) {
-	    event.preventDefault();
-
-	    $('html, body').animate({scrollTop:0}, 900);
-	})
-
-
 	bAudios.init();
 	bMusic.init();	
 
 });
+
