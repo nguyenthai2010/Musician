@@ -1,5 +1,5 @@
 <section id="contact" class="contact" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -50px;" data-bottom-top="background-position: 50% 50px;" style="background: url(images/contact/contact_bg.jpg) no-repeat center center;background-attachment:fixed; background-size: cover; color: #fff; padding-top: 0px; padding-bottom: 120px;">
-    <div class="bgdot">
+    <div class="bgdotHome">
     	
     </div>
     <div class="container">
