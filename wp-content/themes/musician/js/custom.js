@@ -299,14 +299,14 @@
 
 	$('.uneven').slick({
 	  slidesToShow: 5,
-	  slidesToScroll: 5,
+	  slidesToScroll: 1,
 	  responsive: [
 	    
 	    {
 	      breakpoint: 767,
 	      settings: {
 	        slidesToShow: 3,
-	        slidesToScroll:3
+	        slidesToScroll:1
 	      }
 	    },
 	    {

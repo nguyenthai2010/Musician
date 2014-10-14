@@ -63,7 +63,9 @@ a:hover{
     width:48%;
   }
 }
-
+.portfolio-item .portfolio-item-image img{
+  padding-right:0;
+}
 .credits{
   &.credits-1{
     .section-header-inner{
