@@ -27,7 +27,7 @@
 		                            
 		                            
 		                            
-		                            <div class="col-sm-12 ss-effect" data-ss-effect="fade-from-left" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
+		                            <div class="col-sm-12 ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
 		                                <div id="contact-respond" class="contact-respond">
 		                                    <h3 id="reply-title" class="contact-reply-title">SEND ME A MESSAGE</h3>
 		                                    <form action="" method="post" id="contactform" class="contact-form" novalidate>
