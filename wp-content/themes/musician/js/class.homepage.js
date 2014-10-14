@@ -17,7 +17,7 @@ var clsHomepage = (function() {
 	
 	function initEvent(){
 		$('.tp-leftarrow').click(function(e) {
-            next();
+            prev();
         });
 		$('.tp-rightarrow').click(function(e) {
             next();
@@ -28,16 +28,26 @@ var clsHomepage = (function() {
 	function createSlider(){
 		setting.total = $('.ss-home-slider ul li').length - 1;
 		$('.ss-home-slider').height($(window).height());
-		next();
+		setting.current = 0;
+		ani();
+	}
+	
+	function prev(){
+		setting.current--;
+		if(setting.current < 0){
+			setting.current = setting.total;
+		}
+
+		ani();
 	}
 	
 	function next(){
+		setting.current++;
 		if(setting.current > setting.total){
 			setting.current = 0;
 		}
 
 		ani();
-		setting.current++;
 	}
 	
 	function ani(){
