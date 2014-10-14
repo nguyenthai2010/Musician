@@ -23,8 +23,7 @@
 					</div>
 				</div>
 			</div>
-			<!--data-center="margin-top:0px;" data-top-bottom="margin-top: -100px;" data-bottom-top="margin-top: 100px;"-->
-            <div class="ss-home-slider">
+            <div class="ss-home-slider" data-transition="fade" data-slotamount="8" >
                 <ul>
                 	<?php
                         foreach ($querySlider as $slider) {
@@ -32,13 +31,13 @@
 							$url = wp_get_attachment_url( get_post_thumbnail_id($slider->ID) );
 							$selling = get_post_meta($slider->ID, '_cmb_selling_slider', true);
                     ?>
-                    <li data-transition="fade" data-slotamount="8" >
+                    <li data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -50px;" data-bottom-top="background-position: 50% 50px;" style="background: url(<?php echo $url;?>) no-repeat center center; background-attachment:fixed; background-size: cover; color: #fff; padding-top: 0px; padding-bottom: 120px;">
                     	<div class="bgdotHome"></div>
-                        <img src="<?php echo $url;?>" alt="" />
-                        
                     </li>
                     <?php } ?>    
                 </ul>
+				<div style="position: absolute; top: 50%; margin-top: -20px; left: 20px;opacity:1;" class="tp-leftarrow tparrows default hidearrows"></div>
+				<div style="position: absolute; top: 50%; margin-top: -20px; right: 20px; opacity:1;" class="tp-rightarrow tparrows default hidearrows"></div>                
             </div>
         </div>
 

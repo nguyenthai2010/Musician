@@ -222,7 +222,7 @@
     /* Home Slider
     /*------------------------------------------------------------------*/
 	
-	if ($(".ss-home-slider").length > 0) {
+	/*if ($(".ss-home-slider").length > 0) {
 	    $(".ss-home-slider").height(viewport_height);
 	    $.waypoints('refresh');
 	    
@@ -249,21 +249,18 @@
 			});
 			
 			revapi.bind("revolution.slide.onloaded",function (e,data) {
-				//console.log( $('.slotholder').length );
 				$('.slotholder .tp-bgimg').each(function(index, element) {
-                	$(this).attr('data-center', 'background-position: 50% 0px;');    
+					$(this).attr('data-center', 'background-position: 50% 0px;');    
 					$(this).attr('data-top-bottom', 'background-position: 50% -50px;');    
 					$(this).attr('data-bottom-top', 'background-position: 50% 50px;');    
-					$(this).css({'background-attachment':'fixed'});
-					
+					$(this).addClass('parallax');
+					_skrollr.refresh();
                 });
-				_skrollr.refresh();
+				
 			});
 	    });
 	   
-	}
-
-
+	}*/
 
     /*------------------------------------------------------------------*/
     /* Fit Videos
@@ -426,6 +423,6 @@
 
 	bAudios.init();
 	bMusic.init();	
-
+	clsHomepage.init();
 });
 
