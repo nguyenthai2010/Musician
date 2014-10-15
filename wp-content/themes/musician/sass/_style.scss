@@ -4015,6 +4015,8 @@ textarea:-ms-input-placeholder {
     .portfolio-5col-nogutter .portfolio-item h3 a {
         font-size: 16px;
     }
+	
+	.main-navigation-container{display:block;}
 
 }
 @media only screen and (min-width: 768px) and (max-width: 970px) {
@@ -4036,6 +4038,7 @@ textarea:-ms-input-placeholder {
 	.section-header-inner {
 		width: 70%;
 	}
+	
 
 	/* Spnoy Studio Exclusive Gallery */
     .ss-tile {
@@ -4077,6 +4080,9 @@ textarea:-ms-input-placeholder {
 	.ss-mobile-menu-button {
 		display: block;
 		padding-right: 50px;
+		position:absolute;
+		top:70px;
+		left:0;
 	}
 	.main-navigation-container {
 		display: none;
@@ -4224,7 +4230,13 @@ textarea:-ms-input-placeholder {
 }
 
 @media screen and (max-width: 768px) {
-
+	.main-header .logo{
+		width:300px;
+	}
+	
+	#music .music-list{
+		width:100% !important;
+	}
 	/* Main */
 	.section-title {
 		width: 80%;
