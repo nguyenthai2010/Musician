@@ -64,14 +64,13 @@ a:hover{
   }
 }
 
-
 .credits{
   &.credits-1{
     .section-header-inner{
-      padding-top: 85px;
+      padding-top: 105px;
     }
     .section-header{
-      padding-bottom: 68px;
+      padding-bottom: 65px;
     }
     .row-1{
       padding-bottom: 75px;
@@ -97,7 +96,7 @@ a:hover{
     
   }
   .section-header-inner{
-    padding-top: 85px; 
+    padding-top: 110px; 
   }
   .ss-testimonial-item{
    padding:0; 
@@ -167,7 +166,6 @@ height: 26px;
   height: 100%;
   position: absolute;
   z-index: 1;
-  
 }
 .section-header{
   padding-bottom: 48px;
@@ -198,17 +196,8 @@ height: 26px;
   .col-6-2{
     margin-left: -10px;
   }
-  .respond-inputs{
-    input , textarea{
-      color:#9e884f;
-      font-family: "roboto_condensedregular";
-      font-size: 14px;
-    }
-  } 
   .contact-respond{
     margin-top:0;
-    width: 70%;
-    margin: 0 auto;
     h3.contact-reply-title{
        @include loveloblack(18px);
     }
@@ -259,11 +248,9 @@ height: 26px;
   }
   .contactform-response-output{
     padding: 0!important;
-    float: left;
-    margin-top: 0px !important;
-    margin-right: 48px!important;
-  }
-  .row-input{
+    float: right;
+    margin-top: 11px !important;
+    margin-right: 5px!important;
   }
 }
 
@@ -319,30 +306,8 @@ height: 26px;
         
       }
     }
-	
-	.row_sound.title{
-		&.audio{
-			cursor:pointer;
-			.col{
-				color:#fff;
-				height:23px;
-			}
-			
-			.col-2{
-				background: url(../images/credits/play.png) no-repeat left center;
-				padding-left: 35px;
-			}
-		}
-		
-		&.audio.active{
-			.col-2{
-				background: url(../images/credits/pause.png) no-repeat left center;
-				padding-left: 35px;
-			}			
-		}
-	}
-	
     .row_sound{
+      
       float:left;
       width: 100%;
       .col{
@@ -350,7 +315,8 @@ height: 26px;
        @include roboto_condensedregular(18px);
         &.col-1{
           width: 36px;
-          padding-bottom: 4px;
+          padding-top: 4px;
+            padding-bottom: 4px;
         }
         &.col-2{
           width: 358px;
@@ -518,7 +484,7 @@ height: 26px;
 }
 #credits{
   height: 0;
-overflow: hidden!important;
+overflow: hidden;
 padding:0!important;
 }
 .credit_select.hide{
@@ -556,39 +522,4 @@ padding:0!important;
     left: 34px;
     top: -14px;
   }
-}
-
-
-.slotholder .tp-bgimg.parallax{
-	background-attachment:fixed !important;
-	background-size:cover;
-}
-
-.slot{
-	display:none !important
-}
-
-.ss-home-slider {
-	width:100%;
-	height:100%;
-	min-height:500px;
-	overflow: hidden;
-	position: relative;
-	
-	ul{
-		position: relative;
-		width:100%;
-		height:100%;
-		min-height:500px;
-		visibility:visible;
-				
-		li {
-			position: absolute;
-			top:0;
-			left:0;
-			width:100%;
-			height:100%;
-			opacity:0;
-		}
-	}
 }

@@ -66,9 +66,7 @@
                                     <li><a href="#music">MUSIC</a></li>
                                     <li><a href="#contact">CONTACT</a></li>
                                 </ul>
-                                
-                            </nav>
-                            <div class="sound_head">
+                                <div class="sound_head">
                                 	<div id="jquery_jplayer_1" class="jp-jplayer"></div>
                                 	<div id="jp_container_1" class="jp-audio">
 						                <div class="jp-type-playlist">
@@ -107,6 +105,7 @@
 						                </div>
 						            </div>  
                                 </div>
+                            </nav>
                             <a href="#" class="ss-mobile-menu-button">
                                 <span class="icon-menu2" aria-hidden="true"></span>
                                 MENU

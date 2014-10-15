@@ -9,13 +9,12 @@
   
 }
 .sound_head{
-  position: absolute;
-  top: -40px;
-  right: 0;
-  width:250px;
-  
+  float: left;
+  margin-left: 13px;
+  margin-top: -34px;
+  margin-right: -24px;
   div.jp-audio{
-    width: 255px;
+   width: 255px;
     background: transparent;
     position: relative;
   }
@@ -91,33 +90,29 @@
   }
   .jp-control-box{
     float:left;
-    width: 100%;
-	position: relative;
-	padding-top: 40px;
+    width: 97%;
+position: relative;
   }
   .song_playing{
-    position:absolute;
-	top: 20px;
-	right: 0;
-	width: 460px;
-    
+    float: left;
+    margin-bottom: 7px;
     span{
-		float:right;
        @include roboto_condensedregular(16px);
        color:#999999;
        margin-left: 5px;
+       float:left;
     }
     .jp-title{
-		float:right;
       display: block!important;
       @include roboto_condensedregular(16px);
       color:#fff;
+      float:left;
       margin-left: 3px;
     }
     .jp-current-time{
-		float:right;
       @include roboto_condensedregular(16px);
       color:#fff;
+      float:left;
        margin-left: 3px;
        font-style: normal;
     }
