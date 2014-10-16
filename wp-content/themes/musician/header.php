@@ -23,7 +23,7 @@
 	<![endif]-->
 
     <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
-    <link href="css/all.css" rel="stylesheet" />
+    <link href="css/all.css?v1" rel="stylesheet" />
     <link href="plugin/css/jplayer.blue.monday.css" rel="stylesheet" />
     <link href="plugin/css/player.css" rel="stylesheet" />
     <link href="plugin/custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" />
