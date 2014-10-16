@@ -445,6 +445,7 @@ body.ss-home .main-header .header {
 	float: right;
 	padding-top: 12px;
 	padding-bottom: 6px;
+	padding-right: 240px;
 }
 .main-header .header ul li{
 	float: left;
@@ -455,7 +456,7 @@ body.ss-home .main-header .header {
 	margin: 0 20px 0 0;
 }
 .main-header .header ul li:last-child{
-	margin: 0 0 0 20px ;
+	
 }
 .main-header .header ul li .sub-menu {
 	position: absolute;
@@ -564,7 +565,7 @@ body.ss-no-sticky-main-nav .section-content-container {
 	margin-top: 0;
 }
 .main-header.ss-sticky.ss-on-scroll .header {
-	padding: 25px 0;
+	padding: 35px 0 15px 0;
 }
 /* Set the differance Header size on default and on oscroll */
 /* Allows you to easily change the Header size on scroll without using hard-coded JS */
@@ -572,7 +573,7 @@ body.ss-no-sticky-main-nav .section-content-container {
 	height: 12px;
 }
 .main-header.ss-sticky.ss-on-scroll .logo {
-	margin-top: -100px;
+	
 } 
 .main-header.ss-sticky.ss-on-scroll {
 	background-color: rgba(19, 57, 57, 0.8);
@@ -1409,7 +1410,10 @@ body.ss-no-sticky-main-nav .section-content-container {
 	-ms-transition: -ms-transform 0.8s ease-out;
 	-o-transition: -o-transform 0.8s ease-out;
 	transition: transform 0.8s ease-out;
+	padding-right:8px;
 }
+
+
 .portfolio-item:hover .portfolio-item-image img {
 	-webkit-transform: scale(1.3, 1.3) rotate(10deg);
 	-moz-transform: scale(1.3, 1.3) rotate(10deg);
@@ -4011,6 +4015,8 @@ textarea:-ms-input-placeholder {
     .portfolio-5col-nogutter .portfolio-item h3 a {
         font-size: 16px;
     }
+	
+	.main-navigation-container{display:block;}
 
 }
 @media only screen and (min-width: 768px) and (max-width: 970px) {
@@ -4032,6 +4038,7 @@ textarea:-ms-input-placeholder {
 	.section-header-inner {
 		width: 70%;
 	}
+	
 
 	/* Spnoy Studio Exclusive Gallery */
     .ss-tile {
@@ -4072,6 +4079,10 @@ textarea:-ms-input-placeholder {
 	
 	.ss-mobile-menu-button {
 		display: block;
+		padding-right: 50px;
+		position:absolute;
+		top:70px;
+		left:0;
 	}
 	.main-navigation-container {
 		display: none;
@@ -4219,7 +4230,13 @@ textarea:-ms-input-placeholder {
 }
 
 @media screen and (max-width: 768px) {
-
+	.main-header .logo{
+		width:300px;
+	}
+	
+	#music .music-list{
+		width:100% !important;
+	}
 	/* Main */
 	.section-title {
 		width: 80%;
