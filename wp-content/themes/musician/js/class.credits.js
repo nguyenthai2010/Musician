@@ -9,7 +9,7 @@ var credits = (function() {
 	}
 	
 	function initEvent(){
-		jQuery('.portfolio-item .portfolio-item-image a.chooseLink').on( 'click', function( e ) { 
+		jQuery('.portfolio-item .portfolio-item-image a.chooseLink').on( 'click', function( e ) {
 			loadcontentcredit($(this));
 			e.preventDefault();
 		});
@@ -18,7 +18,7 @@ var credits = (function() {
 	
 	function closeCredits(){
 		jQuery('#credits').animate({'height':'0','overflow':'hidden','padding':"0 !important"},300);
- 		jQuery( '#credits_ajax' ).html( ' ');
+ 		jQuery( '#credits_ajax' ).html('');
 	}
 	
 	function next($this){
