@@ -31,7 +31,6 @@ var credits = (function() {
 	
 	function loadcontentcredit($this){
 		//jQuery('.loading-credit').show();
-		
 		$this.parent().find('.loading-credit').show();
 		/** Prevent Default Behaviour */
 		
@@ -54,15 +53,12 @@ var credits = (function() {
 		.done(function( html ) {
 		    //var $ajax_response = $( data );
 			jQuery('.loading-credit').hide();
-			jQuery('#credits').css({'height':'auto','overflow':'inherit','padding-bottom':"110px!important"});
 			jQuery( '#credits_ajax' ).html( html );
+			jQuery('#credits').css({'height':'auto','overflow':'inherit','padding-bottom':"110px!important"});
 			jQuery('.credits .section-content').animate({'opacity':1},500);														
 			var offset = jQuery('#credits').offset().top;
-			jQuery('html, body').animate({
-				scrollTop: offset - 86
-			}, 500, function(){
-				//bAudios.playFileCredits();
-			});
+			jQuery('html, body').animate({scrollTop: offset - 86}, 500);
+
 		});			
 	}
 	// RETURN
