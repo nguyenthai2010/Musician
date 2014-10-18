@@ -24,26 +24,8 @@
         </ul>
     </nav>
 
-    <script src="js/jquery/jquery.js"></script>
-    <script src="js/jquery/jquery-migrate.min.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/underscore-min.js"></script>
-    <script src="js/bring.js"></script>
-    <script src="js/jquery.nav.js"></script>
-    <script src="js/jquery.scrollTo.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/skrollr.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    
-    <script src="js/contact-form-validate.js"></script>
-	<script src="js/jquery.jplayer.min.js"></script>
-	<script src="js/jplayer.playlist.js"></script>
-	<script src="js/class.audios.js"></script>
-    <script src="plugin/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/class.music.js"></script>
-    <script src="js/class.homepage.js"></script>
-    <script src="js/slick.js"></script>
-    <script src="js/class.credits.js"></script>
-    <script src="js/custom.js"></script>
+    <?php 
+		include('merge.php');
+	?>
 </body>
 </html>

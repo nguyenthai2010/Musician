@@ -32,22 +32,21 @@
 		if($domainName == "localhost"){
 			$str = '';
 			foreach ($array as $value) {
-				$str .= file_get_contents($value);
+				$str .= file_get_contents(get_template_directory().'/'.$value);
 			}
 			
-			if ($fp = fopen("all-src.js", "w")) {
+			if ($fp = fopen(get_template_directory().'/'."all-src.js", "w")) {
 				fputs( $fp, $str, strlen( $str ) );
 				fclose( $fp );
 				$error_msg = 'updated complete.';
 			} else {
 				$error_msg = "error update";
 			}	
-		
 			$min_documentRoot = substr(__FILE__, 0, -9);
-			exec('jsmin <"'.$min_documentRoot.'all-src.js" >"'.$min_documentRoot.'all.js"');
+			//exec('jsmin <"'.$min_documentRoot.'all-src.js" >"'.$min_documentRoot.'all.js"');
 		}
 ?>
-<script src="all.js"></script>
+<script src="all-src.js"></script>
 <?PHP			
 		
 	}
