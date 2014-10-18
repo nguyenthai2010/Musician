@@ -27,24 +27,15 @@
     <script src="js/jquery/jquery.js"></script>
     <script src="js/jquery/jquery-migrate.min.js"></script>
     <script src="js/jquery.tools.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/TweenMax.min.js"></script>
     <script src="js/jquery.hoverdir.js"></script>
     <script src="js/underscore-min.js"></script>
     <script src="js/bring.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific.popup.min.js"></script>
-    <script src="js/sly.min.js"></script>
     <script src="js/jquery.nav.js"></script>
     <script src="js/jquery.scrollTo.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/skrollr.min.js"></script>
     <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.themepunch.plugins.min.js"></script>
-    <script src="js/jquery.themepunch.revolution.min.js"></script>
-    <script src="js/jquery.fitvids.js"></script>
     
     <script src="js/contact-form-validate.js"></script>
 	<script src="js/jquery.jplayer.min.js"></script>

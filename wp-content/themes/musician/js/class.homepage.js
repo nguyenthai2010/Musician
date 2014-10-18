@@ -4,9 +4,11 @@ var clsHomepage = (function() {
 	$ = jQuery;
 	
 	var setting = {
+		time	:	null,
 		current	:	0,
 		total	:	0
 	}
+	
 	
 	
 	// INIT 
@@ -51,11 +53,17 @@ var clsHomepage = (function() {
 	}
 	
 	function ani(){
+		clearTimeout(setting.time);
+		
 		$('.ss-home-slider ul li').stop(true,false).animate({opacity:0}, 500);
 		$('.ss-home-slider ul li:eq('+ (setting.current) +')').stop(true,false).animate({opacity:1}, 500);
-
+		
 		$('#item-slider').html(setting.current + 1);
 		$('#total-slider').html(setting.total + 1);
+		
+		setting.time = setTimeout(function(){
+			next();
+		}, 5000);
 	}
 		
 	// RETURN
