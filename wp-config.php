@@ -77,8 +77,12 @@ if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
 
-define('WP_HOME','http://localhost/PHP/BLISS/www/YVES/Musician/sourcecode/BE');
-define('WP_SITEURL','http://localhost/PHP/BLISS/www/YVES/Musician/sourcecode/BE');
+$domainName =  isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] != "" ? $_SERVER['SERVER_NAME'] : "" ;
+if($domainName == "")
+	$domainName =  isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST'] != "" ? $_SERVER['HTTP_HOST'] : "" ;
+	
+define('WP_HOME','http://'.$domainName.'/PHP/BLISS/www/YVES/Musician/sourcecode/BE');
+define('WP_SITEURL','http://'.$domainName.'/PHP/BLISS/www/YVES/Musician/sourcecode/BE');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
