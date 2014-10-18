@@ -26,9 +26,7 @@
 
     <script src="js/jquery/jquery.js"></script>
     <script src="js/jquery/jquery-migrate.min.js"></script>
-    <script src="js/jquery.tools.min.js"></script>
     <script src="js/TweenMax.min.js"></script>
-    <script src="js/jquery.hoverdir.js"></script>
     <script src="js/underscore-min.js"></script>
     <script src="js/bring.js"></script>
     <script src="js/jquery.nav.js"></script>
