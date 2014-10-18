@@ -229,8 +229,9 @@
 
 
 	$('.uneven').slick({
+    	infinite: true,	
 	  slidesToShow: 5,
-	  slidesToScroll: 5,
+	  slidesToScroll: 1,
 	  responsive: [
 	    
 	    {
