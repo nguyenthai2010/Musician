@@ -3942,7 +3942,7 @@ jQuery(document).ready(function(){
 
 	$('.uneven').slick({
 	  slidesToShow: 5,
-	  slidesToScroll: 1,
+	  slidesToScroll: 5,
 	  responsive: [
 	    
 	    {
