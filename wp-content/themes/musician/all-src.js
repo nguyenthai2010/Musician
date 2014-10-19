@@ -3917,6 +3917,10 @@ jQuery(document).ready(function(){
 
 	if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent))) {
 	    _skrollr = skrollr.init({ forceHeight: false });
+		alert(1);
+	}
+	else{
+		alert(2);
 	}
 
 

@@ -41,7 +41,7 @@
 	<?php
 		if($iMobile){
 	?>
-	<meta name="viewport" content="width=550">
+	<meta name="viewport" content="width=640">
 	<?php }?>
 </head>
 

@@ -213,6 +213,10 @@
 	if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent))) {
 	    _skrollr = skrollr.init({ forceHeight: false });
 	}
+	else{
+		skrollr.init().destroy(); 
+		$('body').addClass('device');
+	}
 
 
     /*------------------------------------------------------------------*/

@@ -1,5 +1,5 @@
 <?PHP
-	$mergeJS = true;
+	$mergeJS = false;
 
 	$array = array(
 		"js/jquery/jquery.js",		

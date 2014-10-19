@@ -63,7 +63,7 @@ var clsHomepage = (function() {
 		
 		setting.time = setTimeout(function(){
 			next();
-		}, 5000);
+		}, 8000);
 	}
 		
 	// RETURN
