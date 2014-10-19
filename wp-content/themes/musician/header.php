@@ -37,7 +37,6 @@
 		var iPad = <?php echo $iPad == TRUE ? 'true':'false' ?>;
 		var iTablet = <?php echo $iTablet == TRUE ? 'true':'false' ?>;
 		var isDesktop = <?php echo $isDesktop == TRUE ? 'true':'false' ?>;
-		//alert(iMobile);
 	</script>
 	<?php
 		if($iMobile){
@@ -46,7 +45,7 @@
 	<?php }?>
 </head>
 
-<body id="skrollr-body"  class="ss-home">
+<body id="skrollr-body"  class="ss-home<?php echo $iPad == TRUE ? ' ipad':'' ?>">
 
     <div id="wrapper">
         <header class="main-header">
