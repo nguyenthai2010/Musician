@@ -1,4 +1,4 @@
-<section id="credits-2" class="credits last-works dark-color" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -50px;" data-bottom-top="background-position: 50% 50px;" style="background: url(images/credits/credits_bg.jpg) no-repeat center center; color: #fff;background-size: cover; background-attachment:fixed; padding-top: 0px; padding-bottom: 120px">
+<section id="credits-2" class="bgfullscreen credits last-works dark-color" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -50px;" data-bottom-top="background-position: 50% 50px;" style="background: url(images/credits/credits_bg.jpg) no-repeat center center; color: #fff;background-size: cover; background-attachment:fixed; padding-top: 0px; padding-bottom: 120px">
     <div class="bgdotHome"></div>
     <div class="container">
 
