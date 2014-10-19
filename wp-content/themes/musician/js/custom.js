@@ -34,12 +34,6 @@
 	    one_page_scroll_speed = 600;
 
 
-	function update_viewport_vars() {
-		viewport_width = $(window).width();
-		viewport_height = $(window).height();
-	}
-	var _update_viewport_vars = _.throttle(update_viewport_vars, 100);
-	$window.resize(_update_viewport_vars);
 
 	var getCssFromClass = function (prop, fromClass) {
 		var $inspector = $("<div>").css('display', 'none').addClass(fromClass);
@@ -255,46 +249,7 @@
 	  ]
 	});
 
-    /*------------------------------------------------------------------*/
-	/*------------------------------------------------------------------*/
-	
-	$window.load( function() {
-
-		/*------------------------------------------------------------------*/
-		/*	Set up heading lines
-		/*------------------------------------------------------------------*/
-
-		function initSectionHeading() {
-			$('.section-heading-left-line,.section-heading-right-line').css({
-				width: function() {
-					var parent_width = $(this).parent().width();
-					var heading_width = $(this).siblings('.section-heading').children('span').outerWidth(true);
-					if ( heading_width > (parent_width - 60) ) {
-						$(this).siblings('.section-heading').css('width', parent_width - 60);
-					}
-					heading_width = $(this).siblings('.section-heading').children('span').outerWidth(true);
-
-					return ((parent_width - heading_width) / 2) - 20;
-				}
-			});
-		}
-		initSectionHeading();
-		var _initSectionHeading = _.throttle( function() {
-			initSectionHeading();
-		}, 100);
-		$window.resize(_initSectionHeading);	
-
-
-		/*------------------------------------------------------------------*/
-		/*	Refresh necessary plugins
-		/*------------------------------------------------------------------*/
-
-		_skrollr.refresh();
-		$.waypoints('refresh');
-
-	});
-
-
+    
     /*---------------------------------------------------------------------------------*/
     /*	Revealing Effects Init
 	/*---------------------------------------------------------------------------------*/

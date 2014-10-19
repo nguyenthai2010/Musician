@@ -13,7 +13,6 @@ var credits = (function() {
 			loadcontentcredit($(this));
 			e.preventDefault();
 		});
-		
 	}
 	
 	function closeCredits(){
