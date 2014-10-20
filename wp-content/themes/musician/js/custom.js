@@ -176,7 +176,38 @@
 	});
 
 
+    /*------------------------------------------------------------------*/
+	/*	Sticky Header
+	/*------------------------------------------------------------------*/
+	
+	function sticky_header_off() {
+	    if (sticky_header_switch == 0) {  // If sticky header switch was off
+	        $header.addClass('ss-no-sticky');
+	        $body.addClass('ss-no-sticky-main-nav');
+	    } else {
+	        $header.addClass('ss-sticky');
+	        $body.addClass('ss-sticky-main-nav');
+	    }
+	}
+	sticky_header_off();
 
+	function handle_sticky_header() {
+	    var window_scroll = $(window).scrollTop(),
+		sticky_point = 50;
+	    if (!is_homepage) {
+	        sticky_point = 1;
+	    }
+	    if (window_scroll > sticky_point) {
+	        $header.addClass('ss-on-scroll');
+	    } else {
+	        $header.removeClass('ss-on-scroll');
+	    }
+	}
+	var _handle_sticky_header = _.throttle(handle_sticky_header, 100);
+	if (sticky_header_switch) {
+	    $(window).scroll(_handle_sticky_header);
+		handle_sticky_header();
+	}
 
 	/*---------------------------------------------------------------------------------*/
     /*	Paralalx Init
@@ -187,7 +218,6 @@
 	}
 	else{
 		$('body').addClass('device');
-		skrollr.init().destroy();
 	}
 
 
