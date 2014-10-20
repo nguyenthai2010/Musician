@@ -3939,10 +3939,12 @@ jQuery(document).ready(function(){
 	    }
 	});
 
-
+alert(123);
 	$('.uneven').slick({
 	  slidesToShow: 5,
 	  slidesToScroll: 5,
+	  swipe:false,
+	  draggable:false,
 	  responsive: [
 	    
 	    {
