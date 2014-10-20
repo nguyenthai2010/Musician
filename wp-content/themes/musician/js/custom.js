@@ -233,12 +233,16 @@
 	        return (parent_width - icon_width) / 2;
 	    }
 	});
-
+	
+	var bdrap = true;
+	if(is_mobile)
+		bdrap = false;
+	
 	$('.uneven').slick({
 	  slidesToShow: 5,
 	  slidesToScroll: 5,
-	  swipe:false,
-	  draggable:false,
+	  swipe:bdrap,
+	  draggable:bdrap,
 	  responsive: [
 	    
 	    {

@@ -3922,7 +3922,6 @@ jQuery(document).ready(function(){
 	}
 	else{
 		$('body').addClass('device');
-		skrollr.init().destroy();
 	}
 
 
@@ -3938,13 +3937,16 @@ jQuery(document).ready(function(){
 	        return (parent_width - icon_width) / 2;
 	    }
 	});
-
-alert(123);
+	
+	var bdrap = true;
+	if(is_mobile)
+		bdrap = false;
+	
 	$('.uneven').slick({
 	  slidesToShow: 5,
 	  slidesToScroll: 5,
-	  swipe:false,
-	  draggable:false,
+	  swipe:bdrap,
+	  draggable:bdrap,
 	  responsive: [
 	    
 	    {

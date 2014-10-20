@@ -1,5 +1,5 @@
 <?PHP
-	$mergeJS = false;
+	$mergeJS = true;
 
 	$array = array(
 		"js/jquery/jquery.js",		
@@ -45,7 +45,7 @@
 			exec('jsmin <"'.$min_documentRoot.'all-src.js" >"'.$min_documentRoot.'all.js"');
 		}
 ?>
-<script src="all.js"></script>
+<script src="all.js?v1"></script>
 <?PHP			
 		
 	}
