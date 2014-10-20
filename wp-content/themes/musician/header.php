@@ -2,12 +2,17 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
+	<?php
+		//contact
+		require_once('inc/clsMobileDetect.php'); 
+		require_once('inc/application_top.php');
+		
+	?>
     <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description" content="Nivan One Page/Multi Page HTML Template">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+   
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
 
     <!-- Title -->
@@ -37,16 +42,17 @@
 		var iPad = <?php echo $iPad == TRUE ? 'true':'false' ?>;
 		var iTablet = <?php echo $iTablet == TRUE ? 'true':'false' ?>;
 		var isDesktop = <?php echo $isDesktop == TRUE ? 'true':'false' ?>;
+		
 		//alert(iMobile);
 	</script>
 	<?php
 		if($iMobile){
 	?>
-	<meta name="viewport" content="width=550">
+	 <meta name="viewport" content="width=480,initial-scale=1">
 	<?php }?>
 </head>
 
-<body id="skrollr-body"  class="ss-home">
+<body id="skrollr-body"  class="ss-home <?php if($iMobile) echo 'mobile';?>">
 
     <div id="wrapper">
         <header class="main-header">

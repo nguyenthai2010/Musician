@@ -6,10 +6,11 @@ var credits = (function() {
 	// INIT 
 	function init(){
 		initEvent();
+		
 	}
 	
 	function initEvent(){
-		jQuery('.portfolio-item .portfolio-item-image a.chooseLink').on( 'click', function( e ) { 
+		jQuery('.portfolio-item .portfolio-item-image a.chooseLink').on( 'click touchstart', function( e ) { 
 			loadcontentcredit($(this));
 			e.preventDefault();
 		});
@@ -21,12 +22,12 @@ var credits = (function() {
  		jQuery( '#credits_ajax' ).html( ' ');
 	}
 	
-	function next($this){
-		loadcontentcredit($this);
+	function next(){
+		
 	}
 	
-	function prev($this){
-		loadcontentcredit($this);
+	function prev(){
+		
 	}
 	
 	function loadcontentcredit($this){
@@ -62,6 +63,14 @@ var credits = (function() {
 				scrollTop: offset - 86
 			}, 500, function(){
 				//bAudios.playFileCredits();
+			});
+			jQuery('a.next_credits').on( 'click touchstart', function( e ) {
+				loadcontentcredit($(this));
+				e.preventDefault();
+			});
+			jQuery('a.prev_credits').on( 'click touchstart', function( e ) {
+				loadcontentcredit($(this));
+				e.preventDefault();
 			});
 		});			
 	}

@@ -4015,6 +4015,8 @@ textarea:-ms-input-placeholder {
     .portfolio-5col-nogutter .portfolio-item h3 a {
         font-size: 16px;
     }
+    .contact .form-submit .submit{
+    }
 
 }
 @media only screen and (min-width: 768px) and (max-width: 970px) {
@@ -4025,9 +4027,7 @@ textarea:-ms-input-placeholder {
     .credits .col-6-2{
       width: 100%;
     }
-    .contact .form-submit .submit{
-      margin-left:0!important;
-    }
+    
 }
 
 @media screen and (max-width: 1200px) {
@@ -4359,9 +4359,7 @@ textarea:-ms-input-placeholder {
     .contact .contact-respond{
       padding-left: 10px;
     }
-    .contact .form-submit .submit{
-      margin-left:0;
-    }
+   
     .contact .contact-info .box-icon-content.small{
       margin-left:0;
     }

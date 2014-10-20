@@ -123,6 +123,9 @@ height: 26px;
   .portfolio-item{
     width: 20%;
     padding:0;
+    a.chooseLink{
+      display: block;
+    }
   }
   .portfolio-item:hover .portfolio-item-image img{
    -webkit-transform: scale(1, 1) rotate(0deg);
@@ -591,4 +594,43 @@ padding:0!important;
 			opacity:0;
 		}
 	}
+}
+@media only screen and (min-width: 0) and (max-width: 767px) {
+    body,.main-header{
+      min-width: 480px;
+    }
+    .ss-mobile-menu-button{
+      margin-top: 3px;
+    }
+    #music .music-list{
+      width: 465px;
+    }
+    .main-header .logo{
+      width: 330px;
+      img{
+        
+      }
+    }
+    .section-heading{
+      font-size: 32px;
+    }
+    .section-header-inner{
+      width: 100%;
+    }
+    .section-heading-left-tick,.section-heading-right-tick{
+      top: -6px;
+    }
+    .slick-prev{
+      top: 105%;left: 40%;
+    }
+    .slick-next{
+      top: 105%;left:52%;
+    }
+    .contact .contact-respond{
+      width: 95%;
+      padding-left: 0;
+    }
+    .contact .row-input{
+      width: 100%;
+    }
 }

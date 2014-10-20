@@ -281,21 +281,27 @@
 	    }
 	});
 
-
+	var drag = true;
+	
+	if(iMobile){
+		drag = false;
+	}
+	
 	$('.uneven').slick({
 	  slidesToShow: 5,
 	  slidesToScroll: 1,
+	  draggable: drag,
 	  responsive: [
 	    
 	    {
 	      breakpoint: 767,
 	      settings: {
-	        slidesToShow: 3,
+	        slidesToShow: 2,
 	        slidesToScroll:1
 	      }
 	    },
 	    {
-	      breakpoint: 480,
+	      breakpoint: 550,
 	      settings: {
 	        slidesToShow: 1,
 	        slidesToScroll: 1
@@ -307,65 +313,7 @@
 	/*------------------------------------------------------------------
 	------------------------------------------------------------------*/
 
-	var testimonial_sliders = [],
-	$testimonial_slider_frame = $(".ss-testimonial-frame"),
-	$testimonial_item = $('.ss-testimonial-item');
-
-	$testimonial_slider_frame.each( function(index) {
-		testimonial_sliders[index] = new Sly( $(this), {
-			horizontal: 1,
-			itemNav: 'forceCentered',
-			smart: 1,
-			scrollBy: 0,
-			dragHandle: 1,
-			dynamicHandle: 1,
-			clickBar: 1,
-			speed: 600,
-			mouseDragging: 1,
-			touchDragging: 1,
-			releaseSwing:  1,
-			swingSpeed: 0.1,
-			elasticBounds: 1,
-			cycleBy: 'items',
-			cycleInterval: 0,
-			pauseOnHover:  1, 
-			startPaused:   0,
-			activateMiddle: 1,
-			next: $('.ss-next-testimonial'),
-			prev: $('.ss-prev-testimonial'),
-		}).init();
-		$testimonial_item.css({
-			width: function() {
-				return $(this).closest('.ss-testimonial-frame').width()
-			}
-		});
-		$testimonial_slider_frame.each( function(index) {
-			testimonial_sliders[index].reload();
-		});
-	});
-
-	var testimonial_sliders_reload = _.throttle( function() {
-		$testimonial_item.css({
-			width: function() {
-				return $(this).closest('.ss-testimonial-frame').width()
-			}
-		});
-		$testimonial_slider_frame.each( function(index) {
-			testimonial_sliders[index].reload();
-		});
-	}, 100);
 	
-	$window.resize(testimonial_sliders_reload);
-
-	$('.ss-testimonial-frame').mousedown( function() {
-		$(this).css("cursor","-webkit-grabbing");
-		$(this).css("cursor","-moz-grabbing");
-	}).mouseup(function() {
-		$(this).css("cursor","-webkit-grab");
-		$(this).css("cursor","-moz-grab");
-	});
-
-
     /*------------------------------------------------------------------*/
 	/*------------------------------------------------------------------*/
 	

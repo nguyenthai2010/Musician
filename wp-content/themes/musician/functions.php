@@ -38,12 +38,6 @@
 	//change label post
 	include 'inc/change_label_post.php'; 
 	
-	
-	//contact
-	include 'inc/clsMobileDetect.php'; 
-	include 'inc/application_top.php';
-	
-	
 	//select music
 	include 'inc/select-music.php';
 	
