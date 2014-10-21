@@ -216,7 +216,7 @@ height: 26px;
     }
   }
   .row-input{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     float: left;
     width: 100%;
     margin-top: 0px;
@@ -260,10 +260,10 @@ height: 26px;
     }
   }
   .contactform-response-output{
-    padding: 0!important;
-    float: left;
-    margin-top: 0px !important;
-    margin-right: 48px!important;
+    padding: 0 !important;
+float: right;
+margin-top: -27px !important;
+margin-right: 48px !important;
   }
   .row-input{
   }
@@ -568,7 +568,11 @@ padding:0!important;
     top: -14px;
   }
 }
-
+.contact {
+  .section-header{
+    padding-bottom: 38px;
+  }
+}
 
 .slotholder .tp-bgimg.parallax{
 	background-attachment:fixed !important;
