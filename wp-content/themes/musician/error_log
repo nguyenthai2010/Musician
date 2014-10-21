@@ -1,0 +1,1 @@
+[03-Oct-2014 08:43:56] PHP Fatal error:  Call to undefined function  get_header() in /home5/taichinh/public_html/musician/wp-content/themes/musician/index.php on line 1

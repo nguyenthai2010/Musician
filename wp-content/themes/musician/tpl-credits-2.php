@@ -1,5 +1,5 @@
-<section id="credits-2" class="credits last-works dark-color" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -50px;" data-bottom-top="background-position: 50% 50px;" style="background: url(images/credits/credits_bg.jpg) no-repeat center center; color: #fff;background-size: cover; background-attachment:fixed; padding-top: 0px; padding-bottom: 120px">
-    <div class="bgdot"></div>
+<section id="credits-2" class="bgfullscreen credits last-works dark-color" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -50px;" data-bottom-top="background-position: 50% 50px;" style="background: url(images/credits/credits_bg.jpg) no-repeat center center; color: #fff;background-size: cover; background-attachment:fixed; padding-top: 0px; padding-bottom: 120px">
+    <div class="bgdotHome"></div>
     <div class="container">
 
         <div class="row">
@@ -33,8 +33,6 @@
 	                	$img = wp_get_attachment_image( get_post_thumbnail_id($credit_2->ID),'medium' );
 						
 						$j++;
-						
-						
                 ?>
 			    <div class="portfolio-item video">
 			        <div class="inner-container">

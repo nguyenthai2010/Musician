@@ -10,16 +10,16 @@ var credits = (function() {
 	}
 	
 	function initEvent(){
+
 		jQuery('.portfolio-item .portfolio-item-image a.chooseLink').on( 'click touchstart', function( e ) { 
 			loadcontentcredit($(this));
 			e.preventDefault();
 		});
-		
 	}
 	
 	function closeCredits(){
 		jQuery('#credits').animate({'height':'0','overflow':'hidden','padding':"0 !important"},300);
- 		jQuery( '#credits_ajax' ).html( ' ');
+ 		jQuery( '#credits_ajax' ).html('');
 	}
 	
 	function next(){
@@ -32,7 +32,6 @@ var credits = (function() {
 	
 	function loadcontentcredit($this){
 		//jQuery('.loading-credit').show();
-		
 		$this.parent().find('.loading-credit').show();
 		/** Prevent Default Behaviour */
 		
@@ -55,8 +54,8 @@ var credits = (function() {
 		.done(function( html ) {
 		    //var $ajax_response = $( data );
 			jQuery('.loading-credit').hide();
-			jQuery('#credits').css({'height':'auto','overflow':'inherit','padding-bottom':"110px!important"});
 			jQuery( '#credits_ajax' ).html( html );
+			jQuery('#credits').css({'height':'auto','overflow':'inherit','padding-bottom':"110px!important"});
 			jQuery('.credits .section-content').animate({'opacity':1},500);														
 			var offset = jQuery('#credits').offset().top;
 			jQuery('html, body').animate({
@@ -72,6 +71,8 @@ var credits = (function() {
 				loadcontentcredit($(this));
 				e.preventDefault();
 			});
+
+			jQuery('html, body').animate({scrollTop: offset - 86}, 500);
 		});			
 	}
 	// RETURN

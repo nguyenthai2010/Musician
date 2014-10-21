@@ -216,57 +216,10 @@
 	if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent))) {
 	    _skrollr = skrollr.init({ forceHeight: false });
 	}
+	else{
+		$('body').addClass('device');
+	}
 
-
-    /*------------------------------------------------------------------*/
-    /* Home Slider
-    /*------------------------------------------------------------------*/
-	
-	/*if ($(".ss-home-slider").length > 0) {
-	    $(".ss-home-slider").height(viewport_height);
-	    $.waypoints('refresh');
-	    
-	    var $home_rev_slider = $(".ss-home-slider");
-		
-	    // When Images are loaded
-	    var imageLoader = imagesLoaded($home_rev_slider);
-	    var revapi;
-	    imageLoader.on('always', function (instance) {
-	        revapi = $home_rev_slider.revolution({
-	            delay: 5000,
-	            onHoverStop: "off",
-	            hideTimerBar:"on" ,
-	            navigationType: "none",
-	            
-	            fullWidth: "off",
-	            fullScreen: "on",
-	            fullScreenAlignForce: "on",
-	        });
-			
-	        revapi.bind("revolution.slide.onchange",function (e,data) {
-				jQuery('#item-slider').html(data.slideIndex);
-				jQuery('#total-slider').html(revapi.revmaxslide());
-			});
-			
-			revapi.bind("revolution.slide.onloaded",function (e,data) {
-				$('.slotholder .tp-bgimg').each(function(index, element) {
-					$(this).attr('data-center', 'background-position: 50% 0px;');    
-					$(this).attr('data-top-bottom', 'background-position: 50% -50px;');    
-					$(this).attr('data-bottom-top', 'background-position: 50% 50px;');    
-					$(this).addClass('parallax');
-					_skrollr.refresh();
-                });
-				
-			});
-	    });
-	   
-	}*/
-
-    /*------------------------------------------------------------------*/
-    /* Fit Videos
-    /*------------------------------------------------------------------*/
-
-	$("body").fitVids();
 
 
     /*------------------------------------------------------------------*/
@@ -281,16 +234,16 @@
 	    }
 	});
 
-	var drag = true;
 	
-	if(iMobile){
-		drag = false;
-	}
+	var bdrap = true;
+	if(is_mobile)
+		bdrap = false;
 	
 	$('.uneven').slick({
 	  slidesToShow: 5,
-	  slidesToScroll: 1,
-	  draggable: drag,
+	  slidesToScroll: 5,
+	  swipe:bdrap,
+	  draggable:bdrap,
 	  responsive: [
 	    
 	    {

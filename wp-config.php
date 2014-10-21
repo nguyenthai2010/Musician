@@ -22,7 +22,7 @@ define('DB_NAME', 'musican_db');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'admin');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
