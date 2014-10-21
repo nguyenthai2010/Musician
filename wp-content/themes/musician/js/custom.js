@@ -79,7 +79,7 @@
 			currentClass: 'current_page_item',
 			changeHash: false,
 			scrollSpeed: one_page_scroll_speed,
-			scrollOffset: $header.height() - 24,
+			scrollOffset: $header.height() - 23,
 			scrollThreshold: 0.5,
 			filter: ':not(.external)',
 			easing: "easeOutSine",
