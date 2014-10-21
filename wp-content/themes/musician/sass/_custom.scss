@@ -498,15 +498,23 @@ height: 26px;
   background: #fff;
   opacity: 0.3; 
   }
-  
-  img{
-    position: relative;
+  span{
+   position: relative;
     z-index: 100;
     display: table;
     margin: 0 auto;
     top: 50%;
-    width: 32px!important;
-    height: 32px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  img{
+    position: absolute;
+    width:24px!important;
+   
+    top:0;
+    left:0;
+    padding-right: 0!important;
   }
 }
 .credits_controls{
