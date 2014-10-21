@@ -2,7 +2,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
+	<?php
+		//contact
+		require_once 'inc/clsMobileDetect.php'; 
+		require_once 'inc/application_top.php';
+		
+	?>
     <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -40,7 +45,7 @@
 	<?php
 		if($iMobile){
 	?>
-	<meta name="viewport" content="width=640">
+	<meta name="viewport" content="width=480">
 	<?php }?>
 </head>
 

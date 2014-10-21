@@ -3649,12 +3649,12 @@ var credits = (function() {
  		jQuery( '#credits_ajax' ).html('');
 	}
 	
-	function next($this){
-		loadcontentcredit($this);
+	function next(){
+		//loadcontentcredit($this);
 	}
 	
-	function prev($this){
-		loadcontentcredit($this);
+	function prev(){
+		//loadcontentcredit($this);
 	}
 	
 	function loadcontentcredit($this){
@@ -3685,8 +3685,16 @@ var credits = (function() {
 			jQuery('#credits').css({'height':'auto','overflow':'inherit','padding-bottom':"110px!important"});
 			jQuery('.credits .section-content').animate({'opacity':1},500);														
 			var offset = jQuery('#credits').offset().top;
-			jQuery('html, body').animate({scrollTop: offset - 86}, 500);
+			jQuery('a.next_credits').on( 'click', function( e ) {
+				loadcontentcredit($(this));
+				e.preventDefault();
+			});
+			jQuery('a.prev_credits').on( 'click', function( e ) {
+				loadcontentcredit($(this));
+				e.preventDefault();
+			});
 
+			jQuery('html, body').animate({scrollTop: offset - 86}, 500);
 		});			
 	}
 	// RETURN
@@ -3959,68 +3967,7 @@ jQuery(document).ready(function(){
 	  ]
 	});
 
-	/*------------------------------------------------------------------
-	------------------------------------------------------------------*/
-
-	var testimonial_sliders = [],
-	$testimonial_slider_frame = $(".ss-testimonial-frame"),
-	$testimonial_item = $('.ss-testimonial-item');
-
-	$testimonial_slider_frame.each( function(index) {
-		testimonial_sliders[index] = new Sly( $(this), {
-			horizontal: 1,
-			itemNav: 'forceCentered',
-			smart: 1,
-			scrollBy: 0,
-			dragHandle: 1,
-			dynamicHandle: 1,
-			clickBar: 1,
-			speed: 600,
-			mouseDragging: 1,
-			touchDragging: 1,
-			releaseSwing:  1,
-			swingSpeed: 0.1,
-			elasticBounds: 1,
-			cycleBy: 'items',
-			cycleInterval: 0,
-			pauseOnHover:  1, 
-			startPaused:   0,
-			activateMiddle: 1,
-			next: $('.ss-next-testimonial'),
-			prev: $('.ss-prev-testimonial'),
-		}).init();
-		$testimonial_item.css({
-			width: function() {
-				return $(this).closest('.ss-testimonial-frame').width()
-			}
-		});
-		$testimonial_slider_frame.each( function(index) {
-			testimonial_sliders[index].reload();
-		});
-	});
-
-	var testimonial_sliders_reload = _.throttle( function() {
-		$testimonial_item.css({
-			width: function() {
-				return $(this).closest('.ss-testimonial-frame').width()
-			}
-		});
-		$testimonial_slider_frame.each( function(index) {
-			testimonial_sliders[index].reload();
-		});
-	}, 100);
 	
-	$window.resize(testimonial_sliders_reload);
-
-	$('.ss-testimonial-frame').mousedown( function() {
-		$(this).css("cursor","-webkit-grabbing");
-		$(this).css("cursor","-moz-grabbing");
-	}).mouseup(function() {
-		$(this).css("cursor","-webkit-grab");
-		$(this).css("cursor","-moz-grab");
-	});
-
-
     /*------------------------------------------------------------------*/
 	/*------------------------------------------------------------------*/
 	

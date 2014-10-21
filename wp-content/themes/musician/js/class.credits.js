@@ -20,12 +20,12 @@ var credits = (function() {
  		jQuery( '#credits_ajax' ).html('');
 	}
 	
-	function next($this){
-		loadcontentcredit($this);
+	function next(){
+		//loadcontentcredit($this);
 	}
 	
-	function prev($this){
-		loadcontentcredit($this);
+	function prev(){
+		//loadcontentcredit($this);
 	}
 	
 	function loadcontentcredit($this){
@@ -56,8 +56,16 @@ var credits = (function() {
 			jQuery('#credits').css({'height':'auto','overflow':'inherit','padding-bottom':"110px!important"});
 			jQuery('.credits .section-content').animate({'opacity':1},500);														
 			var offset = jQuery('#credits').offset().top;
-			jQuery('html, body').animate({scrollTop: offset - 86}, 500);
+			jQuery('a.next_credits').on( 'click', function( e ) {
+				loadcontentcredit($(this));
+				e.preventDefault();
+			});
+			jQuery('a.prev_credits').on( 'click', function( e ) {
+				loadcontentcredit($(this));
+				e.preventDefault();
+			});
 
+			jQuery('html, body').animate({scrollTop: offset - 86}, 500);
 		});			
 	}
 	// RETURN
