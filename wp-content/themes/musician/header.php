@@ -12,6 +12,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description" content="">
+    <?php echo $iMobile == TRUE ? '<meta name="viewport" content="width=320;" />':'' ?>
+    <?php echo $iPad == TRUE ? '<meta name="viewport" content="width=device-width, initial-scale=1">':'' ?>
+    
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
 
     <!-- Title -->
@@ -42,11 +45,7 @@
 		var iTablet = <?php echo $iTablet == TRUE ? 'true':'false' ?>;
 		var isDesktop = <?php echo $isDesktop == TRUE ? 'true':'false' ?>;
 	</script>
-	<?php
-		if($iMobile){
-	?>
-	<meta name="viewport" content="width=480">
-	<?php }?>
+	
 </head>
 
 <body id="skrollr-body"  class="ss-home<?php echo $iPad == TRUE ? ' ipad':'' ?>">
@@ -69,9 +68,7 @@
                                     <li><a href="#music">MUSIC</a></li>
                                     <li><a href="#contact">CONTACT</a></li>
                                 </ul>
-                                
-                            </nav>
-								<div class="sound_head">
+                                <div class="sound_head">
                                 	<div id="jquery_jplayer_1" class="jp-jplayer"></div>
                                 	<div id="jp_container_1" class="jp-audio">
 						                <div class="jp-type-playlist">
@@ -109,7 +106,9 @@
 						                    
 						                </div>
 						            </div>  
-                                </div>                            
+                                </div>
+                            </nav>
+								                            
                             <a href="#" class="ss-mobile-menu-button">
                                 <span class="icon-menu2" aria-hidden="true"></span>
                                 MENU

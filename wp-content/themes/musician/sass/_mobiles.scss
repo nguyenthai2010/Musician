@@ -10,4 +10,13 @@
 	.main-header .header {
 		
 	}
+	
+	.bgdotHome,.tp-rightarrow.default, .tp-leftarrow.default, .ss-box-total{display:none !important;}
+
+    .main-header.ss-sticky.ss-on-scroll .header{
+      padding: 15px 0 15px 0 !important;
+    }
+    .main-header .header{
+      padding-top: 15px !important;
+    }	
 }

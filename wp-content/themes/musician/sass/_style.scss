@@ -4078,13 +4078,12 @@ textarea:-ms-input-placeholder {
 }
 
 @media screen and (max-width: 992px) {
-	
 	.ss-mobile-menu-button {
 		display: block;
 		padding-right: 50px;
 		position:absolute;
-		top:70px;
-		left:0;
+		top:0px;
+		right:15px;
 	}
 	.main-navigation-container {
 		display: none;
