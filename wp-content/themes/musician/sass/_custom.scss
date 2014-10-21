@@ -594,7 +594,59 @@ padding:0!important;
 		}
 	}
 }
-
+@media only screen and (min-width: 0) and (max-width: 767px) {
+    body,.main-header{
+      min-width: 480px;
+    }
+    .ss-mobile-menu-button{
+      margin-top: 3px;
+    }
+    #music .music-list{
+      width: 465px;
+    }
+    .main-header .logo{
+      width: 330px;
+      img{
+        
+      }
+    }
+    .contact .form-submit .submit{
+      margin-left: 0;
+    }
+    .section-heading{
+      font-size: 32px;
+    }
+    .section-header-inner{
+      width: 100%;
+    }
+    .section-heading-left-tick,.section-heading-right-tick{
+      top: -6px;
+    }
+    .slick-prev{
+      top: 105%;left: 38%;
+    }
+    .slick-next{
+      top: 105%;left:51%;
+    }
+    .contact .contact-respond{
+      width: 95%;
+      padding-left: 0;
+    }
+    .contact .row-input{
+      width: 100%;
+    }
+    .main-header .header{
+      padding-top: 25px;
+    }
+    .main-header.ss-sticky.ss-on-scroll .header{
+      padding: 15px 0 15px 0;
+    }
+    .portfolio-item .inner-container{
+      width: 60%;
+      margin: 0 auto;
+    }
+ 
+}
 @media screen and (max-width: 768px) {
 	.sound_head, .section-heading-left-tick, .section-heading-right-tick {
 		display:none;
@@ -604,5 +656,6 @@ padding:0!important;
 		top: 0;
 		left: auto;
 		right: 15px;
+		padding-right: 15px;
 	}
 }
