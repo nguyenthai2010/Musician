@@ -56,6 +56,7 @@ body {
 	color: #fff;
 	direction: ltr;
 	font-size: 100%;
+	overflow-x:hidden;
 }
 a {
 	text-decoration: none;
@@ -1404,6 +1405,7 @@ body.ss-no-sticky-main-nav .section-content-container {
 .portfolio-item .portfolio-item-image img{
 	width: 100%;
 }
+.chooseLink{display:block;}
 .portfolio-item .portfolio-item-image img {
 	-webkit-transition: -webkit-transform 0.8s ease-out;
 	-moz-transition: -moz-transform 0.8s ease-out;
@@ -4015,8 +4017,8 @@ textarea:-ms-input-placeholder {
     .portfolio-5col-nogutter .portfolio-item h3 a {
         font-size: 16px;
     }
-    .contact .form-submit .submit{
-    }
+	
+	.main-navigation-container{display:block;}
 
 }
 @media only screen and (min-width: 768px) and (max-width: 970px) {
@@ -4027,7 +4029,9 @@ textarea:-ms-input-placeholder {
     .credits .col-6-2{
       width: 100%;
     }
-    
+    .contact .form-submit .submit{
+      margin-left:0!important;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -4036,6 +4040,7 @@ textarea:-ms-input-placeholder {
 	.section-header-inner {
 		width: 70%;
 	}
+	
 
 	/* Spnoy Studio Exclusive Gallery */
     .ss-tile {
@@ -4076,6 +4081,10 @@ textarea:-ms-input-placeholder {
 	
 	.ss-mobile-menu-button {
 		display: block;
+		padding-right: 50px;
+		position:absolute;
+		top:70px;
+		left:0;
 	}
 	.main-navigation-container {
 		display: none;
@@ -4223,7 +4232,13 @@ textarea:-ms-input-placeholder {
 }
 
 @media screen and (max-width: 768px) {
-
+	.main-header .logo{
+		width:300px;
+	}
+	
+	#music .music-list{
+		width:100% !important;
+	}
 	/* Main */
 	.section-title {
 		width: 80%;
@@ -4359,7 +4374,9 @@ textarea:-ms-input-placeholder {
     .contact .contact-respond{
       padding-left: 10px;
     }
-   
+    .contact .form-submit .submit{
+      margin-left:0;
+    }
     .contact .contact-info .box-icon-content.small{
       margin-left:0;
     }

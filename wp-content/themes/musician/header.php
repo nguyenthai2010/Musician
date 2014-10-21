@@ -2,17 +2,11 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<?php
-		//contact
-		require_once('inc/clsMobileDetect.php'); 
-		require_once('inc/application_top.php');
-		
-	?>
+
     <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Nivan One Page/Multi Page HTML Template">
-   
+    <meta name="description" content="">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
 
     <!-- Title -->
@@ -28,7 +22,7 @@
 	<![endif]-->
 
     <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
-    <link href="css/all.css" rel="stylesheet" />
+    <link href="css/all.css?v1" rel="stylesheet" />
     <link href="plugin/css/jplayer.blue.monday.css" rel="stylesheet" />
     <link href="plugin/css/player.css" rel="stylesheet" />
     <link href="plugin/custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" />
@@ -42,17 +36,15 @@
 		var iPad = <?php echo $iPad == TRUE ? 'true':'false' ?>;
 		var iTablet = <?php echo $iTablet == TRUE ? 'true':'false' ?>;
 		var isDesktop = <?php echo $isDesktop == TRUE ? 'true':'false' ?>;
-		
-		//alert(iMobile);
 	</script>
 	<?php
 		if($iMobile){
 	?>
-	 <meta name="viewport" content="width=480">
+	<meta name="viewport" content="width=640">
 	<?php }?>
 </head>
 
-<body id="skrollr-body"  class="ss-home <?php if($iMobile) echo 'mobile';?>">
+<body id="skrollr-body"  class="ss-home<?php echo $iPad == TRUE ? ' ipad':'' ?>">
 
     <div id="wrapper">
         <header class="main-header">
@@ -72,7 +64,9 @@
                                     <li><a href="#music">MUSIC</a></li>
                                     <li><a href="#contact">CONTACT</a></li>
                                 </ul>
-                                <div class="sound_head">
+                                
+                            </nav>
+								<div class="sound_head">
                                 	<div id="jquery_jplayer_1" class="jp-jplayer"></div>
                                 	<div id="jp_container_1" class="jp-audio">
 						                <div class="jp-type-playlist">
@@ -110,8 +104,7 @@
 						                    
 						                </div>
 						            </div>  
-                                </div>
-                            </nav>
+                                </div>                            
                             <a href="#" class="ss-mobile-menu-button">
                                 <span class="icon-menu2" aria-hidden="true"></span>
                                 MENU
