@@ -55,12 +55,12 @@ function get_credits() {
     			</div>
     			<?php }?>
     			<div class="credits_controls">
-    				<?php if($id_next != 0){?>
-    				<a href="javascript:void(0);" class="previous prev_credits" id="<?php echo $id_prev;?>"></a>
+    				<?php if($id_prev != 0){?>
+    				<a href="javascript:void(0);" class="previous next_credits" id="<?php echo $id_prev;?>"></a>
     				<?php }?>
     				<a href="javascript:void(0);" class="close" onclick="credits.closeCredits();"></a>
-    				<?php if($id_prev != 0){?>
-    				<a href="javascript:void(0);" class="next next_credits" id="<?php echo $id_next;?>"></a>
+    				<?php if($id_next != 0){?>
+    				<a href="javascript:void(0);" class="next prev_credits" id="<?php echo $id_next;?>"></a>
     				<?php }?>
     			</div>
     			<?php if(!empty($mp3File)){?>
