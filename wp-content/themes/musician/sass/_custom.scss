@@ -621,10 +621,10 @@ padding:0!important;
       top: -6px;
     }
     .slick-prev{
-      top: 105%;left: 40%;
+      top: 105%;left: 38%;
     }
     .slick-next{
-      top: 105%;left:52%;
+      top: 105%;left:51%;
     }
     .contact .contact-respond{
       width: 95%;
@@ -638,5 +638,9 @@ padding:0!important;
     }
     .main-header.ss-sticky.ss-on-scroll .header{
       padding: 15px 0 15px 0;
+    }
+    .portfolio-item .inner-container{
+      width: 60%;
+      margin: 0 auto;
     }
 }
