@@ -28,10 +28,10 @@
                 	<?php
                         foreach ($querySlider as $slider) {
                             $i++;
-							$url = wp_get_attachment_url( get_post_thumbnail_id($slider->ID) );
+							$url = wp_get_attachment_image_src( get_post_thumbnail_id($slider->ID), 'large' );
 							$selling = get_post_meta($slider->ID, '_cmb_selling_slider', true);
                     ?>
-                    <li class="bgfullscreen" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -50px;" data-bottom-top="background-position: 50% 50px;" style="background: url('<?php echo $url;?>') no-repeat center center; background-attachment:fixed; background-size: cover; color: #fff; padding-top: 0px; padding-bottom: 120px;">
+                    <li class="bgfullscreen" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -50px;" data-bottom-top="background-position: 50% 50px;" style="background: url('<?php echo $url[0];?>') no-repeat center center; background-attachment:fixed; background-size: cover; color: #fff; padding-top: 0px; padding-bottom: 120px;">
                     	<div class="bgdotHome"></div>
                     </li>
                     <?php } ?>    
