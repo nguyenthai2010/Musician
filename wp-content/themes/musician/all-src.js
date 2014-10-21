@@ -3932,7 +3932,7 @@ jQuery(document).ready(function(){
 		$('body').addClass('device');
 	}
 
-
+	$('body').addClass('device');
 
     /*------------------------------------------------------------------*/
     /* ss section seperator
