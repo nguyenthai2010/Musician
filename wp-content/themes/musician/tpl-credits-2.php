@@ -36,7 +36,6 @@
 						
 						
                 ?>
-
 			    <div class="portfolio-item video">
 			        <div class="inner-container">
 			            <figure class="portfolio-item-image">
