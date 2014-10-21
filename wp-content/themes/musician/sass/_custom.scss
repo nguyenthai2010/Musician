@@ -633,4 +633,10 @@ padding:0!important;
     .contact .row-input{
       width: 100%;
     }
+    .main-header .header{
+      padding-top: 25px;
+    }
+    .main-header.ss-sticky.ss-on-scroll .header{
+      padding: 15px 0 15px 0;
+    }
 }
