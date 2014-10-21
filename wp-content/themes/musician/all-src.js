@@ -3642,8 +3642,20 @@ var credits = (function() {
 			loadcontentcredit($(this));
 			e.preventDefault();
 		});
+		loading_credits();
 	}
 	
+	function loading_credits(){
+		var counter = 0;
+		var height = 24;
+		setInterval(function() {
+			height = height - 24;
+			if(height <= -480){
+				height = 24;
+			}
+		   jQuery('.loading-credit span img').css('top',height);
+		}, 35);
+	}
 	function closeCredits(){
 		jQuery('#credits').animate({'height':'0','overflow':'hidden','padding':"0 !important"},300);
  		jQuery( '#credits_ajax' ).html('');
