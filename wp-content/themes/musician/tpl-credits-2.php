@@ -30,10 +30,9 @@
 					$i = 0;
 					$j = 1;
 	                foreach ( $query_credits_2 as $credit_2 ) {
-	                	$url = wp_get_attachment_url( get_post_thumbnail_id($credit_2->ID) );
+	                	$img = wp_get_attachment_image( get_post_thumbnail_id($credit_2->ID),'medium' );
 						
 						$j++;
-						
 						
                 ?>
 
@@ -42,7 +41,7 @@
 			            <figure class="portfolio-item-image">
 			            	<div class="loading-credit"><div class="shadow"></div><img src="images/ajax-loader.gif"/></div>
 			                <a class="chooseLink" id="<?php echo $credit_2->ID;?>" href="javascript:void(0);">
-			                    <img src="<?php echo $url;?>" alt="" />
+			                    <?php echo $img;?>
 			                </a>
 			            </figure>
 			        </div>
