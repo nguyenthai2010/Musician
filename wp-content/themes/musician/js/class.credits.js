@@ -63,11 +63,11 @@ var credits = (function() {
 			}, 500, function(){
 				//bAudios.playFileCredits();
 			});
-			jQuery('a.next_credits').on( 'click touchstart', function( e ) {
+			jQuery('a.next_credits').on( 'click', function( e ) {
 				loadcontentcredit($(this));
 				e.preventDefault();
 			});
-			jQuery('a.prev_credits').on( 'click touchstart', function( e ) {
+			jQuery('a.prev_credits').on( 'click', function( e ) {
 				loadcontentcredit($(this));
 				e.preventDefault();
 			});
