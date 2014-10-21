@@ -74,7 +74,6 @@
 			location_hash = hash;
 			window.location = '#';
 		}
-
 		$('#main-navigation').onePageNav({
 			currentClass: 'current_page_item',
 			changeHash: false,
@@ -218,8 +217,11 @@
 	}
 	else{
 		$('body').addClass('device');
+		$(window).load(function(e) {
+    		$('.ss-home-slider').height( $(window).height() );        
+        });
 	}
-
+	
 	//$('body').addClass('device');
 
     /*------------------------------------------------------------------*/
