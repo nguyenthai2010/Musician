@@ -218,8 +218,11 @@
 	}
 	else{
 		$('body').addClass('device');
+		$(window).load(function(e) {
+    		$('.ss-home-slider').height( $(window).height() );        
+        });
 	}
-
+	
 	//$('body').addClass('device');
 
     /*------------------------------------------------------------------*/

@@ -3930,9 +3930,12 @@ jQuery(document).ready(function(){
 	}
 	else{
 		$('body').addClass('device');
+		$(window).load(function(e) {
+    		$('.ss-home-slider').height( $(window).height() );        
+        });
 	}
-
-	$('body').addClass('device');
+	
+	//$('body').addClass('device');
 
     /*------------------------------------------------------------------*/
     /* ss section seperator
