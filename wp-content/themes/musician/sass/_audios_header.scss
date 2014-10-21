@@ -103,20 +103,20 @@
     
     span{
 		float:right;
-       @include roboto_condensedregular(14px);
+       @include roboto_condensedregular(13px);
        color:#999999;
        margin-left: 5px;
     }
     .jp-title{
 		float:right;
       display: block!important;
-      @include roboto_condensedregular(14px);
+      @include roboto_condensedregular(13px);
       color:#fff;
       margin-left: 3px;
     }
     .jp-current-time{
 		float:right;
-      @include roboto_condensedregular(14px);
+      @include roboto_condensedregular(13px);
       color:#fff;
        margin-left: 3px;
        font-style: normal;
