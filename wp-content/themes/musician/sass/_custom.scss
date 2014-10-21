@@ -643,7 +643,16 @@ padding:0!important;
       width: 60%;
       margin: 0 auto;
     }
+    .sound_head, .section-heading-left-tick, .section-heading-right-tick {
+      display:none;
+    }
     
+    .ss-mobile-menu-button {
+      top: 0;
+      left: auto;
+      right: 15px;
+      padding-right: 15px;
+    }
 }
 
 @media only screen and (min-width: 0) and (max-width: 550px) {
