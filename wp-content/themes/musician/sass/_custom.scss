@@ -607,6 +607,28 @@ padding:0!important;
 		}
 	}
 }
+
+@media only screen and (max-width: 970px) and (min-width: 768px) {
+	.credits .box-sound .row_sound.title .col {
+		@include roboto_condensedregular(14px);
+		padding: 4px 0;
+	}
+	.credits .box-sound .row_sound.title.audio .col-2, .credits .box-sound .row_sound .col.col-2 {
+		width: 200px;
+	}
+}
+
+@media (min-width: 768px) {
+	.credits .box-sound .row_sound.title .col {
+		@include roboto_condensedregular(14px);
+		padding: 4px 0;
+	}
+
+	.credits .box-sound .row_sound.title.audio .col-2, .credits .box-sound .row_sound .col.col-2 {
+		width: 240px;
+	}		
+}
+
 @media only screen and (min-width: 0) and (max-width: 767px) {
     body,.main-header{
       min-width: 480px;
