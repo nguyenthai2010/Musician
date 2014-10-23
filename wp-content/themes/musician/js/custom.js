@@ -237,9 +237,25 @@
 	});
 	
 	var bdrap = true;
-	if(is_mobile)
+	if(is_mobile){
+		$("#credits-2").touchme({
+			preventDefaultEvents: false,
+			isDetectHorizontalMovement:true,
+			isDetectVecticalMovement:true,
+			isDetectDiagonalMovement:true,
+			wipeLeft: function(target) {
+				$('.uneven').slickNext();
+			},
+			wipeRight: function(target) {
+				$('.uneven').slickPrev();
+			}
+		}); 
+		
 		bdrap = false;
-	
+	}
+
+
+			
 	$('.uneven').slick({
 	  slidesToShow: 5,
 	  slidesToScroll: 5,

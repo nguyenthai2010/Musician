@@ -23,3 +23,13 @@
 	
 
 }
+
+@media only screen and (min-width: 970px) {
+	body.device .main-header .header{
+		padding:30px 0 15px 0 !important;
+	}
+
+    body.device .main-header.ss-sticky.ss-on-scroll .header{
+      padding: 30px 0 15px 0 !important;
+    }
+}

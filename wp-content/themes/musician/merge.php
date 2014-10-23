@@ -2,8 +2,9 @@
 	$mergeJS = true;
 
 	$array = array(
-		"js/jquery/jquery.js",		
+		"js/jquery/jquery.js",	
 		"js/jquery/jquery-migrate.min.js",
+		"js/jquery.touchme.js",	
 		"js/TweenMax.min.js",
 		"js/bring.js",
 		"js/jquery.nav.js",
