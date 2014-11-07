@@ -1401,6 +1401,7 @@ body.ss-no-sticky-main-nav .section-content-container {
 }
 .portfolio-item .portfolio-item-image {
 	overflow: hidden;
+	margin-right: 8px;
 }
 .portfolio-item .portfolio-item-image img{
 	width: 100%;
@@ -1412,7 +1413,6 @@ body.ss-no-sticky-main-nav .section-content-container {
 	-ms-transition: -ms-transform 0.8s ease-out;
 	-o-transition: -o-transform 0.8s ease-out;
 	transition: transform 0.8s ease-out;
-	padding-right:8px;
 }
 
 

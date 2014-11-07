@@ -403,13 +403,13 @@ margin-right: 48px !important;
   .credits_details{
     position: relative;
     h3{
-      @include loveloblack(20px);
+      @include loveloblack(30px);
       text-transform: uppercase;
-      padding-bottom: 15px;
+      padding-bottom: 10px;
         width: 80%;
     }
     span{
-      @include roboto_condensedregular(14px);
+      @include roboto_condensedregular(18px);
       display :block;
       span{
         display: inline-block;
@@ -417,12 +417,13 @@ margin-right: 48px !important;
     }
     span.composer{
       margin-bottom: 3px;
+      @include roboto_condensedregular(24px);
     }
     span.director{
       
     }
     .credits_desc{
-       @include roboto_condensedregular(14px);
+       @include roboto_condensedregular(16px);
        border-top: 1px solid #49433d;
        line-height: 1.3;
        margin-top:20px;
@@ -531,6 +532,14 @@ margin-right: 48px !important;
   height: 0;
 overflow: hidden!important;
 padding:0!important;
+}
+.portfolio-item .portfolio-item-image div.director-box{
+  background: #1e1308;
+  color: #fff;
+  @include roboto_condensedregular(18px);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 .credit_select.hide{
   display: none;
@@ -701,7 +710,7 @@ padding:0!important;
 }
 @media screen and (max-width: 768px) {
 	.sound_head, .section-heading-left-tick, .section-heading-right-tick {
-		display:none;
+		
 	}
 	
 	.ss-mobile-menu-button {
