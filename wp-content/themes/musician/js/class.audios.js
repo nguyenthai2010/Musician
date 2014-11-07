@@ -26,17 +26,19 @@ var bAudios = (function() {
 		});
 
 		$(setting.audio).bind($.jPlayer.event.pause, function(event) {
+			$('.processaudio').removeClass('active');	
 			$('.jp-play').removeClass('playing');	
 		});
 		
 		$('.processaudio').click(function(e) {
-			if( $(this).hasClass('active') )	 
+			var number = parseInt( $(this).children('.no').html() );
+			
+			if( setting.number == number-1 )	 
 			{
 				processplay();
 			}
 			else			
 			{
-				var number = parseInt( $(this).children('.no').html() );
 				setting.number = number-1;
 				//console.log(bMusic.getCreateAudio());
 				if(bMusic.getCreateAudio()){ // create list & play audio

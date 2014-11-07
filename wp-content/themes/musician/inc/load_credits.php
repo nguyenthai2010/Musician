@@ -75,9 +75,6 @@ function get_credits() {
         				<div class="col-3 col">
         					TIME
         				</div>
-        				<div class="col-3 col">
-        					ID
-        				</div>
     				</div>
     				<div class="row_sound title audio processaudio" audio="<?php echo $mp3File?>" cat="<?php echo $strCat?>" id="audiocredit_<?php echo $idmp3;?>" onClick="bAudios.playCredit('audiocredit_<?php echo $idmp3;?>')" soundid='<?php echo $idmp3;?>'>
     					<div class="col-1 col">
@@ -89,9 +86,7 @@ function get_credits() {
         				<div class="col-3 col">
         					<?php echo $mp3Time;?>
         				</div>
-        				<div class="col-3 col">
-        					<?php echo $mp3No;?>
-        				</div>    					
+  					
     					
     				</div>
     			</div>
