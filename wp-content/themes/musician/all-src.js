@@ -1598,6 +1598,7 @@ var bAudios = (function() {
 		$(setting.audio).bind($.jPlayer.event.play, function(event)
 		{
 			$('.processaudio').removeClass('active');	
+			$('.jp-play').addClass('playing');	
 			
 			$this = $('.processaudio.display:eq(' +playerAudioPlaylist.current+ ')');
 			$this.addClass('active');
@@ -1606,25 +1607,29 @@ var bAudios = (function() {
 
 		$(setting.audio).bind($.jPlayer.event.pause, function(event) {
 			$('.processaudio').removeClass('active');
+			$('.jp-play').removeClass('playing');	
 		});
 		
-		$(setting.audio).bind($.jPlayer.event.pause, function(event) {
-			$('.processaudio').removeClass('active');
-		});
-				
 		$('.processaudio').click(function(e) {
-            var number = parseInt( $(this).children('.no').html() );
-			setting.number = number-1;
-			//console.log(bMusic.getCreateAudio());
-			if(bMusic.getCreateAudio()){ // create list & play audio
-				createList();
-			} else{ // play only audio
-				play();
+			if( $(this).hasClass('active') )	 
+			{
+				processplay();
 			}
-			
-			$('.processaudio').removeClass('active');
-			$(this).addClass('active');
-			$('#audiocredit_' + $(this).attr('soundid')).addClass('active')
+			else			
+			{
+				var number = parseInt( $(this).children('.no').html() );
+				setting.number = number-1;
+				//console.log(bMusic.getCreateAudio());
+				if(bMusic.getCreateAudio()){ // create list & play audio
+					createList();
+				} else{ // play only audio
+					play();
+				}
+				
+				$('.processaudio').removeClass('active');
+				$(this).addClass('active');
+				$('#audiocredit_' + $(this).attr('soundid')).addClass('active')				
+			}
         });
 	}
 	
@@ -1682,6 +1687,15 @@ var bAudios = (function() {
 		playerAudioPlaylist.play(setting.number);		
 	}
 	
+	function processplay(){
+		if($('.jp-play').hassClass('playing')){
+			playerAudioPlaylist.pause();
+		}
+		else{
+			playerAudioPlaylist.play();
+		}
+	}
+	
 	//CREDITS
 	function playCredit(divID){
 		$cat = $('#'+divID).attr('cat');
@@ -1695,6 +1709,7 @@ var bAudios = (function() {
 	// RETURN
 	return {
 		init:init,
+		processplay:processplay,
 		createList:createList,
 		playCredit:playCredit
 	}
@@ -1723,8 +1738,15 @@ var bMusic = (function() {
 	}
 	
 	function initEvent(){
-		$labels.on( "click", function() {	
-			displaymusic( '#' + jQuery(this).attr('id') );
+		$labels.on( "click", function() {
+			//alert($(this).hasClass('active'));
+			/*if( $(this).hasClass('active') )	 
+			{
+				bAudios.processplay();
+			}
+			else*/
+			
+			displaymusic( '#' + $(this).attr('id') );	
 			return;
         });
 	}

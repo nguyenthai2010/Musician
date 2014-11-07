@@ -18,8 +18,15 @@ var bMusic = (function() {
 	}
 	
 	function initEvent(){
-		$labels.on( "click", function() {	
-			displaymusic( '#' + jQuery(this).attr('id') );
+		$labels.on( "click", function() {
+			//alert($(this).hasClass('active'));
+			/*if( $(this).hasClass('active') )	 
+			{
+				bAudios.processplay();
+			}
+			else*/
+			
+			displaymusic( '#' + $(this).attr('id') );	
 			return;
         });
 	}
