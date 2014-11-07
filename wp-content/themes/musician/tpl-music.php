@@ -53,7 +53,6 @@ foreach ( $terms as $term ) {
                         	<div class="no">#</div>
                             <div class="title">TITLE</div>
                             <div class="time">TIME</div>
-                            <div class="id">ID</div>
                         </div>
                     </div>    
                     <div id="music-list" class="music-list center-align ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
@@ -76,7 +75,7 @@ foreach ( $terms as $term ) {
                         	<div class="no"><?php echo $number?></div>
                             <div class="title"><?php echo $music->post_title;?></div>
                             <div class="time"><?php echo $time?></div>
-                            <div class="id"><?php echo $id?></div>
+                           
                         </div>
                         <?php }?>
                     </div>

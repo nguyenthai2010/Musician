@@ -13,6 +13,8 @@
 			color: #c5c1b9;
 			margin: 3px; 
 			text-transform: uppercase;
+			font-family: 'loveloblack';
+			font-size: 16px;
 			
 			&:hover{
 				color: #FFF;
@@ -27,7 +29,7 @@
 	} 
 	
 	#music-list {
-		height: 430px;
+		height: 280px;
 	}
 	
 	.music-list {
@@ -38,7 +40,7 @@
 			text-align: left;
 			width: 100%;
 			color: $colorTextBGWhite;
-			margin-top: 20px;
+			margin-bottom: 20px;
 			clear: both;
 			display: none;
 			@include roboto_condensedregular(18px);
@@ -60,6 +62,10 @@
 					
 				.title {
 					background:none !important;
+					padding-left: 0;
+				}
+				.time {
+				  padding-left: 0; 
 				}
 			}
 			
@@ -80,14 +86,15 @@
 			}
 			
 			.title {
-				width:60%;
-				padding-left: 26px;
+				width:75%;
+				padding-left: 28px;
 				background:url(../images/player/btn-play.jpg) no-repeat;
 
 			}
 			
 			.time {
 				width:16%;
+				padding-left: 28px;
 			}
 			
 			.id {
