@@ -5,9 +5,9 @@ var bAudios = (function() {
 	
 	var setting = {
 		audio 	: "#jquery_jplayer_1",
-		number	:	0
+		number	:	0,
+		audioID	:	0,
 	}
-	
 	
 	// INIT 
 	function init(){
@@ -32,8 +32,9 @@ var bAudios = (function() {
 		
 		$('.processaudio').click(function(e) {
 			var number = parseInt( $(this).children('.no').html() );
+			var audioID = $(this).attr('soundid');
 			
-			if( setting.number == number-1 )	 
+			if( setting.audioID == audioID )	 
 			{
 				processplay();
 			}
@@ -51,6 +52,8 @@ var bAudios = (function() {
 				$(this).addClass('active');
 				$('#audiocredit_' + $(this).attr('soundid')).addClass('active')				
 			}
+			
+			setting.audioID = audioID;
         });
 	}
 	
