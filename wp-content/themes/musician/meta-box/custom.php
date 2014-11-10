@@ -50,6 +50,11 @@ function add_metaboxes_credits( $meta_boxes ) {
 				'name'             => 'Director',
 				'id'               => "{$prefix}credit_director",
 				'type'             => 'text',
+			),
+			array(
+				'name'             => 'Description',
+				'id'               => "{$prefix}credit_description",
+				'type'             => 'textarea',
 			)
 		 )
 	);

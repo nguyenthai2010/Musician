@@ -31,7 +31,7 @@
 					$j = 1;
 	                foreach ( $query_credits_2 as $credit_2 ) {
 	                	$img = wp_get_attachment_image( get_post_thumbnail_id($credit_2->ID),'medium' );
-						$director = get_post_meta($credit_2->ID, '_mt_credit_director', true);
+						$description = get_post_meta($credit_2->ID, '_mt_credit_description', true);
 						$j++;
 						
                 ?>
@@ -43,7 +43,7 @@
 			                <a class="chooseLink" id="<?php echo $credit_2->ID;?>" href="javascript:void(0);">
 			                    <?php echo $img;?>
 			                    <div class="director-box">
-			                    	<?php echo $director;?>
+			                    	<?php echo $description;?>
 			                    </div>
 			                </a>
 			            </figure>
