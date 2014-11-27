@@ -471,6 +471,22 @@ margin-right: 48px !important;
  }
  .copyright{
     margin-bottom: 0; 
+	a.linkright:hover{
+		color:#987b43 !important;
+		text-align:right;
+	}
+	
+	.colright{
+		float:right;
+	}
+	
+	.colleft{
+		float: left;
+	}
+	a{
+		color:#FFF !important;
+		text-decoration: underline; 
+	}
  }
 }
 .ss-mobile-menu>ul>li a:hover, .portfolio-button-group label:hover{

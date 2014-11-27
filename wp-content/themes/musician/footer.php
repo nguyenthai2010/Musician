@@ -4,7 +4,8 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="copyright">
-                                <p>© Sven Faulconer - 2014</p>
+                            	<p class="colleft">Website by <a target="_blank" href="http://www.kiokarma.com/portfolio.html">Kiokarma</a> | Photography by <a href="http://www.corybarkerphoto.com/" target="_blank">Cory Barker</a></p>
+                                <p class="colright">© Sven Faulconer - 2014</p>
                             </div>
                         </div>
                     </div>
