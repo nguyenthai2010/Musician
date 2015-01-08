@@ -4,7 +4,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="copyright">
-                            	<p class="colleft">Website by <a href="mailto:yves@kiokarma.com?subject=I like your work, I've got a question...">Kiokarma</a> | Photography by <a href="http://www.corybarkerphoto.com/" target="_blank">Cory Barker</a></p>
+                            	<p class="colleft">Website by <a href="http://www.kiokarma.com" target="_blank">Kiokarma</a> | Photography by <a href="http://www.corybarkerphoto.com/" target="_blank">Cory Barker</a></p>
                                 <p class="colright">© Sven Faulconer - 2014</p>
                             </div>
                         </div>

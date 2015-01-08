@@ -61,13 +61,15 @@ self._refresh(true);if(playNow||!$(self.cssSelector.jPlayer).data("jPlayer").sta
 $(this).slideDown(self.options.playlistOptions.shuffleTime);});}}};})(jQuery);var bAudios=(function(){$=jQuery;var setting={audio:"#jquery_jplayer_1",number:0,audioID:0,}
 function init(){initEvent();}
 function initEvent(){$(setting.audio).bind($.jPlayer.event.play,function(event)
-{$('.processaudio').removeClass('active');$('.jp-play').addClass('playing');$this=$('.processaudio.display:eq('+playerAudioPlaylist.current+')');$this.addClass('active');$('#audiocredit_'+$this.attr('soundid')).addClass('active')});$(setting.audio).bind($.jPlayer.event.pause,function(event){$('.processaudio').removeClass('active');$('.jp-play').removeClass('playing');});$('.processaudio').click(function(e){var number=parseInt($(this).children('.no').html());var audioID=$(this).attr('soundid');if(setting.audioID==audioID)
+{$('.processaudio').removeClass('active');$('.jp-play').addClass('playing');$this=$('.processaudio.display:eq('+playerAudioPlaylist.current+')');$this.addClass('active');$('#audiocredit_'+$this.attr('soundid')).addClass('active')
+setActiveAudio($this);});$(setting.audio).bind($.jPlayer.event.pause,function(event){$('.processaudio').removeClass('active');$('.jp-play').removeClass('playing');});$('.processaudio').click(function(e){var number=parseInt($(this).children('.no').html());var audioID=$(this).attr('soundid');if(setting.audioID==audioID)
 {processplay();}
 else
 {setting.number=number-1;if(bMusic.getCreateAudio()){createList();}else{play();}
 $('.processaudio').removeClass('active');$(this).addClass('active');$('#audiocredit_'+$(this).attr('soundid')).addClass('active')}
 setting.audioID=audioID;});}
 function numberSlider(){jQuery('#total-slider').html(jQuery('.tp-bullets.simplebullets.round .bullet').length);jQuery('.ss-home-slider').bind("revolution.slide.onchange",function(e,data){console.log(data.slideIndex);});}
+function setActiveAudio($this){var audioID=$this.attr('soundid');setting.audioID=audioID;}
 var playerAudioPlaylist=null;function createList(strCat)
 {bMusic.setCreateAudio(false);try{playerAudioPlaylist.remove();$(setting.audio).jPlayer("destroy");}
 catch(err){}

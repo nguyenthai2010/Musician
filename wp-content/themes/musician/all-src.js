@@ -1603,6 +1603,8 @@ var bAudios = (function() {
 			$this = $('.processaudio.display:eq(' +playerAudioPlaylist.current+ ')');
 			$this.addClass('active');
 			$('#audiocredit_' + $this.attr('soundid')).addClass('active')
+			
+			setActiveAudio($this);
 		});
 
 		$(setting.audio).bind($.jPlayer.event.pause, function(event) {
@@ -1614,6 +1616,7 @@ var bAudios = (function() {
 			var number = parseInt( $(this).children('.no').html() );
 			var audioID = $(this).attr('soundid');
 			
+			//console.log(setting.audioID, audioID);
 			if( setting.audioID == audioID )	 
 			{
 				processplay();
@@ -1645,6 +1648,11 @@ var bAudios = (function() {
 		  	console.log(data.slideIndex);
 		});
 		
+	}
+	
+	function setActiveAudio($this){
+		var audioID = $this.attr('soundid');
+		setting.audioID = audioID;
 	}
 	//list 2
 	var playerAudioPlaylist = null;
