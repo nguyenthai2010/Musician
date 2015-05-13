@@ -14,24 +14,14 @@ function get_credits() {
 	$banner_img = wp_get_attachment_image_src( $urlBanner, 'full' );
 	
 	$mp3value = get_post_meta($id, 'custom_credits_class_meta_box', true);
-	
-	$idmp3 = get_post_id($mp3value , 'music');
-	$mp3FileName = '';
-	$mp3File = get_post_meta($idmp3, '_cmb__musis_path_file', true);
-	$mp3Time = get_post_meta($idmp3, '_cmb__musis_time_text', true);
-	$mp3No = get_post_meta($idmp3, '_cmb__musis_id_text', true);
-	
-	if(!empty($mp3File)){
-		$mp3FileName = get_the_title($idmp3);
-	}
-	
+    //echo '$mp3value:'.$mp3value;
+
 	$videoType = get_post_meta($id,'video_type',true);
 	$videoID = get_post_meta($id, 'video_url', true);
 	$id_prev = get_previous_post_id($id);
 	$id_next = get_next_post_id($id);
 
-	$term_cats = wp_get_post_terms($idmp3, 'music-tax', array("fields" => "all"));	
-	$strCat = $term_cats[0]->slug;
+
 	
 	?>
     <div class="row">
@@ -63,7 +53,13 @@ function get_credits() {
     				<a href="javascript:void(0);" class="next prev_credits" id="<?php echo $id_prev;?>"></a>
     				<?php }?>
     			</div>
-    			<?php if(!empty($mp3File)){?>
+    			<?php
+                    $music_rows = get_field('group_select_song',$id);
+                    if($music_rows)
+                    {
+
+
+                ?>
     			<div class="box-sound" id="box-sound">
     				<div class="row_sound title">
     					<div class="col-1 col">
@@ -76,9 +72,25 @@ function get_credits() {
         					TIME
         				</div>
     				</div>
+                    <?PHP
+                        $number = 0;
+                        foreach($music_rows as $music_row)
+                        {
+                            $number ++;
+                            $selectsong = $music_row['selectsong'];
+                            $mp3FileName = '';
+                            $idmp3 = get_post_id($selectsong , 'music');
+                            $mp3File = get_post_meta($idmp3, '_cmb__musis_path_file', true);
+                            $mp3Time = get_post_meta($idmp3, '_cmb__musis_time_text', true);
+                            $mp3No = get_post_meta($idmp3, '_cmb__musis_id_text', true);
+                            $mp3FileName = get_the_title($idmp3);
+                            $term_cats = wp_get_post_terms($idmp3, 'music-tax', array("fields" => "all"));
+                            $strCat = $term_cats[0]->slug;
+
+                    ?>
     				<div class="row_sound title audio processaudio" audio="<?php echo $mp3File?>" cat="<?php echo $strCat?>" id="audiocredit_<?php echo $idmp3;?>" onClick="bAudios.playCredit('audiocredit_<?php echo $idmp3;?>')" soundid='<?php echo $idmp3;?>'>
     					<div class="col-1 col">
-        					1
+                            <?php echo $number;?>
         				</div>
         				<div class="col-2 col">
         					<?php echo $mp3FileName;?>
@@ -89,17 +101,26 @@ function get_credits() {
   					
     					
     				</div>
+                        <?php
+                        }
+
+                    ?>
     			</div>
-    			<?php }?>
+    			<?php
+
+                    }
+                ?>
     			<?php if(!empty($videoID)){?>
     			<div class="box-video">
     				<div class="videoframe">
     					<?php
     						if($videoType == 'vimeo'){
-								echo wp_oembed_get( 'http://www.player.vimeo.com/video/' . $videoID );
+								//echo wp_oembed_get( 'http://www.player.vimeo.com/video/' . $videoID );
 							}else{
-								echo wp_oembed_get( $videoID );
+
 							}
+
+                            echo wp_oembed_get( $videoID );
     					?>
     				</div>
     			</div>
