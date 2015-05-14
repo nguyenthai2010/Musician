@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26741836-265c-4303-8023-984e9d47079c" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\YVES\Musician\sourcecode\BE\wp-admin\install.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_audios_header.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_audios_header.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_bootstrap.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_bootstrap.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_custom.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_custom.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_icomoon.ultimate.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_icomoon.ultimate.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_magnific.popup.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_magnific.popup.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_mobiles.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_mobiles.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_music.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_music.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_owl.carousel.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_owl.carousel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_owl.theme.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_owl.theme.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_royalslider.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_royalslider.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_rs-nivan.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_rs-nivan.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_settings.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_settings.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_slick.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_slick.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_style.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_variables.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_variables.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/all.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/all.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss" afterPath="$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits.php" afterPath="$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/inc/select-music.php" afterPath="$PROJECT_DIR$/wp-content/themes/musician/inc/select-music.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +30,7 @@
       <file leaf-file-name="_custom.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.354838" vertical-offset="0" max-vertical-offset="16390">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="352" max-vertical-offset="16390">
               <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding />
             </state>
@@ -59,7 +40,7 @@
       <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4193548" vertical-offset="66" max-vertical-offset="1760">
+            <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1760">
               <caret line="18" column="29" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="29" />
               <folding />
             </state>
@@ -69,18 +50,84 @@
       <file leaf-file-name="wp-config-live.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-config-live.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.419355" vertical-offset="819" max-vertical-offset="1694">
+            <state vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1694">
               <caret line="79" column="47" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="load_credits.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="load_credits.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8106152" vertical-offset="1352" max-vertical-offset="3036">
-              <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+            <state vertical-scroll-proportion="-17.032259" vertical-offset="0" max-vertical-offset="3036">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tpl-bio.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-bio.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.79136693" vertical-offset="0" max-vertical-offset="1012">
+              <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tpl-bio.php" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/tpl-bio.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.32258" vertical-offset="0" max-vertical-offset="770">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="54" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="8.5" vertical-offset="874" max-vertical-offset="2772">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <marker date="1431517578000" expanded="true" signature="1098:1177" placeholder="SELECT ID FR.._wpdb_posts WHERE..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.387097" vertical-offset="0" max-vertical-offset="594">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tpl-credits.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-credits.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="13.354838" vertical-offset="414" max-vertical-offset="1276">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select-music.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/inc/select-music.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.838709" vertical-offset="999" max-vertical-offset="1870">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,7 +167,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -139,6 +186,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,35 +259,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="musician" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,10 +286,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -296,7 +322,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25677082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -332,6 +358,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="16390">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1760">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config-live.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1694">
+          <caret line="79" column="47" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3036">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="2520">
@@ -351,9 +409,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1430551225000" expanded="true" signature="-1:-1" placeholder="update wp_po..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -368,14 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.43715847" vertical-offset="240" max-vertical-offset="1300">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="2520">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -402,7 +450,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.354838" vertical-offset="0" max-vertical-offset="16390">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="352" max-vertical-offset="16390">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding />
         </state>
@@ -410,7 +458,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4193548" vertical-offset="66" max-vertical-offset="1760">
+        <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1760">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="29" />
           <folding />
         </state>
@@ -418,35 +466,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-config-live.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.419355" vertical-offset="819" max-vertical-offset="1694">
+        <state vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1694">
           <caret line="79" column="47" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/wp-config.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72342855" vertical-offset="819" max-vertical-offset="1694">
-          <caret line="79" column="47" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="47" />
+        <state vertical-scroll-proportion="-6.387097" vertical-offset="0" max-vertical-offset="594">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-credits.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="13.354838" vertical-offset="414" max-vertical-offset="1276">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/inc/select-music.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8213457" vertical-offset="1008" max-vertical-offset="1870">
-          <caret line="81" column="42" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="42" />
-          <folding>
-            <marker date="1430551225000" expanded="true" signature="-1:-1" placeholder="update wp_po..." />
-          </folding>
+        <state vertical-scroll-proportion="-23.838709" vertical-offset="999" max-vertical-offset="1870">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8106152" vertical-offset="1352" max-vertical-offset="3036">
-          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+        <state vertical-scroll-proportion="-17.032259" vertical-offset="0" max-vertical-offset="3036">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/tpl-bio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.32258" vertical-offset="0" max-vertical-offset="770">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.5" vertical-offset="874" max-vertical-offset="2772">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <marker date="1431517578000" expanded="true" signature="1098:1177" placeholder="SELECT ID FR.._wpdb_posts WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-bio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79136693" vertical-offset="0" max-vertical-offset="1012">
+          <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
