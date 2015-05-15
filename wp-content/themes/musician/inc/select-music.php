@@ -4,7 +4,7 @@
 *
 */
 
-add_action( 'add_meta_boxes', 'so_custom_meta_box' );
+//add_action( 'add_meta_boxes', 'so_custom_meta_box' );
 
 function so_custom_meta_box($post){
     add_meta_box('so_meta_box', 'Select a song', 'custom_credits_class_meta_box', 'post', 'normal' , 'high');
