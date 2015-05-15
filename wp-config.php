@@ -16,7 +16,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'musican_db');
+define('DB_NAME', 'svenfaulconer_c');
 
 /** MySQL database username */
 define('DB_USER', 'root');
