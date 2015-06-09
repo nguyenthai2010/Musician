@@ -34,8 +34,7 @@
     				    				<a href="javascript:void(0);" class="close" onclick="credits.closeCredits();"></a>
     				    			</div>
     			    			    			<div class="box-video">
-    				<div class="videoframe">
-    					<iframe width="500" height="281" src="https://www.youtube.com/embed/JfrJFtEwucc?feature=oembed" frameborder="0" allowfullscreen=""></iframe>    				</div>
+    				<div class="videoframe"></div>
     			</div>
     			    		</div>
     	</div>

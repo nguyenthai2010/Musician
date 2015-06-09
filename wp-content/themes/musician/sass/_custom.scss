@@ -60,6 +60,9 @@ a:hover{
     margin-bottom: 20px;
   }
   .blog-teaser{
+    @include roboto_condensedregular(16px);
+    color: #333333;
+    margin-bottom: 20px;
     margin-right: 2%;
     width:48%;
   }
@@ -99,7 +102,7 @@ a:hover{
     
   }
   .section-header-inner{
-    padding-top: 85px; 
+    padding-top: 60px;
   }
   .ss-testimonial-item{
    padding:0; 
@@ -325,6 +328,8 @@ margin-right: 48px !important;
 	.row_sound.title{
 		&.audio{
 			cursor:pointer;
+            margin-bottom: 5px;
+
 			.col{
 				color:#fff;
 				height:23px;
@@ -417,7 +422,7 @@ margin-right: 48px !important;
     }
     span.composer{
       margin-bottom: 3px;
-      @include roboto_condensedregular(24px);
+      @include roboto_condensedregular(23px);
     }
     span.director{
       
@@ -691,12 +696,7 @@ padding:0!important;
     .section-heading-left-tick,.section-heading-right-tick{
       top: -6px;
     }
-    .slick-prev{
-      top: 105%;left: 38%;
-    }
-    .slick-next{
-      top: 105%;left:51%;
-    }
+
     .contact .contact-respond{
       width: 95%;
       padding-left: 0;
@@ -736,4 +736,8 @@ padding:0!important;
 		right: 15px;
 		padding-right: 15px;
 	}
+
+  .credits .credits_details span.composer {
+    font-size: 25px;
+  }
 }

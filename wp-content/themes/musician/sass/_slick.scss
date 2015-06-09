@@ -34,7 +34,7 @@
 .slick-prev { 
  left: 45%;
 background: url(../images/credits/arrow-prev.png) no-repeat 0 0;
-top: 112%;
+top: 105%;
 margin-right: 0;
 }
 .slick-prev:before {}
@@ -42,7 +42,7 @@ margin-right: 0;
 .slick-next { 
   left: 51%;
   background: url(../images/credits/arrow-next.png) no-repeat 0 0;
-  top: 112%;
+  top: 105%;
   margin-left: 0;
   margin-right: 0;
 }
@@ -64,3 +64,18 @@ margin-right: 0;
 [dir="rtl"] .slick-prev {right: -25px;left: auto;}
 [dir="rtl"] .slick-prev:before {content: "\2192";}
 [dir="rtl"] .slick-slide {float: right;}
+
+.slick-prev {
+  position: absolute; top: 50%; left: 0; z-index: 1; margin-top: -120px;
+  background: url("../images/prev.png");
+  width: 73px;
+  height: 163px;
+}
+
+.slick-next {
+  position: absolute; top: 50%; right: 0; z-index: 1; margin-top: -120px;
+  background: url("../images/next.png");
+  width: 73px;
+  height: 163px;
+  left: auto;
+}
