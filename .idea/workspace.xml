@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26741836-265c-4303-8023-984e9d47079c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_custom.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_custom.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_slick.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_slick.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_style.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/5211b15416612ae447cce3428b8b045953a4f81b/_style.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/images/next.png" afterPath="$PROJECT_DIR$/wp-content/themes/musician/images/next.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/images/prev.png" afterPath="$PROJECT_DIR$/wp-content/themes/musician/images/prev.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss" afterPath="$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/sass/_slick.scss" afterPath="$PROJECT_DIR$/wp-content/themes/musician/sass/_slick.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/sass/_style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/musician/sass/_style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/css/all.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/musician/css/all.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/css/all.css" afterPath="$PROJECT_DIR$/wp-content/themes/musician/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/tpl-credits-2.php" afterPath="$PROJECT_DIR$/wp-content/themes/musician/tpl-credits-2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/tpl-credits.php" afterPath="$PROJECT_DIR$/wp-content/themes/musician/tpl-credits.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\YVES\Musician\sourcecode\BE\.idea\BE.iml" afterPath="$PROJECT_DIR$/.idea/Temp - Musician.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
     </list>
     <ignored path="BE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +33,28 @@
     <favorites_list name="BE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="_slick.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_slick.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.032258" vertical-offset="1030" max-vertical-offset="1892">
+              <caret line="68" column="68" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_custom.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.79885715" vertical-offset="15581" max-vertical-offset="16478">
+              <caret line="740" column="36" selection-start-line="740" selection-start-column="36" selection-end-line="740" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -53,14 +69,14 @@
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/musician/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits.php" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/musician/inc/select-music.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/musician/sass/_icomoon.ultimate.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/musician/tpl-bio.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/musician/tpl-credits.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/musician/tpl-credits-2.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/musician/sass/_slick.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/musician/sass/_style.scss" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/musician/sass/_slick.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss" />
       </list>
     </option>
@@ -206,7 +222,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../NIVEA/2014/My_Eucerin/sourcecode/BE" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
@@ -224,15 +240,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -252,7 +268,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -260,7 +276,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -316,7 +332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1276">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -324,9 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1452">
           <caret line="0" column="399" selection-start-line="0" selection-start-column="399" selection-end-line="0" selection-end-column="399" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -515,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12571429" vertical-offset="0" max-vertical-offset="1760">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2697143" vertical-offset="820" max-vertical-offset="2772">
@@ -554,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47768396" vertical-offset="396" max-vertical-offset="1254">
           <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -562,17 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.1875" vertical-offset="66" max-vertical-offset="1452">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_slick.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.129032" vertical-offset="1030" max-vertical-offset="1892">
-          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9141531" vertical-offset="1650" max-vertical-offset="15708">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="906">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="100.064514" vertical-offset="3102" max-vertical-offset="31240">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,14 +594,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.806452" vertical-offset="791" max-vertical-offset="99242">
           <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74857146" vertical-offset="885" max-vertical-offset="1760">
+          <caret line="83" column="62" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_slick.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.032258" vertical-offset="1030" max-vertical-offset="1892">
+          <caret line="68" column="68" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45828572" vertical-offset="6903" max-vertical-offset="16478">
-          <caret line="332" column="17" selection-start-line="332" selection-start-column="17" selection-end-line="332" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.79885715" vertical-offset="15581" max-vertical-offset="16478">
+          <caret line="740" column="36" selection-start-line="740" selection-start-column="36" selection-end-line="740" selection-end-column="36" />
           <folding />
         </state>
       </provider>

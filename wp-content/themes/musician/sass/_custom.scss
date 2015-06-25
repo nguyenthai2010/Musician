@@ -738,6 +738,6 @@ padding:0!important;
 	}
 
   .credits .credits_details span.composer {
-    font-size: 25px;
+    @include roboto_condensedbold(22px);
   }
 }
