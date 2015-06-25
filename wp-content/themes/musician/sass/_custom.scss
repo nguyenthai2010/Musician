@@ -61,6 +61,7 @@ a:hover{
   }
   .blog-teaser{
     @include roboto_condensedregular(16px);
+    line-height: 1.2;
     color: #333333;
     margin-bottom: 20px;
     margin-right: 2%;
