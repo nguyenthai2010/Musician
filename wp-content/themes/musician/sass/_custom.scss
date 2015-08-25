@@ -423,7 +423,7 @@ margin-right: 48px !important;
     }
     span.composer{
       margin-bottom: 3px;
-      @include roboto_condensedregular(23px);
+      @include roboto_condensedregular(20px);
     }
     span.director{
       
@@ -741,4 +741,9 @@ padding:0!important;
   .credits .credits_details span.composer {
     @include roboto_condensedbold(22px);
   }
+
+  .bio .blog-teaser {
+    @include roboto_condensedregular(18px);
+  }
+
 }
