@@ -24,11 +24,18 @@
 		
 		                    <div class="row">
 		                        <div class="contact-container contact-1">
-		                            
-		                            
-		                            
-		                            <div class="col-sm-12 ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
-		                                <div id="contact-respond" class="contact-respond">
+		                        	<div class="col-sm-4 ss-effect contact-col-left" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
+		                        		<div class="contact-respond right-align">
+											<h3 id="reply-title" class="contact-reply-title">Representation</h3>
+											<div class="divtitle right-align">Andrew Zack<br/>The Gorfaine / Schwartz Agency</div>
+											<div class="divtitle right-align">
+												4111 W. Alameda Ave, Suite 509 <br/> Burbank, CA 91505 <br/>
+												<span class="c987b43">(818) 260-8500</span>
+											</div>
+										</div>
+		                        	</div>
+		                            <div class="col-sm-8 ss-effect" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
+		                                <div id="contact-respond" class="contact-respond ss-width-90">
 		                                    <h3 id="reply-title" class="contact-reply-title">SEND ME A MESSAGE</h3>
 		                                    <form action="" method="post" id="contactform" class="contact-form" novalidate>
 		                                        <div id="respond-inputs" class="respond-inputs">

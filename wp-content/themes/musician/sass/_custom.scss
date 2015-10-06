@@ -452,6 +452,17 @@ margin-right: 48px !important;
     clear: both;
   }
 }
+.contact-col-left{
+  .divtitle{
+    text-transform: uppercase;
+    @include roboto_condensedregular(14px);
+    line-height: 1.3;
+    padding-bottom: 25px;
+  }
+}
+.c987b43{
+  color: #987b43;
+}
 .contact{
   input[type="text"],input[type="email"]{
     &.error{
@@ -462,7 +473,9 @@ margin-right: 48px !important;
 .ajax-loader{
   height: 39px;
 }
-
+.contact .ss-width-90.contact-respond {
+  width: 90%;
+}
 
 .main-footer{
  padding:0;
