@@ -27,7 +27,7 @@
 		                        	<div class="col-sm-4 ss-effect contact-col-left" data-ss-effect="fade-from-bottom" data-ss-effect-speed="1" data-ss-effect-delay="0.2" data-ss-effect-offset="2">
 		                        		<div class="contact-respond right-align">
 											<h3 id="reply-title" class="contact-reply-title">Representation</h3>
-											<div class="divtitle right-align">Andrew Zack<br/>The Gorfaine / Schwartz Agency</div>
+											<div class="divtitle paddingT3 right-align">Andrew Zack<br/>The Gorfaine / Schwartz Agency</div>
 											<div class="divtitle right-align">
 												4111 W. Alameda Ave, Suite 509 <br/> Burbank, CA 91505 <br/>
 												<span class="c987b43">(818) 260-8500</span>

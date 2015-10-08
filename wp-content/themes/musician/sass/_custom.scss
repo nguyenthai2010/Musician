@@ -476,6 +476,12 @@ margin-right: 48px !important;
 .contact .ss-width-90.contact-respond {
   width: 90%;
 }
+.contact .contact-col-left .contact-respond{
+  margin-right: 0;
+}
+.paddingT3{
+  padding-top: 3px;
+}
 
 .main-footer{
  padding:0;
@@ -664,6 +670,10 @@ padding:0!important;
 }
 
 @media (min-width: 768px) {
+  .contact .contact-col-left .contact-respond{
+    width: 100%;
+  }
+
 	.credits .box-sound .row_sound.title .col {
 		@include roboto_condensedregular(14px);
 		padding: 4px 0;
@@ -753,5 +763,10 @@ padding:0!important;
 
   .credits .credits_details span.composer {
     @include roboto_condensedbold(22px);
+  }
+}
+@media screen and (max-width: 992px) {
+  .contact .form-submit .submit{
+    margin-left: 0!important;
   }
 }
