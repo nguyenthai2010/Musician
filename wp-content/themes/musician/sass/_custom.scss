@@ -658,7 +658,9 @@ padding:0!important;
 		}
 	}
 }
-
+.contact a.no-underline{
+  text-decoration: none;
+}
 @media only screen and (max-width: 970px) and (min-width: 768px) {
 	.credits .box-sound .row_sound.title .col {
 		@include roboto_condensedregular(14px);
@@ -753,7 +755,9 @@ padding:0!important;
 	.sound_head, .section-heading-left-tick, .section-heading-right-tick {
 		
 	}
-	
+	.contact-col-left .divtitle, .contact .contact-col-left .contact-respond{
+    text-align: left;
+  }
 	.ss-mobile-menu-button {
 		top: 0;
 		left: auto;

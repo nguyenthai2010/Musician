@@ -30,7 +30,7 @@
 											<div class="divtitle paddingT3 right-align">Andrew Zack<br/>The Gorfaine / Schwartz Agency</div>
 											<div class="divtitle right-align">
 												4111 W. Alameda Ave, Suite 509 <br/> Burbank, CA 91505 <br/>
-												<span class="c987b43">(818) 260-8500</span>
+												<a href="tel:(818) 260-8500" class="no-underline"><span class="c987b43">(818) 260-8500</span></a>
 											</div>
 										</div>
 		                        	</div>
