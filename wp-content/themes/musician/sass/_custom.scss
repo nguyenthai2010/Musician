@@ -661,6 +661,7 @@ padding:0!important;
 .contact a.no-underline{
   text-decoration: none;
 }
+
 @media only screen and (max-width: 970px) and (min-width: 768px) {
 	.credits .box-sound .row_sound.title .col {
 		@include roboto_condensedregular(14px);
@@ -684,6 +685,7 @@ padding:0!important;
 	.credits .box-sound .row_sound.title.audio .col-2, .credits .box-sound .row_sound .col.col-2 {
 		width: 240px;
 	}		
+
 }
 
 @media only screen and (min-width: 0) and (max-width: 767px) {
@@ -750,6 +752,9 @@ padding:0!important;
  	.credits .col-6-1{
 		width:70%;
 	}
+  .contact a.no-underline span{
+    color: #fff;
+  }
 }
 @media screen and (max-width: 768px) {
 	.sound_head, .section-heading-left-tick, .section-heading-right-tick {
@@ -764,7 +769,11 @@ padding:0!important;
 		right: 15px;
 		padding-right: 15px;
 	}
-
+  .contact{
+    a.phone-number span{
+      
+    }
+  }
   .credits .credits_details span.composer {
     @include roboto_condensedbold(22px);
   }
