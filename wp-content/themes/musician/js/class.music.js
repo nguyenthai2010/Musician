@@ -19,15 +19,13 @@ var bMusic = (function() {
 	
 	function initEvent(){
 		$labels.on( "click", function() {
-			//alert($(this).hasClass('active'));
-			/*if( $(this).hasClass('active') )	 
-			{
-				bAudios.processplay();
-			}
-			else*/
-			
 			displaymusic( '#' + $(this).attr('id') );	
 			return;
+        });
+
+        $('.credits .box-sound').on( "click", function() {
+            /*displaymusic( '#' + $(this).attr('id') );
+            return;*/
         });
 	}
 	
@@ -81,8 +79,40 @@ var bMusic = (function() {
 		if(setting.firsttime){
 			bAudios.createList();
 		}
-		
 	}
+
+    function displayTrackCredits(){
+        var value = $('#box-sound').attr('cat');
+
+        if(value == setting.cat)
+            return;
+
+        clearArrayAudio();
+
+        // display list music
+        setting.cat = value;
+        var count = 1;
+
+        setting.arr_audio = [];
+
+        $('#box-sound .processaudio').each(function(index, element) {
+            var file = $(this).attr('audio');
+            var title = $(this).children('.col-2').html();
+
+            var music = {
+                title:title,
+                mp3:file
+            }
+
+            setting.arr_audio.push(music);
+        });
+
+        setting.create = true;
+        if(setting.firsttime){
+            bAudios.createList();
+        }
+
+    }
 	
 	//GET/SET
 	function getSetting(){
@@ -110,9 +140,6 @@ var bMusic = (function() {
 		while(setting.arr_audio.length > 0) {
 			setting.arr_audio.pop();
 		} // fastest
-		
-		//clear others
-		//$('.processaudio').removeClass('active');
 	}
 	
 	
@@ -121,6 +148,7 @@ var bMusic = (function() {
 		init:init,
 		getSetting:getSetting,
 		displaymusic:displaymusic,
+        displayTrackCredits:displayTrackCredits,
 		get_firsttime:get_firsttime,
 		set_firsttime:set_firsttime,
 		getCreateAudio:getCreateAudio,

@@ -60,7 +60,7 @@ function get_credits() {
 
 
                 ?>
-    			<div class="box-sound" id="box-sound">
+    			<div class="box-sound" id="box-sound" cat="credit_<?=$id?>">
     				<div class="row_sound title">
     					<div class="col-1 col">
         					#

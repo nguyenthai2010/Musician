@@ -36,14 +36,17 @@ foreach ( $terms as $term ) {
     if ( is_wp_error( $term_link ) ) {
         continue;
     }
-	
+
 	$class_active = ' class="musiccat"';
 	$id_name = 'mc_'.$term->slug;
+    $undisplay =intval (get_field('undisplay', $term)) ;
+
 	if( $term->slug == 'favorites'){
 		$class_active = ' class="musiccat radio-input-checked"';
 	}
-	
-	echo '<label id="'.$id_name.'"'.$class_active.' value="'.$term->slug.'"><input type="radio" name="portfolio-radios" >'.$term->name.'</label>';
+
+    if($undisplay != 1)
+	    echo '<label  id="'.$id_name.'"'.$class_active.' value="'.$term->slug.'" value2="'.$undisplay.$term->term_id.'"><input type="radio" name="portfolio-radios" >'.$term->name.'</label>';
 	
 }
 ?>
@@ -71,7 +74,7 @@ foreach ( $terms as $term ) {
 								}
 								
                         ?>
-                        <div class="row-audio processaudio" audio="<?php echo $file?>" cat="<?php echo $strCat?>" id='music_<?php echo $music->ID;?>' soundid='<?php echo $music->ID;?>'>
+                        <div class="row-audio processaudio" audio="<?php echo $file?>" cat="<?php echo $strCat?>" id='music_<?php echo $music->ID;?>' onClick="bAudios.playMusic('music_<?php echo $music->ID;?>')" soundid='<?php echo $music->ID;?>'>
                         	<div class="no"><?php echo $number?></div>
                             <div class="title"><?php echo $music->post_title;?></div>
                             <div class="time"><?php echo $time?></div>

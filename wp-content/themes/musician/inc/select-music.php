@@ -70,9 +70,15 @@ function my_acf_load_field( $field )
         '' => 'Select music...'
     );
 
-    $count = 0;
     foreach ( $query_music as $music) {
-        $field['choices'][$music->post_name] = $music->post_title;
+        $term_cats = wp_get_post_terms($music->ID, 'music-tax', array("fields" => "all"));
+        $strCat = '';
+
+        foreach ( $term_cats as $detail ) {
+            $strCat .= '|'.$detail->slug;
+        }
+
+        $field['choices'][$music->post_name] = $music->post_title. ' ' . $strCat;
     }
 
     return $field;
