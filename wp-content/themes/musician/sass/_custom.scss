@@ -452,6 +452,17 @@ margin-right: 48px !important;
     clear: both;
   }
 }
+.contact-col-left{
+  .divtitle{
+    text-transform: uppercase;
+    @include roboto_condensedregular(14px);
+    line-height: 1.3;
+    padding-bottom: 25px;
+  }
+}
+.c987b43{
+  color: #987b43;
+}
 .contact{
   input[type="text"],input[type="email"]{
     &.error{
@@ -462,7 +473,15 @@ margin-right: 48px !important;
 .ajax-loader{
   height: 39px;
 }
-
+.contact .ss-width-90.contact-respond {
+  width: 90%;
+}
+.contact .contact-col-left .contact-respond{
+  margin-right: 0;
+}
+.paddingT3{
+  padding-top: 3px;
+}
 
 .main-footer{
  padding:0;
@@ -639,6 +658,9 @@ padding:0!important;
 		}
 	}
 }
+.contact a.no-underline{
+  text-decoration: none;
+}
 
 @media only screen and (max-width: 970px) and (min-width: 768px) {
 	.credits .box-sound .row_sound.title .col {
@@ -651,6 +673,10 @@ padding:0!important;
 }
 
 @media (min-width: 768px) {
+  .contact .contact-col-left .contact-respond{
+    width: 100%;
+  }
+
 	.credits .box-sound .row_sound.title .col {
 		@include roboto_condensedregular(14px);
 		padding: 4px 0;
@@ -659,6 +685,7 @@ padding:0!important;
 	.credits .box-sound .row_sound.title.audio .col-2, .credits .box-sound .row_sound .col.col-2 {
 		width: 240px;
 	}		
+
 }
 
 @media only screen and (min-width: 0) and (max-width: 767px) {
@@ -725,19 +752,28 @@ padding:0!important;
  	.credits .col-6-1{
 		width:70%;
 	}
+  .contact a.no-underline span{
+    color: #fff;
+  }
 }
 @media screen and (max-width: 768px) {
 	.sound_head, .section-heading-left-tick, .section-heading-right-tick {
 		
 	}
-	
+	.contact-col-left .divtitle, .contact .contact-col-left .contact-respond{
+    text-align: left;
+  }
 	.ss-mobile-menu-button {
 		top: 0;
 		left: auto;
 		right: 15px;
 		padding-right: 15px;
 	}
-
+  .contact{
+    a.phone-number span{
+      
+    }
+  }
   .credits .credits_details span.composer {
     @include roboto_condensedbold(22px);
   }
@@ -746,4 +782,9 @@ padding:0!important;
     @include roboto_condensedregular(18px);
   }
 
+}
+@media screen and (max-width: 992px) {
+  .contact .form-submit .submit{
+    margin-left: 0!important;
+  }
 }
