@@ -2,192 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26741836-265c-4303-8023-984e9d47079c" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\404.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\archive.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\author.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\category.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\comments.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\content-aside.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\content-audio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\content-featured-post.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\content-gallery.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\content-image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\content-link.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\content-none.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\content-page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\content-quote.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\content-video.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\content.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\css\editor-style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\css\ie.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\featured-content.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\footer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\functions.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\genericons\COPYING.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\genericons\Genericons-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\genericons\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\genericons\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\genericons\example.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\genericons\font\genericons-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\genericons\font\genericons-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\genericons\font\genericons-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\genericons\font\genericons-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\genericons\genericons.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\images\pattern-dark.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\images\pattern-light.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\inc\back-compat.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\inc\custom-header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\inc\customizer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\inc\featured-content.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\inc\template-tags.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\inc\widgets.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\js\customizer.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\js\featured-content-admin.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\js\functions.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\js\html5.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\js\keyboard-image-navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\js\slider.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\languages\twentyfourteen.pot" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\page-templates\contributors.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\page-templates\full-width.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\search.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\sidebar-content.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\sidebar-footer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\single.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\tag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentyfourteen\taxonomy-post_format.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\404.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\archive.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\author-bio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\author.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\category.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\comments.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\content-aside.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\content-audio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\content-chat.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\content-gallery.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\content-image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\content-link.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\content-none.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\content-quote.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\content-status.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\content-video.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\content.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\css\editor-style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\css\ie.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\footer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\functions.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\genericons\COPYING.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\genericons\Genericons-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\genericons\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\genericons\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\genericons\example.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\genericons\font\genericons-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\genericons\font\genericons-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\genericons\font\genericons-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\genericons\font\genericons-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\genericons\genericons.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\images\dotted-line-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\images\dotted-line-light-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\images\dotted-line-light.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\images\dotted-line.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\images\headers\circle-thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\images\headers\circle.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\images\headers\diamond-thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\images\headers\diamond.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\images\headers\star-thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\images\headers\star.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\images\search-icon-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\images\search-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\inc\back-compat.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\inc\custom-header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\js\functions.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\js\html5.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\js\theme-customizer.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\languages\twentythirteen.pot" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\search.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\sidebar-main.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\single.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\tag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentythirteen\taxonomy-post_format.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\404.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\archive.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\author.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\category.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\comments.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\content-aside.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\content-image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\content-link.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\content-none.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\content-page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\content-quote.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\content-status.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\content.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\css\ie.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\editor-style-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\editor-style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\footer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\functions.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\inc\custom-header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\js\html5.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\js\navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\js\theme-customizer.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\languages\twentytwelve.pot" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\page-templates\front-page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\page-templates\full-width.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\search.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\sidebar-front.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\single.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Data\SOURCES\PHP\BLISS\www\Temp\Musician\sourcecode\BE\wp-content\themes\twentytwelve\tag.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_audios_header.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_audios_header.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_bootstrap.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_bootstrap.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_custom.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_custom.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_icomoon.ultimate.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_icomoon.ultimate.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_magnific.popup.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_magnific.popup.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_mobiles.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_mobiles.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_music.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_music.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_owl.carousel.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_owl.carousel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_owl.theme.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_owl.theme.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_royalslider.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_royalslider.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_rs-nivan.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_rs-nivan.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_settings.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_settings.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_slick.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_slick.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_style.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_variables.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/_variables.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/all.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/musician/.sass-cache/c11a17efddf4efe672d9659be3bfba6f67943de4/all.scssc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/all-src.js" afterPath="$PROJECT_DIR$/wp-content/themes/musician/all-src.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/all.js" afterPath="$PROJECT_DIR$/wp-content/themes/musician/all.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/js/class.audios.js" afterPath="$PROJECT_DIR$/wp-content/themes/musician/js/class.audios.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/js/class.music.js" afterPath="$PROJECT_DIR$/wp-content/themes/musician/js/class.music.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits.php" afterPath="$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/merge.php" afterPath="$PROJECT_DIR$/wp-content/themes/musician/merge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/inc/select-music.php" afterPath="$PROJECT_DIR$/wp-content/themes/musician/inc/select-music.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/musician/tpl-music.php" afterPath="$PROJECT_DIR$/wp-content/themes/musician/tpl-music.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -203,15 +26,19 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="BE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -222,25 +49,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/musician/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/musician/sass/_icomoon.ultimate.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/musician/tpl-bio.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/musician/tpl-credits.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/musician/tpl-credits-2.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/musician/sass/_style.scss" />
         <option value="$PROJECT_DIR$/wp-config.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/musician/sass/_slick.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/musician/tpl-music.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/musician/inc/select-music.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/musician/js/class.audios.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/musician/all-src.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/musician/js/class.music.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/musician/js/class.audios.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/musician/merge.php" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -273,9 +99,10 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -402,6 +229,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,35 +239,40 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FullScreen" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <pass-parent-env-vars>false</pass-parent-env-vars>
-      <envs />
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -457,25 +291,25 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26972282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -489,383 +323,377 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16456">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_slick.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="439" max-vertical-offset="1562">
+        <state vertical-scroll-proportion="0.0">
           <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-credits.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1276">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-credits-2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1452">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="399" selection-start-line="0" selection-start-column="399" selection-end-line="0" selection-end-column="399" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16456">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-bio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="682">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="16390">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1760">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="3036">
+        <state vertical-scroll-proportion="0.0">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-bio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="874" max-vertical-offset="2772">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="594">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-credits.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1276">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/inc/select-music.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="999" max-vertical-offset="1870">
+        <state vertical-scroll-proportion="0.0">
           <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="16390">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1760">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3036">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="2520">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/meta-box/custom.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="1400">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/inc/select-music.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/meta-box/demo/demo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4140" max-vertical-offset="5560">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/meta-box/custom/add-meta-box.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.43715847" vertical-offset="240" max-vertical-offset="1300">
+        <state vertical-scroll-proportion="-0.43715847">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/meta-box/custom.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="1400">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/meta-box/demo/demo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4140" max-vertical-offset="5560">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../REAL-ESTATE/sourcecode/BE/wp-content/themes/realestate/page-2locations.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41044775" vertical-offset="600" max-vertical-offset="2500">
+        <state vertical-scroll-proportion="0.41044775">
           <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="594">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_icomoon.ultimate.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62857145" vertical-offset="0" max-vertical-offset="84260">
+        <state vertical-scroll-proportion="0.62857145">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-bio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3062645" vertical-offset="0" max-vertical-offset="862">
+        <state vertical-scroll-proportion="0.3062645">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-credits-2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.1875" vertical-offset="66" max-vertical-offset="1452">
+        <state vertical-scroll-proportion="-6.1875">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9141531" vertical-offset="1650" max-vertical-offset="15708">
+        <state vertical-scroll-proportion="-1.9141531">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_ipad.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="906">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_bootstrap.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="100.064514" vertical-offset="3102" max-vertical-offset="31240">
+        <state vertical-scroll-proportion="100.064514">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.806452" vertical-offset="791" max-vertical-offset="99242">
+        <state vertical-scroll-proportion="-12.806452">
           <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74857146" vertical-offset="885" max-vertical-offset="1760">
-          <caret line="83" column="62" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_slick.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5406032" vertical-offset="1030" max-vertical-offset="1892">
+        <state vertical-scroll-proportion="0.5406032">
           <caret line="68" column="68" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/sass/_custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8742857" vertical-offset="15625" max-vertical-offset="16610">
+        <state vertical-scroll-proportion="0.8742857">
           <caret line="745" column="39" selection-start-line="745" selection-start-column="39" selection-end-line="745" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/js/class.credits.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.21545158" vertical-offset="198" max-vertical-offset="2222">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/js/jplayer.playlist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21854305" vertical-offset="4070" max-vertical-offset="10142">
+        <state vertical-scroll-proportion="0.21854305">
           <caret line="209" column="70" selection-start-line="209" selection-start-column="70" selection-end-line="209" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-credits.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62285715" vertical-offset="247" max-vertical-offset="1254">
+        <state vertical-scroll-proportion="0.62285715">
           <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1100">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47457626" vertical-offset="28" max-vertical-offset="2750">
+        <state vertical-scroll-proportion="0.47457626">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.052336447" vertical-offset="28" max-vertical-offset="2200">
+        <state vertical-scroll-proportion="-0.052336447">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/tpl-music.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.612904" vertical-offset="1122" max-vertical-offset="2046">
+        <state vertical-scroll-proportion="-15.612904">
           <caret line="73" column="33" selection-start-line="68" selection-start-column="32" selection-end-line="73" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/inc/select-music.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44685715" vertical-offset="1105" max-vertical-offset="2002">
+        <state vertical-scroll-proportion="0.44685715">
           <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
-          <folding>
-            <marker date="1448474800610" expanded="true" signature="-1:-1" placeholder="update wp_po..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6036036" vertical-offset="432" max-vertical-offset="2772">
+        <state vertical-scroll-proportion="0.6036036">
           <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.97456646">
+          <caret line="83" column="48" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/js/class.credits.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits-bk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35115865">
+          <caret line="90" column="180" selection-start-line="90" selection-start-column="180" selection-end-line="90" selection-end-column="180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22774567">
+          <caret line="90" column="225" selection-start-line="90" selection-start-column="225" selection-end-line="90" selection-end-column="225" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../HB/2015/WeMove/sourcecode/FE/Emailing/Email HTML/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35606936">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/all-src.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="71.8371">
+          <caret line="1892" column="8" selection-start-line="1892" selection-start-column="8" selection-end-line="1892" selection-end-column="8" />
           <folding>
-            <marker date="1431517578000" expanded="true" signature="-1:-1" placeholder="SELECT ID FR.._wpdb_posts WHERE..." />
+            <marker date="1449239396969" expanded="true" signature="332608:332626" placeholder="..." />
+            <marker date="1449239396969" expanded="true" signature="332995:333013" placeholder="..." />
+            <marker date="1449239396969" expanded="true" signature="333795:333851" placeholder="..." />
+            <marker date="1449239396969" expanded="true" signature="334797:334839" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/merge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43287036">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/js/class.audios.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1831" max-vertical-offset="4246">
-          <caret line="98" column="17" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.4112038">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/js/class.music.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="3608">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/merge.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5788288" vertical-offset="542" max-vertical-offset="1430">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/musician/inc/load_credits.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5588571" vertical-offset="0" max-vertical-offset="3036">
-          <caret line="62" column="74" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.6293206">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

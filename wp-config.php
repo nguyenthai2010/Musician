@@ -80,8 +80,8 @@ if ( !defined('ABSPATH') )
 	if($domainName == "")
 		$domainName =  isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST'] != "" ? $_SERVER['HTTP_HOST'] : "" ;
 
-define('WP_HOME','http://'.$domainName.'/PHP/BLISS/www/Temp/Musician/sourcecode/BE');
-define('WP_SITEURL','http://'.$domainName.'/PHP/BLISS/www/Temp/Musician/sourcecode/BE');
+define('WP_HOME','http://'.$domainName.':8080/PHP/BLISS/www/Temp/Musician/sourcecode/BE');
+define('WP_SITEURL','http://'.$domainName.':8080/PHP/BLISS/www/Temp/Musician/sourcecode/BE');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
