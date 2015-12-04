@@ -46,7 +46,7 @@
 			exec('jsmin <"'.$min_documentRoot.'all-src.js" >"'.$min_documentRoot.'all.js"');
 		}
 ?>
-<script src="all.js?v1.2"></script>
+<script src="all.js?v1.3"></script>
 <?PHP			
 		
 	}

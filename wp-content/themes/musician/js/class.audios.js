@@ -23,16 +23,22 @@ var bAudios = (function() {
 			$('.processaudio').removeClass('active');	
 			$('.jp-play').addClass('playing');
 
-
             if(catcurrent == $('#box-sound').attr('cat')) {
-                $this = $('.credits_details .processaudio:eq(' +playerAudioPlaylist.current+ ')');
+				$('.credits_details .processaudio:eq(' +playerAudioPlaylist.current+ ')').addClass('active');
 
-            }else {
+				var divID = '#mc_' + $('.credits_details .processaudio:eq(' +playerAudioPlaylist.current+ ')').attr('cat').replace('|','');
+				//console.log(divID);
+				bMusic.displaymusicNonePlay(divID);
+
+				$('#music_' + $('.credits_details .processaudio:eq(' +playerAudioPlaylist.current+ ')').attr('soundid')).addClass('active');
+				setActiveAudio($('.credits_details .processaudio:eq(' +playerAudioPlaylist.current+ ')'));
+			}else {
                 $this = $('#music-list .processaudio.display:eq(' +playerAudioPlaylist.current+ ')');
+				$this.addClass('active');
             }
 
-            $this.addClass('active')
-			setActiveAudio($this);
+
+
 		});
 
 		$(setting.audio).bind($.jPlayer.event.pause, function(event) {
@@ -163,16 +169,24 @@ var bAudios = (function() {
 
             $('.processaudio').removeClass('active');
             $this.addClass('active');
+
         }
 
         setting.audioID = audioID;
+
+		//process for MUSIC BLOCK
+
+		$('#music_' + setting.audioID).addClass('active')
     }
 
 	function playCredit(divID){
+		$cat = $('#'+divID).attr('cat').replace('|','');
 		var soundid = '#'+divID;
 
-		bMusic.displayTrackCredits(); // select list Audio Tracks
-        creditDetail($(soundid));
+
+		bMusic.displayTrackCredits('#mc_' + $cat); // select list Audio Tracks
+
+        creditDetail($(soundid) );
 	}
 	
 	// RETURN
