@@ -4,7 +4,7 @@ add_action( 'init', 'create_tax_music');
 function create_tax_music() {
 	// Add new taxonomy, make it hierarchical (like categories)
 	$labels = array(
-		'name'              => _x( 'Music', 'Music' ),
+		'name'              => _x( 'Categories', 'Categories' ),
 		'singular_name'     => _x( 'music', 'music' ),
 		'search_items'      => __( 'Search music' ),
 		'all_items'         => __( 'All music' ),
@@ -21,7 +21,7 @@ function create_tax_music() {
 		'hierarchical'      => true,
 		'labels'            => $labels,
 		'show_ui'           => true,
-		'show_admin_column' => false,
+		'show_admin_column' => true,
 		'query_var'         => true,
 		'rewrite'           => array( 'slug' => 'music-tax' ),
 	);

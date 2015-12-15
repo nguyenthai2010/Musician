@@ -68,10 +68,10 @@ function register_custom_post_music() {
     'rewrite' =>  array('slug'=>'music'),
     'capability_type' => 'post',
     'has_archive' => true, 
-    'hierarchical' => false,
+    'hierarchical' => true,
     'menu_position' => 5,  
     'menu_icon'	=> get_bloginfo('template_url').'/post-type/images/slider.jpg',
-  	'taxonomies'		=> array(''),
+  	'taxonomies'		=> array('music-tax'),
     'supports' => array('title','editor','thumbnail', 'excerpt'),
     
   ); 
